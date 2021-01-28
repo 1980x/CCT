@@ -29,7 +29,7 @@ parser.add_argument('--lr', type=float, default=0.001)
 
 parser.add_argument('--result_dir', type=str, help='dir to save result txt files', default='results')
 
-parser.add_argument('--affectnet_path', type=str, default='../data/AffectNetdataset/Manually_Annotated_Images_aligned/', help='Affectnet dataset path.')
+parser.add_argument('--affectnet_path', type=str, default='data/affectnet', help='Affectnet dataset path.')
     
 parser.add_argument('--pretrained', type=str, default='pretrained/res18_naive.pth_MSceleb.tar', help='Pretrained weights')
                         
@@ -115,12 +115,12 @@ class AffectNetDataSet(data.Dataset):
 
         NAME_COLUMN = 0
         LABEL_COLUMN = 1
-        df_train_clean = pd.read_csv(os.path.join('../data/Affectnetmetadata', 'Noisy/train_affectnet8_fullpath_list.txt'), sep=' ', header=None)
-        df_train_noisy = pd.read_csv(os.path.join('../data/Affectnetmetadata', args.noise_file), sep=' ', header=None)
+        df_train_clean = pd.read_csv(os.path.join('data/Affectnetmetadata', 'Noisy/train_affectnet8_fullpath_list.txt'), sep=' ', header=None)
+        df_train_noisy = pd.read_csv(os.path.join('data/Affectnetmetadata', args.noise_file), sep=' ', header=None)
        
         os.path.join(self.affectnet_path, args.noise_file)
         
-        df_test = pd.read_csv(os.path.join('../data/Affectnetmetadata', 'Noisy/val_affectnet8_fullpath_list.txt'), sep=' ', header=None)
+        df_test = pd.read_csv(os.path.join('data/Affectnetmetadata', 'Noisy/val_affectnet8_fullpath_list.txt'), sep=' ', header=None)
         
         if phase == 'train':
             
