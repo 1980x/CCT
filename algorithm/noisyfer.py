@@ -1,4 +1,12 @@
- # -*- coding:utf-8 -*-
+'''
+Aum Sri Sai Ram
+Implementation of ECCT: Ensemble Consensual Collaborative Training for Facial Expression Recognition with Noisy Annotations Resnet models                
+Authors: Darshan Gera and Dr. S. Balasubramanian, SSSIHL
+Date: 20-01-2021
+Email: darshangera@sssihl.edu.in
+'''
+
+# -*- coding:utf-8 -*-
 import torch
 import torch.nn.functional as F
 from torch.autograd import Variable
@@ -7,7 +15,7 @@ from model.cnn import resModel
 import numpy as np
 from common.utils import accuracy
 import os
-from algorithm.loss import loss_sai_extended 
+from algorithm.loss import ECCTloss 
 
 
 class noisyfer:
@@ -57,9 +65,9 @@ class noisyfer:
         if not args.resume:
            
            pretrained = torch.load(args.resume)
-           pretrained_state_dict1 = pretrained['state_dict1']   
-           pretrained_state_dict2 = pretrained['state_dict2']   
-           pretrained_state_dict3 = pretrained['state_dict3']   
+           pretrained_state_dict1 = pretrained['model_1']   
+           pretrained_state_dict2 = pretrained['model_2']   
+           pretrained_state_dict3 = pretrained['model_3']   
            
            model1_state_dict =  self.model1.state_dict()
            model2_state_dict =  self.model2.state_dict()
@@ -88,7 +96,7 @@ class noisyfer:
         else:
            print('\n No checkpoint found from FEC trained dataset.\n')         
         
-        self.loss_fn = loss_sai_extended
+        self.loss_fn = ECCTloss  #Dynamic balancing of Suprevision Loss and Consistency Loss
         
         self.m1_statedict =  self.model1.state_dict()
         self.m2_statedict =  self.model2.state_dict()
@@ -151,6 +159,89 @@ class noisyfer:
                     'optimizer':self.o_statedict,},                          
                      os.path.join('checkpoints/', "epoch_"+str(epoch)+'_noise_'+noise+"_acc_"+str(acc)[:5]+".pth")) 
         print('Models saved '+os.path.join('checkpoints/', "epoch_"+str(epoch)+'_noise_'+noise+"_acc_"+str(acc)[:5]+".pth")) 
+    
+    
+    
+               
+    # Train the Model
+    def train(self, train_loader, epoch):
+        print('Training ...')
+        self.model1.train() 
+        self.model2.train() 
+        self.model3.train()
+        
+        
+        if epoch > 0:
+           self.adjust_learning_rate(self.optimizer, epoch)
+        
+        train_total = 0
+        train_correct = 0
+        train_total2 = 0
+        train_correct2 = 0
+        train_total3 = 0
+        train_correct3 = 0
+        pure_ratio_1_list = []
+        pure_ratio_2_list = []
+
+        for i, (images, labels, indexes) in enumerate(train_loader):
+            ind = indexes.cpu().numpy().transpose()
+        
+            if i > self.num_iter_per_epoch:
+                break
+                
+            images = images.to(self.device)
+            labels = labels.to(self.device)
+            # Forward + Backward + Optimize
+            
+            logits1 = self.model1(images)
+            prec1 = accuracy(logits1, labels, topk=(1,))
+            train_total += 1
+            train_correct += prec1
+
+            logits2 = self.model2.forward(images)
+            
+            prec2 = accuracy(logits2, labels, topk=(1,))
+
+            train_total2 += 1
+            train_correct2 += prec2
+            
+            
+            logits3 = self.model3(images)        
+            
+            
+            prec3 = accuracy(logits3, labels, topk=(1,))
+            train_total3 += 1
+            train_correct3 += prec3
+            
+             
+            avg_prec = accuracy(0.33*(logits1+logits2+logits3), labels, topk=(1,))
+            
+            loss = self.loss_fn(logits1, logits2, logits3, labels, self.co_lambda_max,  self.beta, epoch, self.n_epoch)
+            
+
+            self.optimizer.zero_grad()
+            loss.backward()
+            
+            self.optimizer.step()
+            
+            if (i + 1) % self.print_freq == 0:
+                print(
+                    'Epoch [%d/%d], Iter [%d/%d] Training Accuracy1: %.4F, Training Accuracy2: %.4f, Training Accuracy3: %.4f,Avg Accuracy: %.4f, Loss1: %.4f, %%'
+                    % (epoch + 1, self.n_epoch, i + 1, len(self.train_dataset) // self.batch_size, prec1, prec2,prec3,avg_prec,  loss.data.item() ))
+
+        train_acc1 = float(train_correct) / float(train_total)
+        train_acc2 = float(train_correct2) / float(train_total2)
+        train_acc3 = float(train_correct3) / float(train_total2)
+        return train_acc1, train_acc2, train_acc3 , avg_prec
+    
+    def adjust_learning_rate(self, optimizer, epoch):
+        print('\n******************************\n\tAdjusted learning rate: '+str(epoch) +'\n')    
+        for param_group in optimizer.param_groups:
+           param_group['lr'] *= 0.95
+           print(param_group['lr'])              
+        print('******************************')
+    
+
     
     
     
