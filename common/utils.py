@@ -1,6 +1,6 @@
 '''
 Aum Sri Sai Ram
-Implementation of ECCT: Ensemble Consensual Collaborative Training for Facial Expression Recognition with Noisy Annotations Resnet models                
+Implementation of ECCT: Ensemble Consensual Collaborative Training for Facial Expression Recognition with Noisy Annotations             
 Authors: Darshan Gera and Dr. S. Balasubramanian, SSSIHL
 Date: 20-01-2021
 Email: darshangera@sssihl.edu.in
