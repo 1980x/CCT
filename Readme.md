@@ -1,4 +1,4 @@
-<strong>Title: ECCT: Ensemble Consensual Collaborative Training for Facial Expression Recognition with Noisy Annotations</strong>
+<strong>ECCT: Ensemble Consensual Collaborative Training for Facial Expression Recognition with Noisy Annotations</strong>
 
 <strong> Our proposed ECCT framework<strong>
   
