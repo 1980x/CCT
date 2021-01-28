@@ -1,0 +1,1604 @@
+Train set size: 12271
+Validation set size: 3068
+loading dataset...
+Namespace(adjust_lr=1, batch_size=252, beta=0.65, co_lambda=0.1, co_lambda_max=0.9, dataset='rafdb', drop_rate=0, epoch_decay_start=100, exponent=1, forget_rate=None, gpu=0, lr=0.01, model_type='res', n_epoch=100, noise_file='EmoLabel/train_label.txt', noise_rate=0.2, noise_type='symmetric', num_classes=7, num_gradual=10, num_iter_per_epoch=400, num_workers=4, pretrained='pretrained/res18_naive.pth_MSceleb.tar', print_freq=30, raf_path='../data/RAFDB', result_dir='results', resume='checkpoints', save_model='False', save_result='True', seed=1)
+
+
+Noise level: EmoLabel/train_label.txt
+building model...
+module.feature.weight
+module.feature.bias
+module.fc.weight
+module.fc.bias
+Model loaded from Msceleb pretrained
+module.feature.weight
+module.feature.bias
+module.fc.weight
+module.fc.bias
+Model loaded from Msceleb pretrained
+module.feature.weight
+module.feature.bias
+module.fc.weight
+module.fc.bias
+Model loaded from Msceleb pretrained
+
+ No checkpoint found from FEC trained dataset.
+
+
+ Initial learning rate is:
+0.001
+0.01
+0.001
+0.01
+0.0001
+0.01
+Training ...
+Epoch [1/100], Iter [30/48] Training Accuracy1: 73.4127, Training Accuracy2: 71.8254, Training Accuracy3: 65.4762,Avg Accuracy: 70.2381, Loss1: 1.4724, %
+Evaluating ...
+Epoch [1/100] Test Accuracy on the 3068 test images: Model1 77.7053 % Model2 76.4342 % Model3 74.3481 % Avg Accuracy 77.2164
+Training ...
+
+******************************
+	Adjusted learning rate: 1
+
+0.00095
+0.0095
+0.00095
+0.0095
+9.5e-05
+0.0095
+******************************
+Epoch [2/100], Iter [30/48] Training Accuracy1: 77.3810, Training Accuracy2: 78.1746, Training Accuracy3: 73.4127,Avg Accuracy: 76.5873, Loss1: 1.1740, %
+Evaluating ...
+Epoch [2/100] Test Accuracy on the 3068 test images: Model1 81.5515 % Model2 83.4094 % Model3 80.0522 % Avg Accuracy 83.1812
+Training ...
+
+******************************
+	Adjusted learning rate: 2
+
+0.0009025
+0.009025
+0.0009025
+0.009025
+9.025e-05
+0.009025
+******************************
+Epoch [3/100], Iter [30/48] Training Accuracy1: 79.3651, Training Accuracy2: 77.7778, Training Accuracy3: 77.7778,Avg Accuracy: 79.3651, Loss1: 1.1192, %
+Evaluating ...
+Epoch [3/100] Test Accuracy on the 3068 test images: Model1 84.3872 % Model2 85.1695 % Model3 82.8227 % Avg Accuracy 84.7458
+Training ...
+
+******************************
+	Adjusted learning rate: 3
+
+0.000857375
+0.00857375
+0.000857375
+0.00857375
+8.573749999999999e-05
+0.00857375
+******************************
+Epoch [4/100], Iter [30/48] Training Accuracy1: 86.5079, Training Accuracy2: 83.7302, Training Accuracy3: 85.7143,Avg Accuracy: 86.1111, Loss1: 0.8051, %
+Evaluating ...
+Epoch [4/100] Test Accuracy on the 3068 test images: Model1 85.6258 % Model2 86.0169 % Model3 84.2568 % Avg Accuracy 86.6037
+Training ...
+
+******************************
+	Adjusted learning rate: 4
+
+0.0008145062499999999
+0.0081450625
+0.0008145062499999999
+0.0081450625
+8.145062499999998e-05
+0.0081450625
+******************************
+Epoch [5/100], Iter [30/48] Training Accuracy1: 84.5238, Training Accuracy2: 84.1270, Training Accuracy3: 84.5238,Avg Accuracy: 84.5238, Loss1: 0.7585, %
+Evaluating ...
+Epoch [5/100] Test Accuracy on the 3068 test images: Model1 86.0495 % Model2 84.7458 % Model3 85.9192 % Avg Accuracy 86.7666
+Training ...
+
+******************************
+	Adjusted learning rate: 5
+
+0.0007737809374999998
+0.007737809374999999
+0.0007737809374999998
+0.007737809374999999
+7.737809374999998e-05
+0.007737809374999999
+******************************
+Epoch [6/100], Iter [30/48] Training Accuracy1: 84.5238, Training Accuracy2: 85.3175, Training Accuracy3: 80.5556,Avg Accuracy: 84.1270, Loss1: 0.8646, %
+Evaluating ...
+Epoch [6/100] Test Accuracy on the 3068 test images: Model1 87.6141 % Model2 86.1473 % Model3 85.1695 % Avg Accuracy 87.3859
+Training ...
+
+******************************
+	Adjusted learning rate: 6
+
+0.0007350918906249997
+0.007350918906249998
+0.0007350918906249997
+0.007350918906249998
+7.350918906249998e-05
+0.007350918906249998
+******************************
+Epoch [7/100], Iter [30/48] Training Accuracy1: 81.7460, Training Accuracy2: 83.7302, Training Accuracy3: 80.5556,Avg Accuracy: 83.3333, Loss1: 0.8521, %
+Evaluating ...
+Epoch [7/100] Test Accuracy on the 3068 test images: Model1 87.5163 % Model2 88.1030 % Model3 86.5385 % Avg Accuracy 87.9400
+Training ...
+
+******************************
+	Adjusted learning rate: 7
+
+0.0006983372960937497
+0.006983372960937498
+0.0006983372960937497
+0.006983372960937498
+6.983372960937497e-05
+0.006983372960937498
+******************************
+Epoch [8/100], Iter [30/48] Training Accuracy1: 88.4921, Training Accuracy2: 87.3016, Training Accuracy3: 84.5238,Avg Accuracy: 88.0952, Loss1: 0.6669, %
+Evaluating ...
+Epoch [8/100] Test Accuracy on the 3068 test images: Model1 87.4837 % Model2 86.3103 % Model3 86.6688 % Avg Accuracy 87.8096
+Training ...
+
+******************************
+	Adjusted learning rate: 8
+
+0.0006634204312890621
+0.006634204312890623
+0.0006634204312890621
+0.006634204312890623
+6.634204312890622e-05
+0.006634204312890623
+******************************
+Epoch [9/100], Iter [30/48] Training Accuracy1: 90.0794, Training Accuracy2: 90.4762, Training Accuracy3: 90.0794,Avg Accuracy: 91.2698, Loss1: 0.5218, %
+Evaluating ...
+Epoch [9/100] Test Accuracy on the 3068 test images: Model1 88.2334 % Model2 87.3859 % Model3 87.0274 % Avg Accuracy 88.4941
+Training ...
+
+******************************
+	Adjusted learning rate: 9
+
+0.000630249409724609
+0.006302494097246091
+0.000630249409724609
+0.006302494097246091
+6.30249409724609e-05
+0.006302494097246091
+******************************
+Epoch [10/100], Iter [30/48] Training Accuracy1: 92.0635, Training Accuracy2: 90.4762, Training Accuracy3: 89.2857,Avg Accuracy: 91.6667, Loss1: 0.5454, %
+Evaluating ...
+Epoch [10/100] Test Accuracy on the 3068 test images: Model1 88.6245 % Model2 88.3638 % Model3 86.9296 % Avg Accuracy 88.5593
+Training ...
+
+******************************
+	Adjusted learning rate: 10
+
+0.0005987369392383785
+0.005987369392383786
+0.0005987369392383785
+0.005987369392383786
+5.987369392383786e-05
+0.005987369392383786
+******************************
+Epoch [11/100], Iter [30/48] Training Accuracy1: 92.0635, Training Accuracy2: 90.8730, Training Accuracy3: 89.2857,Avg Accuracy: 92.8571, Loss1: 0.4954, %
+Evaluating ...
+Epoch [11/100] Test Accuracy on the 3068 test images: Model1 88.1682 % Model2 88.0052 % Model3 87.2881 % Avg Accuracy 88.5919
+Training ...
+
+******************************
+	Adjusted learning rate: 11
+
+0.0005688000922764595
+0.005688000922764597
+0.0005688000922764595
+0.005688000922764597
+5.688000922764596e-05
+0.005688000922764597
+******************************
+Epoch [12/100], Iter [30/48] Training Accuracy1: 90.0794, Training Accuracy2: 89.6825, Training Accuracy3: 88.0952,Avg Accuracy: 89.6825, Loss1: 0.5009, %
+Evaluating ...
+Epoch [12/100] Test Accuracy on the 3068 test images: Model1 88.2986 % Model2 88.7549 % Model3 87.6141 % Avg Accuracy 89.0808
+Training ...
+
+******************************
+	Adjusted learning rate: 12
+
+0.0005403600876626365
+0.005403600876626367
+0.0005403600876626365
+0.005403600876626367
+5.4036008766263664e-05
+0.005403600876626367
+******************************
+Epoch [13/100], Iter [30/48] Training Accuracy1: 90.8730, Training Accuracy2: 90.0794, Training Accuracy3: 87.3016,Avg Accuracy: 88.8889, Loss1: 0.4770, %
+Evaluating ...
+Epoch [13/100] Test Accuracy on the 3068 test images: Model1 88.2660 % Model2 88.5267 % Model3 87.9074 % Avg Accuracy 89.1134
+Training ...
+
+******************************
+	Adjusted learning rate: 13
+
+0.0005133420832795047
+0.005133420832795048
+0.0005133420832795047
+0.005133420832795048
+5.133420832795048e-05
+0.005133420832795048
+******************************
+Epoch [14/100], Iter [30/48] Training Accuracy1: 89.6825, Training Accuracy2: 90.8730, Training Accuracy3: 89.2857,Avg Accuracy: 90.8730, Loss1: 0.4790, %
+Evaluating ...
+Epoch [14/100] Test Accuracy on the 3068 test images: Model1 88.0378 % Model2 87.4511 % Model3 87.5163 % Avg Accuracy 88.6897
+Training ...
+
+******************************
+	Adjusted learning rate: 14
+
+0.00048767497911552944
+0.0048767497911552955
+0.00048767497911552944
+0.0048767497911552955
+4.876749791155295e-05
+0.0048767497911552955
+******************************
+Epoch [15/100], Iter [30/48] Training Accuracy1: 90.4762, Training Accuracy2: 93.6508, Training Accuracy3: 90.8730,Avg Accuracy: 93.2540, Loss1: 0.4051, %
+Evaluating ...
+Epoch [15/100] Test Accuracy on the 3068 test images: Model1 88.2660 % Model2 89.4068 % Model3 87.9726 % Avg Accuracy 89.3090
+Training ...
+
+******************************
+	Adjusted learning rate: 15
+
+0.00046329123015975297
+0.00463291230159753
+0.00046329123015975297
+0.00463291230159753
+4.6329123015975305e-05
+0.00463291230159753
+******************************
+Epoch [16/100], Iter [30/48] Training Accuracy1: 91.2698, Training Accuracy2: 90.0794, Training Accuracy3: 88.8889,Avg Accuracy: 90.4762, Loss1: 0.4458, %
+Evaluating ...
+Epoch [16/100] Test Accuracy on the 3068 test images: Model1 87.9074 % Model2 88.2334 % Model3 87.5163 % Avg Accuracy 88.6245
+Training ...
+
+******************************
+	Adjusted learning rate: 16
+
+0.0004401266686517653
+0.0044012666865176535
+0.0004401266686517653
+0.0044012666865176535
+4.4012666865176535e-05
+0.0044012666865176535
+******************************
+Epoch [17/100], Iter [30/48] Training Accuracy1: 94.0476, Training Accuracy2: 94.0476, Training Accuracy3: 92.0635,Avg Accuracy: 94.4444, Loss1: 0.3453, %
+Evaluating ...
+Epoch [17/100] Test Accuracy on the 3068 test images: Model1 88.2986 % Model2 88.0378 % Model3 87.4837 % Avg Accuracy 88.7223
+Training ...
+
+******************************
+	Adjusted learning rate: 17
+
+0.00041812033521917703
+0.004181203352191771
+0.00041812033521917703
+0.004181203352191771
+4.181203352191771e-05
+0.004181203352191771
+******************************
+Epoch [18/100], Iter [30/48] Training Accuracy1: 88.0952, Training Accuracy2: 89.6825, Training Accuracy3: 88.0952,Avg Accuracy: 90.4762, Loss1: 0.4577, %
+Evaluating ...
+Epoch [18/100] Test Accuracy on the 3068 test images: Model1 88.7549 % Model2 89.1460 % Model3 88.0052 % Avg Accuracy 89.6023
+Training ...
+
+******************************
+	Adjusted learning rate: 18
+
+0.00039721431845821814
+0.003972143184582182
+0.00039721431845821814
+0.003972143184582182
+3.972143184582182e-05
+0.003972143184582182
+******************************
+Epoch [19/100], Iter [30/48] Training Accuracy1: 96.0317, Training Accuracy2: 95.2381, Training Accuracy3: 94.0476,Avg Accuracy: 95.2381, Loss1: 0.3076, %
+Evaluating ...
+Epoch [19/100] Test Accuracy on the 3068 test images: Model1 88.9831 % Model2 89.3090 % Model3 87.8096 % Avg Accuracy 89.6023
+Training ...
+
+******************************
+	Adjusted learning rate: 19
+
+0.0003773536025353072
+0.0037735360253530726
+0.0003773536025353072
+0.0037735360253530726
+3.7735360253530726e-05
+0.0037735360253530726
+******************************
+Epoch [20/100], Iter [30/48] Training Accuracy1: 94.4444, Training Accuracy2: 93.6508, Training Accuracy3: 92.4603,Avg Accuracy: 93.6508, Loss1: 0.3377, %
+Evaluating ...
+Epoch [20/100] Test Accuracy on the 3068 test images: Model1 88.6245 % Model2 89.2764 % Model3 87.8422 % Avg Accuracy 89.3742
+Training ...
+
+******************************
+	Adjusted learning rate: 20
+
+0.0003584859224085418
+0.0035848592240854188
+0.0003584859224085418
+0.0035848592240854188
+3.584859224085419e-05
+0.0035848592240854188
+******************************
+Epoch [21/100], Iter [30/48] Training Accuracy1: 94.4444, Training Accuracy2: 94.8413, Training Accuracy3: 90.8730,Avg Accuracy: 93.6508, Loss1: 0.3623, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_20_noise_train_label.txt_acc_89.76.pth
+Epoch [21/100] Test Accuracy on the 3068 test images: Model1 88.9831 % Model2 89.8631 % Model3 88.0378 % Avg Accuracy 89.7653
+Training ...
+
+******************************
+	Adjusted learning rate: 21
+
+0.0003405616262881147
+0.0034056162628811476
+0.0003405616262881147
+0.0034056162628811476
+3.405616262881148e-05
+0.0034056162628811476
+******************************
+Epoch [22/100], Iter [30/48] Training Accuracy1: 96.0317, Training Accuracy2: 95.2381, Training Accuracy3: 93.2540,Avg Accuracy: 94.8413, Loss1: 0.2907, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_21_noise_train_label.txt_acc_90.12.pth
+Epoch [22/100] Test Accuracy on the 3068 test images: Model1 89.7653 % Model2 89.4720 % Model3 88.0704 % Avg Accuracy 90.1239
+Training ...
+
+******************************
+	Adjusted learning rate: 22
+
+0.00032353354497370894
+0.0032353354497370902
+0.00032353354497370894
+0.0032353354497370902
+3.2353354497370904e-05
+0.0032353354497370902
+******************************
+Epoch [23/100], Iter [30/48] Training Accuracy1: 95.2381, Training Accuracy2: 94.8413, Training Accuracy3: 92.4603,Avg Accuracy: 94.4444, Loss1: 0.2983, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_22_noise_train_label.txt_acc_90.02.pth
+Epoch [23/100] Test Accuracy on the 3068 test images: Model1 90.1239 % Model2 90.0261 % Model3 88.2008 % Avg Accuracy 90.0261
+Training ...
+
+******************************
+	Adjusted learning rate: 23
+
+0.00030735686772502346
+0.0030735686772502355
+0.00030735686772502346
+0.0030735686772502355
+3.0735686772502355e-05
+0.0030735686772502355
+******************************
+Epoch [24/100], Iter [30/48] Training Accuracy1: 93.2540, Training Accuracy2: 94.4444, Training Accuracy3: 90.0794,Avg Accuracy: 93.6508, Loss1: 0.3420, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_23_noise_train_label.txt_acc_89.89.pth
+Epoch [24/100] Test Accuracy on the 3068 test images: Model1 89.8305 % Model2 89.7979 % Model3 88.2660 % Avg Accuracy 89.8957
+Training ...
+
+******************************
+	Adjusted learning rate: 24
+
+0.00029198902433877225
+0.0029198902433877237
+0.00029198902433877225
+0.0029198902433877237
+2.9198902433877236e-05
+0.0029198902433877237
+******************************
+Epoch [25/100], Iter [30/48] Training Accuracy1: 95.6349, Training Accuracy2: 96.8254, Training Accuracy3: 94.4444,Avg Accuracy: 96.0317, Loss1: 0.2688, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_24_noise_train_label.txt_acc_89.83.pth
+Epoch [25/100] Test Accuracy on the 3068 test images: Model1 89.7001 % Model2 89.3090 % Model3 88.5593 % Avg Accuracy 89.8305
+Training ...
+
+******************************
+	Adjusted learning rate: 25
+
+0.00027738957312183364
+0.0027738957312183374
+0.00027738957312183364
+0.0027738957312183374
+2.7738957312183373e-05
+0.0027738957312183374
+******************************
+Epoch [26/100], Iter [30/48] Training Accuracy1: 96.8254, Training Accuracy2: 96.0317, Training Accuracy3: 94.0476,Avg Accuracy: 96.0317, Loss1: 0.2259, %
+Evaluating ...
+Epoch [26/100] Test Accuracy on the 3068 test images: Model1 89.4720 % Model2 89.4720 % Model3 88.2986 % Avg Accuracy 89.6675
+Training ...
+
+******************************
+	Adjusted learning rate: 26
+
+0.0002635200944657419
+0.0026352009446574203
+0.0002635200944657419
+0.0026352009446574203
+2.6352009446574204e-05
+0.0026352009446574203
+******************************
+Epoch [27/100], Iter [30/48] Training Accuracy1: 95.2381, Training Accuracy2: 94.0476, Training Accuracy3: 92.4603,Avg Accuracy: 94.4444, Loss1: 0.3145, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_26_noise_train_label.txt_acc_89.89.pth
+Epoch [27/100] Test Accuracy on the 3068 test images: Model1 89.9283 % Model2 89.7653 % Model3 88.1030 % Avg Accuracy 89.8957
+Training ...
+
+******************************
+	Adjusted learning rate: 27
+
+0.0002503440897424548
+0.002503440897424549
+0.0002503440897424548
+0.002503440897424549
+2.5034408974245492e-05
+0.002503440897424549
+******************************
+Epoch [28/100], Iter [30/48] Training Accuracy1: 97.2222, Training Accuracy2: 96.4286, Training Accuracy3: 93.2540,Avg Accuracy: 96.4286, Loss1: 0.2582, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_27_noise_train_label.txt_acc_90.05.pth
+Epoch [28/100] Test Accuracy on the 3068 test images: Model1 89.9283 % Model2 89.8957 % Model3 88.5919 % Avg Accuracy 90.0587
+Training ...
+
+******************************
+	Adjusted learning rate: 28
+
+0.00023782688525533205
+0.0023782688525533216
+0.00023782688525533205
+0.0023782688525533216
+2.3782688525533216e-05
+0.0023782688525533216
+******************************
+Epoch [29/100], Iter [30/48] Training Accuracy1: 96.8254, Training Accuracy2: 97.6190, Training Accuracy3: 94.4444,Avg Accuracy: 96.0317, Loss1: 0.2090, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_28_noise_train_label.txt_acc_89.70.pth
+Epoch [29/100] Test Accuracy on the 3068 test images: Model1 89.3742 % Model2 89.7327 % Model3 88.6571 % Avg Accuracy 89.7001
+Training ...
+
+******************************
+	Adjusted learning rate: 29
+
+0.00022593554099256544
+0.0022593554099256553
+0.00022593554099256544
+0.0022593554099256553
+2.2593554099256555e-05
+0.0022593554099256553
+******************************
+Epoch [30/100], Iter [30/48] Training Accuracy1: 97.6190, Training Accuracy2: 97.2222, Training Accuracy3: 93.6508,Avg Accuracy: 96.8254, Loss1: 0.1973, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_29_noise_train_label.txt_acc_90.31.pth
+Epoch [30/100] Test Accuracy on the 3068 test images: Model1 90.5150 % Model2 89.6023 % Model3 88.5267 % Avg Accuracy 90.3194
+Training ...
+
+******************************
+	Adjusted learning rate: 30
+
+0.00021463876394293716
+0.0021463876394293723
+0.00021463876394293716
+0.0021463876394293723
+2.1463876394293726e-05
+0.0021463876394293723
+******************************
+Epoch [31/100], Iter [30/48] Training Accuracy1: 96.4286, Training Accuracy2: 96.8254, Training Accuracy3: 94.4444,Avg Accuracy: 96.0317, Loss1: 0.2251, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_30_noise_train_label.txt_acc_90.12.pth
+Epoch [31/100] Test Accuracy on the 3068 test images: Model1 89.9609 % Model2 89.9283 % Model3 88.5267 % Avg Accuracy 90.1239
+Training ...
+
+******************************
+	Adjusted learning rate: 31
+
+0.0002039068257457903
+0.0020390682574579037
+0.0002039068257457903
+0.0020390682574579037
+2.039068257457904e-05
+0.0020390682574579037
+******************************
+Epoch [32/100], Iter [30/48] Training Accuracy1: 94.4444, Training Accuracy2: 96.4286, Training Accuracy3: 92.0635,Avg Accuracy: 96.4286, Loss1: 0.2316, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_31_noise_train_label.txt_acc_90.02.pth
+Epoch [32/100] Test Accuracy on the 3068 test images: Model1 89.9283 % Model2 89.7001 % Model3 88.6245 % Avg Accuracy 90.0261
+Training ...
+
+******************************
+	Adjusted learning rate: 32
+
+0.00019371148445850077
+0.0019371148445850085
+0.00019371148445850077
+0.0019371148445850085
+1.9371148445850086e-05
+0.0019371148445850085
+******************************
+Epoch [33/100], Iter [30/48] Training Accuracy1: 94.8413, Training Accuracy2: 94.4444, Training Accuracy3: 93.6508,Avg Accuracy: 94.4444, Loss1: 0.2161, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_32_noise_train_label.txt_acc_90.35.pth
+Epoch [33/100] Test Accuracy on the 3068 test images: Model1 90.1239 % Model2 89.4720 % Model3 88.6897 % Avg Accuracy 90.3520
+Training ...
+
+******************************
+	Adjusted learning rate: 33
+
+0.00018402591023557573
+0.0018402591023557579
+0.00018402591023557573
+0.0018402591023557579
+1.840259102355758e-05
+0.0018402591023557579
+******************************
+Epoch [34/100], Iter [30/48] Training Accuracy1: 96.4286, Training Accuracy2: 95.2381, Training Accuracy3: 94.8413,Avg Accuracy: 95.6349, Loss1: 0.1911, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_33_noise_train_label.txt_acc_90.09.pth
+Epoch [34/100] Test Accuracy on the 3068 test images: Model1 89.8957 % Model2 89.7653 % Model3 88.7549 % Avg Accuracy 90.0913
+Training ...
+
+******************************
+	Adjusted learning rate: 34
+
+0.00017482461472379692
+0.0017482461472379698
+0.00017482461472379692
+0.0017482461472379698
+1.74824614723797e-05
+0.0017482461472379698
+******************************
+Epoch [35/100], Iter [30/48] Training Accuracy1: 96.8254, Training Accuracy2: 97.2222, Training Accuracy3: 95.2381,Avg Accuracy: 96.4286, Loss1: 0.2070, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_34_noise_train_label.txt_acc_90.09.pth
+Epoch [35/100] Test Accuracy on the 3068 test images: Model1 89.7327 % Model2 89.7979 % Model3 89.0808 % Avg Accuracy 90.0913
+Training ...
+
+******************************
+	Adjusted learning rate: 35
+
+0.00016608338398760707
+0.0016608338398760713
+0.00016608338398760707
+0.0016608338398760713
+1.6608338398760715e-05
+0.0016608338398760713
+******************************
+Epoch [36/100], Iter [30/48] Training Accuracy1: 97.2222, Training Accuracy2: 97.2222, Training Accuracy3: 95.2381,Avg Accuracy: 97.2222, Loss1: 0.1386, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_35_noise_train_label.txt_acc_90.31.pth
+Epoch [36/100] Test Accuracy on the 3068 test images: Model1 89.8305 % Model2 90.0261 % Model3 88.4615 % Avg Accuracy 90.3194
+Training ...
+
+******************************
+	Adjusted learning rate: 36
+
+0.0001577792147882267
+0.0015777921478822676
+0.0001577792147882267
+0.0015777921478822676
+1.5777921478822678e-05
+0.0015777921478822676
+******************************
+Epoch [37/100], Iter [30/48] Training Accuracy1: 94.8413, Training Accuracy2: 96.4286, Training Accuracy3: 92.4603,Avg Accuracy: 94.4444, Loss1: 0.1882, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_36_noise_train_label.txt_acc_90.44.pth
+Epoch [37/100] Test Accuracy on the 3068 test images: Model1 90.3846 % Model2 90.1890 % Model3 88.6571 % Avg Accuracy 90.4498
+Training ...
+
+******************************
+	Adjusted learning rate: 37
+
+0.00014989025404881537
+0.001498902540488154
+0.00014989025404881537
+0.001498902540488154
+1.4989025404881544e-05
+0.001498902540488154
+******************************
+Epoch [38/100], Iter [30/48] Training Accuracy1: 97.6190, Training Accuracy2: 98.0159, Training Accuracy3: 95.2381,Avg Accuracy: 96.8254, Loss1: 0.1651, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_37_noise_train_label.txt_acc_90.12.pth
+Epoch [38/100] Test Accuracy on the 3068 test images: Model1 90.0587 % Model2 90.0587 % Model3 88.6897 % Avg Accuracy 90.1239
+Training ...
+
+******************************
+	Adjusted learning rate: 38
+
+0.00014239574134637458
+0.0014239574134637463
+0.00014239574134637458
+0.0014239574134637463
+1.4239574134637466e-05
+0.0014239574134637463
+******************************
+Epoch [39/100], Iter [30/48] Training Accuracy1: 96.8254, Training Accuracy2: 96.4286, Training Accuracy3: 93.6508,Avg Accuracy: 96.0317, Loss1: 0.1978, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_38_noise_train_label.txt_acc_90.38.pth
+Epoch [39/100] Test Accuracy on the 3068 test images: Model1 90.2216 % Model2 90.3194 % Model3 88.5593 % Avg Accuracy 90.3846
+Training ...
+
+******************************
+	Adjusted learning rate: 39
+
+0.00013527595427905584
+0.0013527595427905588
+0.00013527595427905584
+0.0013527595427905588
+1.3527595427905592e-05
+0.0013527595427905588
+******************************
+Epoch [40/100], Iter [30/48] Training Accuracy1: 96.0317, Training Accuracy2: 96.8254, Training Accuracy3: 94.8413,Avg Accuracy: 96.4286, Loss1: 0.1512, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_39_noise_train_label.txt_acc_90.15.pth
+Epoch [40/100] Test Accuracy on the 3068 test images: Model1 90.3846 % Model2 90.1239 % Model3 88.7223 % Avg Accuracy 90.1565
+Training ...
+
+******************************
+	Adjusted learning rate: 40
+
+0.00012851215656510304
+0.0012851215656510308
+0.00012851215656510304
+0.0012851215656510308
+1.2851215656510312e-05
+0.0012851215656510308
+******************************
+Epoch [41/100], Iter [30/48] Training Accuracy1: 96.0317, Training Accuracy2: 95.6349, Training Accuracy3: 94.0476,Avg Accuracy: 96.0317, Loss1: 0.1742, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_40_noise_train_label.txt_acc_90.12.pth
+Epoch [41/100] Test Accuracy on the 3068 test images: Model1 90.3520 % Model2 90.2542 % Model3 88.8201 % Avg Accuracy 90.1239
+Training ...
+
+******************************
+	Adjusted learning rate: 41
+
+0.00012208654873684788
+0.0012208654873684791
+0.00012208654873684788
+0.0012208654873684791
+1.2208654873684796e-05
+0.0012208654873684791
+******************************
+Epoch [42/100], Iter [30/48] Training Accuracy1: 96.8254, Training Accuracy2: 97.2222, Training Accuracy3: 95.2381,Avg Accuracy: 96.8254, Loss1: 0.1400, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_41_noise_train_label.txt_acc_90.35.pth
+Epoch [42/100] Test Accuracy on the 3068 test images: Model1 90.4172 % Model2 90.1565 % Model3 88.6245 % Avg Accuracy 90.3520
+Training ...
+
+******************************
+	Adjusted learning rate: 42
+
+0.00011598222130000548
+0.0011598222130000551
+0.00011598222130000548
+0.0011598222130000551
+1.1598222130000555e-05
+0.0011598222130000551
+******************************
+Epoch [43/100], Iter [30/48] Training Accuracy1: 95.6349, Training Accuracy2: 96.4286, Training Accuracy3: 94.8413,Avg Accuracy: 95.2381, Loss1: 0.1646, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_42_noise_train_label.txt_acc_90.28.pth
+Epoch [43/100] Test Accuracy on the 3068 test images: Model1 89.8957 % Model2 89.9609 % Model3 88.8201 % Avg Accuracy 90.2868
+Training ...
+
+******************************
+	Adjusted learning rate: 43
+
+0.00011018311023500519
+0.0011018311023500522
+0.00011018311023500519
+0.0011018311023500522
+1.1018311023500527e-05
+0.0011018311023500522
+******************************
+Epoch [44/100], Iter [30/48] Training Accuracy1: 96.0317, Training Accuracy2: 97.2222, Training Accuracy3: 94.8413,Avg Accuracy: 95.6349, Loss1: 0.1461, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_43_noise_train_label.txt_acc_90.18.pth
+Epoch [44/100] Test Accuracy on the 3068 test images: Model1 90.2542 % Model2 89.8305 % Model3 88.8527 % Avg Accuracy 90.1890
+Training ...
+
+******************************
+	Adjusted learning rate: 44
+
+0.00010467395472325493
+0.0010467395472325495
+0.00010467395472325493
+0.0010467395472325495
+1.04673954723255e-05
+0.0010467395472325495
+******************************
+Epoch [45/100], Iter [30/48] Training Accuracy1: 96.0317, Training Accuracy2: 95.6349, Training Accuracy3: 93.6508,Avg Accuracy: 94.8413, Loss1: 0.1498, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_44_noise_train_label.txt_acc_90.44.pth
+Epoch [45/100] Test Accuracy on the 3068 test images: Model1 90.3520 % Model2 90.0913 % Model3 88.8527 % Avg Accuracy 90.4498
+Training ...
+
+******************************
+	Adjusted learning rate: 45
+
+9.944025698709218e-05
+0.000994402569870922
+9.944025698709218e-05
+0.000994402569870922
+9.944025698709225e-06
+0.000994402569870922
+******************************
+Epoch [46/100], Iter [30/48] Training Accuracy1: 96.0317, Training Accuracy2: 95.6349, Training Accuracy3: 93.6508,Avg Accuracy: 95.2381, Loss1: 0.1582, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_45_noise_train_label.txt_acc_90.22.pth
+Epoch [46/100] Test Accuracy on the 3068 test images: Model1 90.0587 % Model2 90.1890 % Model3 88.6897 % Avg Accuracy 90.2216
+Training ...
+
+******************************
+	Adjusted learning rate: 46
+
+9.446824413773756e-05
+0.0009446824413773759
+9.446824413773756e-05
+0.0009446824413773759
+9.446824413773763e-06
+0.0009446824413773759
+******************************
+Epoch [47/100], Iter [30/48] Training Accuracy1: 96.8254, Training Accuracy2: 96.8254, Training Accuracy3: 95.2381,Avg Accuracy: 96.8254, Loss1: 0.1377, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_46_noise_train_label.txt_acc_89.76.pth
+Epoch [47/100] Test Accuracy on the 3068 test images: Model1 89.6023 % Model2 89.9283 % Model3 88.8201 % Avg Accuracy 89.7653
+Training ...
+
+******************************
+	Adjusted learning rate: 47
+
+8.974483193085068e-05
+0.0008974483193085071
+8.974483193085068e-05
+0.0008974483193085071
+8.974483193085074e-06
+0.0008974483193085071
+******************************
+Epoch [48/100], Iter [30/48] Training Accuracy1: 94.8413, Training Accuracy2: 94.8413, Training Accuracy3: 92.8571,Avg Accuracy: 94.8413, Loss1: 0.1786, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_47_noise_train_label.txt_acc_90.25.pth
+Epoch [48/100] Test Accuracy on the 3068 test images: Model1 90.0913 % Model2 90.3520 % Model3 88.7549 % Avg Accuracy 90.2542
+Training ...
+
+******************************
+	Adjusted learning rate: 48
+
+8.525759033430814e-05
+0.0008525759033430817
+8.525759033430814e-05
+0.0008525759033430817
+8.52575903343082e-06
+0.0008525759033430817
+******************************
+Epoch [49/100], Iter [30/48] Training Accuracy1: 97.2222, Training Accuracy2: 97.2222, Training Accuracy3: 95.6349,Avg Accuracy: 96.8254, Loss1: 0.1257, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_48_noise_train_label.txt_acc_90.28.pth
+Epoch [49/100] Test Accuracy on the 3068 test images: Model1 90.1890 % Model2 90.0587 % Model3 88.5919 % Avg Accuracy 90.2868
+Training ...
+
+******************************
+	Adjusted learning rate: 49
+
+8.099471081759274e-05
+0.0008099471081759276
+8.099471081759274e-05
+0.0008099471081759276
+8.09947108175928e-06
+0.0008099471081759276
+******************************
+Epoch [50/100], Iter [30/48] Training Accuracy1: 96.0317, Training Accuracy2: 96.8254, Training Accuracy3: 94.8413,Avg Accuracy: 96.0317, Loss1: 0.1148, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_49_noise_train_label.txt_acc_90.28.pth
+Epoch [50/100] Test Accuracy on the 3068 test images: Model1 90.2542 % Model2 89.8631 % Model3 88.7549 % Avg Accuracy 90.2868
+Training ...
+
+******************************
+	Adjusted learning rate: 50
+
+7.69449752767131e-05
+0.0007694497527671312
+7.69449752767131e-05
+0.0007694497527671312
+7.694497527671315e-06
+0.0007694497527671312
+******************************
+Epoch [51/100], Iter [30/48] Training Accuracy1: 97.6190, Training Accuracy2: 98.0159, Training Accuracy3: 95.2381,Avg Accuracy: 96.4286, Loss1: 0.0990, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_50_noise_train_label.txt_acc_90.02.pth
+Epoch [51/100] Test Accuracy on the 3068 test images: Model1 90.1890 % Model2 90.1239 % Model3 88.6571 % Avg Accuracy 90.0261
+Training ...
+
+******************************
+	Adjusted learning rate: 51
+
+7.309772651287744e-05
+0.0007309772651287747
+7.309772651287744e-05
+0.0007309772651287747
+7.309772651287749e-06
+0.0007309772651287747
+******************************
+Epoch [52/100], Iter [30/48] Training Accuracy1: 97.2222, Training Accuracy2: 95.2381, Training Accuracy3: 92.8571,Avg Accuracy: 94.4444, Loss1: 0.1463, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_51_noise_train_label.txt_acc_90.31.pth
+Epoch [52/100] Test Accuracy on the 3068 test images: Model1 90.4498 % Model2 90.2542 % Model3 88.7223 % Avg Accuracy 90.3194
+Training ...
+
+******************************
+	Adjusted learning rate: 52
+
+6.944284018723356e-05
+0.0006944284018723359
+6.944284018723356e-05
+0.0006944284018723359
+6.944284018723361e-06
+0.0006944284018723359
+******************************
+Epoch [53/100], Iter [30/48] Training Accuracy1: 98.0159, Training Accuracy2: 97.6190, Training Accuracy3: 95.2381,Avg Accuracy: 97.6190, Loss1: 0.1139, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_52_noise_train_label.txt_acc_90.12.pth
+Epoch [53/100] Test Accuracy on the 3068 test images: Model1 90.1239 % Model2 90.0587 % Model3 88.7875 % Avg Accuracy 90.1239
+Training ...
+
+******************************
+	Adjusted learning rate: 53
+
+6.597069817787189e-05
+0.0006597069817787191
+6.597069817787189e-05
+0.0006597069817787191
+6.597069817787193e-06
+0.0006597069817787191
+******************************
+Epoch [54/100], Iter [30/48] Training Accuracy1: 95.2381, Training Accuracy2: 95.6349, Training Accuracy3: 94.0476,Avg Accuracy: 94.4444, Loss1: 0.1567, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_53_noise_train_label.txt_acc_90.09.pth
+Epoch [54/100] Test Accuracy on the 3068 test images: Model1 90.0913 % Model2 90.2542 % Model3 88.8201 % Avg Accuracy 90.0913
+Training ...
+
+******************************
+	Adjusted learning rate: 54
+
+6.267216326897829e-05
+0.0006267216326897832
+6.267216326897829e-05
+0.0006267216326897832
+6.267216326897833e-06
+0.0006267216326897832
+******************************
+Epoch [55/100], Iter [30/48] Training Accuracy1: 95.6349, Training Accuracy2: 95.6349, Training Accuracy3: 93.2540,Avg Accuracy: 95.2381, Loss1: 0.1284, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_54_noise_train_label.txt_acc_90.15.pth
+Epoch [55/100] Test Accuracy on the 3068 test images: Model1 90.4172 % Model2 90.2868 % Model3 88.8527 % Avg Accuracy 90.1565
+Training ...
+
+******************************
+	Adjusted learning rate: 55
+
+5.953855510552937e-05
+0.000595385551055294
+5.953855510552937e-05
+0.000595385551055294
+5.953855510552941e-06
+0.000595385551055294
+******************************
+Epoch [56/100], Iter [30/48] Training Accuracy1: 96.0317, Training Accuracy2: 96.8254, Training Accuracy3: 95.6349,Avg Accuracy: 96.4286, Loss1: 0.1143, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_55_noise_train_label.txt_acc_90.31.pth
+Epoch [56/100] Test Accuracy on the 3068 test images: Model1 90.0587 % Model2 90.2542 % Model3 88.6571 % Avg Accuracy 90.3194
+Training ...
+
+******************************
+	Adjusted learning rate: 56
+
+5.65616273502529e-05
+0.0005656162735025292
+5.65616273502529e-05
+0.0005656162735025292
+5.6561627350252934e-06
+0.0005656162735025292
+******************************
+Epoch [57/100], Iter [30/48] Training Accuracy1: 96.0317, Training Accuracy2: 95.2381, Training Accuracy3: 94.4444,Avg Accuracy: 95.6349, Loss1: 0.1243, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_56_noise_train_label.txt_acc_90.18.pth
+Epoch [57/100] Test Accuracy on the 3068 test images: Model1 90.1890 % Model2 90.0913 % Model3 88.7875 % Avg Accuracy 90.1890
+Training ...
+
+******************************
+	Adjusted learning rate: 57
+
+5.373354598274025e-05
+0.0005373354598274027
+5.373354598274025e-05
+0.0005373354598274027
+5.373354598274029e-06
+0.0005373354598274027
+******************************
+Epoch [58/100], Iter [30/48] Training Accuracy1: 95.2381, Training Accuracy2: 94.4444, Training Accuracy3: 94.4444,Avg Accuracy: 94.8413, Loss1: 0.1273, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_57_noise_train_label.txt_acc_90.31.pth
+Epoch [58/100] Test Accuracy on the 3068 test images: Model1 90.2542 % Model2 90.0261 % Model3 88.6245 % Avg Accuracy 90.3194
+Training ...
+
+******************************
+	Adjusted learning rate: 58
+
+5.104686868360323e-05
+0.0005104686868360325
+5.104686868360323e-05
+0.0005104686868360325
+5.104686868360327e-06
+0.0005104686868360325
+******************************
+Epoch [59/100], Iter [30/48] Training Accuracy1: 96.0317, Training Accuracy2: 96.8254, Training Accuracy3: 93.2540,Avg Accuracy: 94.0476, Loss1: 0.1311, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_58_noise_train_label.txt_acc_90.22.pth
+Epoch [59/100] Test Accuracy on the 3068 test images: Model1 90.4172 % Model2 90.0913 % Model3 88.8853 % Avg Accuracy 90.2216
+Training ...
+
+******************************
+	Adjusted learning rate: 59
+
+4.849452524942307e-05
+0.0004849452524942309
+4.849452524942307e-05
+0.0004849452524942309
+4.84945252494231e-06
+0.0004849452524942309
+******************************
+Epoch [60/100], Iter [30/48] Training Accuracy1: 96.8254, Training Accuracy2: 97.2222, Training Accuracy3: 95.2381,Avg Accuracy: 98.0159, Loss1: 0.1209, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_59_noise_train_label.txt_acc_90.35.pth
+Epoch [60/100] Test Accuracy on the 3068 test images: Model1 90.3194 % Model2 90.1239 % Model3 88.7875 % Avg Accuracy 90.3520
+Training ...
+
+******************************
+	Adjusted learning rate: 60
+
+4.606979898695191e-05
+0.00046069798986951934
+4.606979898695191e-05
+0.00046069798986951934
+4.6069798986951945e-06
+0.00046069798986951934
+******************************
+Epoch [61/100], Iter [30/48] Training Accuracy1: 95.2381, Training Accuracy2: 95.2381, Training Accuracy3: 92.0635,Avg Accuracy: 94.0476, Loss1: 0.1517, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_60_noise_train_label.txt_acc_90.31.pth
+Epoch [61/100] Test Accuracy on the 3068 test images: Model1 90.5802 % Model2 90.4172 % Model3 88.5267 % Avg Accuracy 90.3194
+Training ...
+
+******************************
+	Adjusted learning rate: 61
+
+4.376630903760431e-05
+0.0004376630903760434
+4.376630903760431e-05
+0.0004376630903760434
+4.3766309037604346e-06
+0.0004376630903760434
+******************************
+Epoch [62/100], Iter [30/48] Training Accuracy1: 96.0317, Training Accuracy2: 96.4286, Training Accuracy3: 92.8571,Avg Accuracy: 95.6349, Loss1: 0.1310, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_61_noise_train_label.txt_acc_90.41.pth
+Epoch [62/100] Test Accuracy on the 3068 test images: Model1 90.3520 % Model2 90.1890 % Model3 88.6897 % Avg Accuracy 90.4172
+Training ...
+
+******************************
+	Adjusted learning rate: 62
+
+4.157799358572409e-05
+0.00041577993585724117
+4.157799358572409e-05
+0.00041577993585724117
+4.157799358572413e-06
+0.00041577993585724117
+******************************
+Epoch [63/100], Iter [30/48] Training Accuracy1: 96.4286, Training Accuracy2: 95.6349, Training Accuracy3: 94.0476,Avg Accuracy: 95.2381, Loss1: 0.1087, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_62_noise_train_label.txt_acc_90.31.pth
+Epoch [63/100] Test Accuracy on the 3068 test images: Model1 90.5802 % Model2 90.1239 % Model3 88.6897 % Avg Accuracy 90.3194
+Training ...
+
+******************************
+	Adjusted learning rate: 63
+
+3.9499093906437885e-05
+0.0003949909390643791
+3.9499093906437885e-05
+0.0003949909390643791
+3.949909390643792e-06
+0.0003949909390643791
+******************************
+Epoch [64/100], Iter [30/48] Training Accuracy1: 96.4286, Training Accuracy2: 95.2381, Training Accuracy3: 94.4444,Avg Accuracy: 96.4286, Loss1: 0.1210, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_63_noise_train_label.txt_acc_90.25.pth
+Epoch [64/100] Test Accuracy on the 3068 test images: Model1 90.5476 % Model2 90.1565 % Model3 88.7875 % Avg Accuracy 90.2542
+Training ...
+
+******************************
+	Adjusted learning rate: 64
+
+3.752413921111599e-05
+0.0003752413921111601
+3.752413921111599e-05
+0.0003752413921111601
+3.7524139211116024e-06
+0.0003752413921111601
+******************************
+Epoch [65/100], Iter [30/48] Training Accuracy1: 97.2222, Training Accuracy2: 96.8254, Training Accuracy3: 95.2381,Avg Accuracy: 96.8254, Loss1: 0.1105, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_64_noise_train_label.txt_acc_90.48.pth
+Epoch [65/100] Test Accuracy on the 3068 test images: Model1 90.6780 % Model2 90.0913 % Model3 88.6897 % Avg Accuracy 90.4824
+Training ...
+
+******************************
+	Adjusted learning rate: 65
+
+3.564793225056019e-05
+0.00035647932250560207
+3.564793225056019e-05
+0.00035647932250560207
+3.564793225056022e-06
+0.00035647932250560207
+******************************
+Epoch [66/100], Iter [30/48] Training Accuracy1: 98.4127, Training Accuracy2: 98.0159, Training Accuracy3: 96.8254,Avg Accuracy: 98.0159, Loss1: 0.0782, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_65_noise_train_label.txt_acc_90.25.pth
+Epoch [66/100] Test Accuracy on the 3068 test images: Model1 90.5476 % Model2 90.0261 % Model3 88.5593 % Avg Accuracy 90.2542
+Training ...
+
+******************************
+	Adjusted learning rate: 66
+
+3.3865535638032174e-05
+0.00033865535638032194
+3.3865535638032174e-05
+0.00033865535638032194
+3.3865535638032207e-06
+0.00033865535638032194
+******************************
+Epoch [67/100], Iter [30/48] Training Accuracy1: 94.8413, Training Accuracy2: 96.0317, Training Accuracy3: 94.0476,Avg Accuracy: 95.6349, Loss1: 0.1190, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_66_noise_train_label.txt_acc_90.28.pth
+Epoch [67/100] Test Accuracy on the 3068 test images: Model1 90.6780 % Model2 90.3846 % Model3 88.5593 % Avg Accuracy 90.2868
+Training ...
+
+******************************
+	Adjusted learning rate: 67
+
+3.2172258856130564e-05
+0.00032172258856130585
+3.2172258856130564e-05
+0.00032172258856130585
+3.2172258856130596e-06
+0.00032172258856130585
+******************************
+Epoch [68/100], Iter [30/48] Training Accuracy1: 96.8254, Training Accuracy2: 96.8254, Training Accuracy3: 94.8413,Avg Accuracy: 96.4286, Loss1: 0.1014, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_67_noise_train_label.txt_acc_90.15.pth
+Epoch [68/100] Test Accuracy on the 3068 test images: Model1 90.3520 % Model2 90.1890 % Model3 88.6897 % Avg Accuracy 90.1565
+Training ...
+
+******************************
+	Adjusted learning rate: 68
+
+3.056364591332403e-05
+0.0003056364591332405
+3.056364591332403e-05
+0.0003056364591332405
+3.0563645913324067e-06
+0.0003056364591332405
+******************************
+Epoch [69/100], Iter [30/48] Training Accuracy1: 96.0317, Training Accuracy2: 97.2222, Training Accuracy3: 95.2381,Avg Accuracy: 96.4286, Loss1: 0.1024, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_68_noise_train_label.txt_acc_90.38.pth
+Epoch [69/100] Test Accuracy on the 3068 test images: Model1 90.3194 % Model2 90.1890 % Model3 89.0808 % Avg Accuracy 90.3846
+Training ...
+
+******************************
+	Adjusted learning rate: 69
+
+2.903546361765783e-05
+0.0002903546361765785
+2.903546361765783e-05
+0.0002903546361765785
+2.903546361765786e-06
+0.0002903546361765785
+******************************
+Epoch [70/100], Iter [30/48] Training Accuracy1: 96.8254, Training Accuracy2: 97.2222, Training Accuracy3: 94.8413,Avg Accuracy: 96.0317, Loss1: 0.0818, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_69_noise_train_label.txt_acc_90.15.pth
+Epoch [70/100] Test Accuracy on the 3068 test images: Model1 90.1890 % Model2 90.2542 % Model3 88.7875 % Avg Accuracy 90.1565
+Training ...
+
+******************************
+	Adjusted learning rate: 70
+
+2.758369043677494e-05
+0.00027583690436774953
+2.758369043677494e-05
+0.00027583690436774953
+2.7583690436774965e-06
+0.00027583690436774953
+******************************
+Epoch [71/100], Iter [30/48] Training Accuracy1: 98.0159, Training Accuracy2: 97.2222, Training Accuracy3: 95.2381,Avg Accuracy: 97.2222, Loss1: 0.0922, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_70_noise_train_label.txt_acc_90.22.pth
+Epoch [71/100] Test Accuracy on the 3068 test images: Model1 90.3846 % Model2 90.2542 % Model3 88.9505 % Avg Accuracy 90.2216
+Training ...
+
+******************************
+	Adjusted learning rate: 71
+
+2.620450591493619e-05
+0.00026204505914936203
+2.620450591493619e-05
+0.00026204505914936203
+2.6204505914936218e-06
+0.00026204505914936203
+******************************
+Epoch [72/100], Iter [30/48] Training Accuracy1: 95.2381, Training Accuracy2: 95.2381, Training Accuracy3: 92.0635,Avg Accuracy: 95.6349, Loss1: 0.1281, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_71_noise_train_label.txt_acc_90.22.pth
+Epoch [72/100] Test Accuracy on the 3068 test images: Model1 90.8409 % Model2 90.1239 % Model3 88.6245 % Avg Accuracy 90.2216
+Training ...
+
+******************************
+	Adjusted learning rate: 72
+
+2.489428061918938e-05
+0.00024894280619189394
+2.489428061918938e-05
+0.00024894280619189394
+2.4894280619189404e-06
+0.00024894280619189394
+******************************
+Epoch [73/100], Iter [30/48] Training Accuracy1: 95.6349, Training Accuracy2: 95.6349, Training Accuracy3: 94.8413,Avg Accuracy: 95.2381, Loss1: 0.0877, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_72_noise_train_label.txt_acc_90.28.pth
+Epoch [73/100] Test Accuracy on the 3068 test images: Model1 90.2868 % Model2 90.3194 % Model3 88.7875 % Avg Accuracy 90.2868
+Training ...
+
+******************************
+	Adjusted learning rate: 73
+
+2.364956658822991e-05
+0.00023649566588229923
+2.364956658822991e-05
+0.00023649566588229923
+2.3649566588229932e-06
+0.00023649566588229923
+******************************
+Epoch [74/100], Iter [30/48] Training Accuracy1: 96.8254, Training Accuracy2: 97.6190, Training Accuracy3: 94.0476,Avg Accuracy: 97.2222, Loss1: 0.0844, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_73_noise_train_label.txt_acc_90.51.pth
+Epoch [74/100] Test Accuracy on the 3068 test images: Model1 90.4172 % Model2 90.1890 % Model3 88.8201 % Avg Accuracy 90.5150
+Training ...
+
+******************************
+	Adjusted learning rate: 74
+
+2.2467088258818413e-05
+0.00022467088258818426
+2.2467088258818413e-05
+0.00022467088258818426
+2.2467088258818436e-06
+0.00022467088258818426
+******************************
+Epoch [75/100], Iter [30/48] Training Accuracy1: 97.2222, Training Accuracy2: 96.8254, Training Accuracy3: 95.6349,Avg Accuracy: 96.8254, Loss1: 0.0843, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_74_noise_train_label.txt_acc_90.31.pth
+Epoch [75/100] Test Accuracy on the 3068 test images: Model1 90.3846 % Model2 90.0261 % Model3 88.9179 % Avg Accuracy 90.3194
+Training ...
+
+******************************
+	Adjusted learning rate: 75
+
+2.134373384587749e-05
+0.00021343733845877503
+2.134373384587749e-05
+0.00021343733845877503
+2.1343733845877514e-06
+0.00021343733845877503
+******************************
+Epoch [76/100], Iter [30/48] Training Accuracy1: 94.8413, Training Accuracy2: 95.2381, Training Accuracy3: 94.0476,Avg Accuracy: 95.2381, Loss1: 0.0927, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_75_noise_train_label.txt_acc_90.15.pth
+Epoch [76/100] Test Accuracy on the 3068 test images: Model1 90.1890 % Model2 90.1890 % Model3 88.7875 % Avg Accuracy 90.1565
+Training ...
+
+******************************
+	Adjusted learning rate: 76
+
+2.0276547153583614e-05
+0.00020276547153583627
+2.0276547153583614e-05
+0.00020276547153583627
+2.027654715358364e-06
+0.00020276547153583627
+******************************
+Epoch [77/100], Iter [30/48] Training Accuracy1: 97.6190, Training Accuracy2: 97.2222, Training Accuracy3: 95.6349,Avg Accuracy: 97.2222, Loss1: 0.0709, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_76_noise_train_label.txt_acc_90.35.pth
+Epoch [77/100] Test Accuracy on the 3068 test images: Model1 90.1239 % Model2 89.9609 % Model3 88.9831 % Avg Accuracy 90.3520
+Training ...
+
+******************************
+	Adjusted learning rate: 77
+
+1.9262719795904432e-05
+0.00019262719795904446
+1.9262719795904432e-05
+0.00019262719795904446
+1.9262719795904457e-06
+0.00019262719795904446
+******************************
+Epoch [78/100], Iter [30/48] Training Accuracy1: 96.0317, Training Accuracy2: 96.0317, Training Accuracy3: 92.8571,Avg Accuracy: 94.4444, Loss1: 0.1061, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_77_noise_train_label.txt_acc_90.31.pth
+Epoch [78/100] Test Accuracy on the 3068 test images: Model1 90.2542 % Model2 90.0261 % Model3 88.8527 % Avg Accuracy 90.3194
+Training ...
+
+******************************
+	Adjusted learning rate: 78
+
+1.829958380610921e-05
+0.00018299583806109224
+1.829958380610921e-05
+0.00018299583806109224
+1.8299583806109232e-06
+0.00018299583806109224
+******************************
+Epoch [79/100], Iter [30/48] Training Accuracy1: 96.4286, Training Accuracy2: 96.0317, Training Accuracy3: 96.0317,Avg Accuracy: 96.0317, Loss1: 0.0769, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_78_noise_train_label.txt_acc_90.22.pth
+Epoch [79/100] Test Accuracy on the 3068 test images: Model1 90.4172 % Model2 90.0913 % Model3 88.4615 % Avg Accuracy 90.2216
+Training ...
+
+******************************
+	Adjusted learning rate: 79
+
+1.738460461580375e-05
+0.0001738460461580376
+1.738460461580375e-05
+0.0001738460461580376
+1.738460461580377e-06
+0.0001738460461580376
+******************************
+Epoch [80/100], Iter [30/48] Training Accuracy1: 96.8254, Training Accuracy2: 96.8254, Training Accuracy3: 95.2381,Avg Accuracy: 96.0317, Loss1: 0.0849, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_79_noise_train_label.txt_acc_90.31.pth
+Epoch [80/100] Test Accuracy on the 3068 test images: Model1 90.2542 % Model2 90.1239 % Model3 88.5919 % Avg Accuracy 90.3194
+Training ...
+
+******************************
+	Adjusted learning rate: 80
+
+1.6515374385013564e-05
+0.00016515374385013573
+1.6515374385013564e-05
+0.00016515374385013573
+1.651537438501358e-06
+0.00016515374385013573
+******************************
+Epoch [81/100], Iter [30/48] Training Accuracy1: 96.8254, Training Accuracy2: 97.2222, Training Accuracy3: 95.6349,Avg Accuracy: 96.0317, Loss1: 0.0816, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_80_noise_train_label.txt_acc_90.28.pth
+Epoch [81/100] Test Accuracy on the 3068 test images: Model1 90.4824 % Model2 90.0913 % Model3 88.8853 % Avg Accuracy 90.2868
+Training ...
+
+******************************
+	Adjusted learning rate: 81
+
+1.5689605665762886e-05
+0.00015689605665762893
+1.5689605665762886e-05
+0.00015689605665762893
+1.5689605665762901e-06
+0.00015689605665762893
+******************************
+Epoch [82/100], Iter [30/48] Training Accuracy1: 96.4286, Training Accuracy2: 97.6190, Training Accuracy3: 94.0476,Avg Accuracy: 96.0317, Loss1: 0.0771, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_81_noise_train_label.txt_acc_90.09.pth
+Epoch [82/100] Test Accuracy on the 3068 test images: Model1 90.0261 % Model2 90.1890 % Model3 88.6897 % Avg Accuracy 90.0913
+Training ...
+
+******************************
+	Adjusted learning rate: 82
+
+1.490512538247474e-05
+0.00014905125382474747
+1.490512538247474e-05
+0.00014905125382474747
+1.4905125382474756e-06
+0.00014905125382474747
+******************************
+Epoch [83/100], Iter [30/48] Training Accuracy1: 95.6349, Training Accuracy2: 96.4286, Training Accuracy3: 90.8730,Avg Accuracy: 93.2540, Loss1: 0.1214, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_82_noise_train_label.txt_acc_90.31.pth
+Epoch [83/100] Test Accuracy on the 3068 test images: Model1 90.4498 % Model2 89.9935 % Model3 88.8527 % Avg Accuracy 90.3194
+Training ...
+
+******************************
+	Adjusted learning rate: 83
+
+1.4159869113351003e-05
+0.0001415986911335101
+1.4159869113351003e-05
+0.0001415986911335101
+1.4159869113351018e-06
+0.0001415986911335101
+******************************
+Epoch [84/100], Iter [30/48] Training Accuracy1: 97.2222, Training Accuracy2: 97.2222, Training Accuracy3: 96.4286,Avg Accuracy: 97.2222, Loss1: 0.0782, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_83_noise_train_label.txt_acc_90.44.pth
+Epoch [84/100] Test Accuracy on the 3068 test images: Model1 90.2868 % Model2 90.0587 % Model3 88.8527 % Avg Accuracy 90.4498
+Training ...
+
+******************************
+	Adjusted learning rate: 84
+
+1.3451875657683452e-05
+0.00013451875657683458
+1.3451875657683452e-05
+0.00013451875657683458
+1.3451875657683467e-06
+0.00013451875657683458
+******************************
+Epoch [85/100], Iter [30/48] Training Accuracy1: 96.4286, Training Accuracy2: 96.0317, Training Accuracy3: 95.2381,Avg Accuracy: 95.6349, Loss1: 0.0964, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_84_noise_train_label.txt_acc_90.31.pth
+Epoch [85/100] Test Accuracy on the 3068 test images: Model1 90.2542 % Model2 90.1890 % Model3 88.7549 % Avg Accuracy 90.3194
+Training ...
+
+******************************
+	Adjusted learning rate: 85
+
+1.277928187479928e-05
+0.00012779281874799285
+1.277928187479928e-05
+0.00012779281874799285
+1.2779281874799292e-06
+0.00012779281874799285
+******************************
+Epoch [86/100], Iter [30/48] Training Accuracy1: 95.2381, Training Accuracy2: 96.0317, Training Accuracy3: 94.0476,Avg Accuracy: 94.8413, Loss1: 0.0781, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_85_noise_train_label.txt_acc_90.28.pth
+Epoch [86/100] Test Accuracy on the 3068 test images: Model1 90.2542 % Model2 90.2542 % Model3 89.0482 % Avg Accuracy 90.2868
+Training ...
+
+******************************
+	Adjusted learning rate: 86
+
+1.2140317781059316e-05
+0.0001214031778105932
+1.2140317781059316e-05
+0.0001214031778105932
+1.2140317781059327e-06
+0.0001214031778105932
+******************************
+Epoch [87/100], Iter [30/48] Training Accuracy1: 95.6349, Training Accuracy2: 95.6349, Training Accuracy3: 94.4444,Avg Accuracy: 95.6349, Loss1: 0.0943, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_86_noise_train_label.txt_acc_90.44.pth
+Epoch [87/100] Test Accuracy on the 3068 test images: Model1 90.3194 % Model2 90.2542 % Model3 88.6897 % Avg Accuracy 90.4498
+Training ...
+
+******************************
+	Adjusted learning rate: 87
+
+1.153330189200635e-05
+0.00011533301892006353
+1.153330189200635e-05
+0.00011533301892006353
+1.153330189200636e-06
+0.00011533301892006353
+******************************
+Epoch [88/100], Iter [30/48] Training Accuracy1: 95.2381, Training Accuracy2: 94.8413, Training Accuracy3: 93.6508,Avg Accuracy: 95.2381, Loss1: 0.0947, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_87_noise_train_label.txt_acc_90.38.pth
+Epoch [88/100] Test Accuracy on the 3068 test images: Model1 90.2216 % Model2 90.2868 % Model3 88.7875 % Avg Accuracy 90.3846
+Training ...
+
+******************************
+	Adjusted learning rate: 88
+
+1.0956636797406032e-05
+0.00010956636797406035
+1.0956636797406032e-05
+0.00010956636797406035
+1.0956636797406041e-06
+0.00010956636797406035
+******************************
+Epoch [89/100], Iter [30/48] Training Accuracy1: 96.4286, Training Accuracy2: 96.0317, Training Accuracy3: 94.4444,Avg Accuracy: 95.2381, Loss1: 0.0826, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_88_noise_train_label.txt_acc_90.44.pth
+Epoch [89/100] Test Accuracy on the 3068 test images: Model1 90.4498 % Model2 90.2868 % Model3 88.7223 % Avg Accuracy 90.4498
+Training ...
+
+******************************
+	Adjusted learning rate: 89
+
+1.0408804957535729e-05
+0.00010408804957535733
+1.0408804957535729e-05
+0.00010408804957535733
+1.0408804957535738e-06
+0.00010408804957535733
+******************************
+Epoch [90/100], Iter [30/48] Training Accuracy1: 92.4603, Training Accuracy2: 93.2540, Training Accuracy3: 91.2698,Avg Accuracy: 92.0635, Loss1: 0.1030, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_89_noise_train_label.txt_acc_90.35.pth
+Epoch [90/100] Test Accuracy on the 3068 test images: Model1 90.4172 % Model2 90.1890 % Model3 88.9831 % Avg Accuracy 90.3520
+Training ...
+
+******************************
+	Adjusted learning rate: 90
+
+9.888364709658941e-06
+9.888364709658946e-05
+9.888364709658941e-06
+9.888364709658946e-05
+9.88836470965895e-07
+9.888364709658946e-05
+******************************
+Epoch [91/100], Iter [30/48] Training Accuracy1: 94.8413, Training Accuracy2: 94.4444, Training Accuracy3: 92.4603,Avg Accuracy: 93.6508, Loss1: 0.0928, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_90_noise_train_label.txt_acc_90.25.pth
+Epoch [91/100] Test Accuracy on the 3068 test images: Model1 90.4824 % Model2 89.9935 % Model3 88.7549 % Avg Accuracy 90.2542
+Training ...
+
+******************************
+	Adjusted learning rate: 91
+
+9.393946474175994e-06
+9.393946474175998e-05
+9.393946474175994e-06
+9.393946474175998e-05
+9.393946474176003e-07
+9.393946474175998e-05
+******************************
+Epoch [92/100], Iter [30/48] Training Accuracy1: 96.8254, Training Accuracy2: 95.6349, Training Accuracy3: 94.0476,Avg Accuracy: 95.6349, Loss1: 0.0931, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_91_noise_train_label.txt_acc_90.28.pth
+Epoch [92/100] Test Accuracy on the 3068 test images: Model1 90.3520 % Model2 90.1890 % Model3 88.7549 % Avg Accuracy 90.2868
+Training ...
+
+******************************
+	Adjusted learning rate: 92
+
+8.924249150467194e-06
+8.924249150467197e-05
+8.924249150467194e-06
+8.924249150467197e-05
+8.924249150467202e-07
+8.924249150467197e-05
+******************************
+Epoch [93/100], Iter [30/48] Training Accuracy1: 97.6190, Training Accuracy2: 98.0159, Training Accuracy3: 95.6349,Avg Accuracy: 97.2222, Loss1: 0.0706, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_92_noise_train_label.txt_acc_90.12.pth
+Epoch [93/100] Test Accuracy on the 3068 test images: Model1 90.3194 % Model2 90.1890 % Model3 88.8201 % Avg Accuracy 90.1239
+Training ...
+
+******************************
+	Adjusted learning rate: 93
+
+8.478036692943835e-06
+8.478036692943837e-05
+8.478036692943835e-06
+8.478036692943837e-05
+8.478036692943841e-07
+8.478036692943837e-05
+******************************
+Epoch [94/100], Iter [30/48] Training Accuracy1: 96.4286, Training Accuracy2: 96.4286, Training Accuracy3: 95.6349,Avg Accuracy: 96.4286, Loss1: 0.0754, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_93_noise_train_label.txt_acc_90.18.pth
+Epoch [94/100] Test Accuracy on the 3068 test images: Model1 90.2542 % Model2 90.1890 % Model3 88.9179 % Avg Accuracy 90.1890
+Training ...
+
+******************************
+	Adjusted learning rate: 94
+
+8.054134858296643e-06
+8.054134858296645e-05
+8.054134858296643e-06
+8.054134858296645e-05
+8.054134858296649e-07
+8.054134858296645e-05
+******************************
+Epoch [95/100], Iter [30/48] Training Accuracy1: 96.0317, Training Accuracy2: 96.8254, Training Accuracy3: 94.0476,Avg Accuracy: 95.6349, Loss1: 0.1052, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_94_noise_train_label.txt_acc_90.31.pth
+Epoch [95/100] Test Accuracy on the 3068 test images: Model1 90.4172 % Model2 90.3194 % Model3 88.6897 % Avg Accuracy 90.3194
+Training ...
+
+******************************
+	Adjusted learning rate: 95
+
+7.65142811538181e-06
+7.651428115381812e-05
+7.65142811538181e-06
+7.651428115381812e-05
+7.651428115381816e-07
+7.651428115381812e-05
+******************************
+Epoch [96/100], Iter [30/48] Training Accuracy1: 97.2222, Training Accuracy2: 97.2222, Training Accuracy3: 94.8413,Avg Accuracy: 96.4286, Loss1: 0.0901, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_95_noise_train_label.txt_acc_90.35.pth
+Epoch [96/100] Test Accuracy on the 3068 test images: Model1 90.4824 % Model2 90.2216 % Model3 88.7549 % Avg Accuracy 90.3520
+Training ...
+
+******************************
+	Adjusted learning rate: 96
+
+7.26885670961272e-06
+7.268856709612721e-05
+7.26885670961272e-06
+7.268856709612721e-05
+7.268856709612725e-07
+7.268856709612721e-05
+******************************
+Epoch [97/100], Iter [30/48] Training Accuracy1: 97.6190, Training Accuracy2: 99.2064, Training Accuracy3: 98.0159,Avg Accuracy: 98.8095, Loss1: 0.0646, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_96_noise_train_label.txt_acc_90.31.pth
+Epoch [97/100] Test Accuracy on the 3068 test images: Model1 90.0913 % Model2 90.1239 % Model3 89.0482 % Avg Accuracy 90.3194
+Training ...
+
+******************************
+	Adjusted learning rate: 97
+
+6.905413874132084e-06
+6.905413874132085e-05
+6.905413874132084e-06
+6.905413874132085e-05
+6.905413874132088e-07
+6.905413874132085e-05
+******************************
+Epoch [98/100], Iter [30/48] Training Accuracy1: 96.8254, Training Accuracy2: 96.0317, Training Accuracy3: 96.0317,Avg Accuracy: 96.4286, Loss1: 0.0811, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_97_noise_train_label.txt_acc_90.38.pth
+Epoch [98/100] Test Accuracy on the 3068 test images: Model1 90.2868 % Model2 90.2542 % Model3 88.9505 % Avg Accuracy 90.3846
+Training ...
+
+******************************
+	Adjusted learning rate: 98
+
+6.5601431804254795e-06
+6.56014318042548e-05
+6.5601431804254795e-06
+6.56014318042548e-05
+6.560143180425484e-07
+6.56014318042548e-05
+******************************
+Epoch [99/100], Iter [30/48] Training Accuracy1: 96.0317, Training Accuracy2: 95.6349, Training Accuracy3: 94.0476,Avg Accuracy: 95.2381, Loss1: 0.0953, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_98_noise_train_label.txt_acc_90.31.pth
+Epoch [99/100] Test Accuracy on the 3068 test images: Model1 90.1890 % Model2 90.3194 % Model3 88.7875 % Avg Accuracy 90.3194
+Training ...
+
+******************************
+	Adjusted learning rate: 99
+
+6.232136021404205e-06
+6.232136021404205e-05
+6.232136021404205e-06
+6.232136021404205e-05
+6.232136021404209e-07
+6.232136021404205e-05
+******************************
+Epoch [100/100], Iter [30/48] Training Accuracy1: 95.6349, Training Accuracy2: 94.8413, Training Accuracy3: 94.8413,Avg Accuracy: 94.8413, Loss1: 0.0797, %
+Evaluating ...
+Models saved checkpointsnew/rafdb/epoch_99_noise_train_label.txt_acc_90.18.pth
+Epoch [100/100] Test Accuracy on the 3068 test images: Model1 90.5150 % Model2 90.3194 % Model3 88.5593 % Avg Accuracy 90.1890
+255
+the average acc in last 10 epochs: 89.58611345450825
