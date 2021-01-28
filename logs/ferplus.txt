@@ -1,0 +1,1643 @@
+
+ Train set size: 28236
+
+ Validation set size: 3137
+
+			Aum Sri Sai Ram
+
+loading dataset...
+
+
+Noise level: NoisyLabels/ferplus_trainvalid_list.txt
+
+ 
+
+Namespace(adjust_lr=1, batch_size=256, beta=0.65, co_lambda=0.1, co_lambda_max=0.9, dataset='fplus', drop_rate=0, epoch_decay_start=100, exponent=1, forget_rate=None, fplus_path='../data/FERPLUS/Dataset', gpu=0, lr=0.01, model_type='res', n_epoch=100, noise_file='NoisyLabels/ferplus_trainvalid_list.txt', noise_rate=0.4, noise_type='pairflip', num_classes=8, num_gradual=10, num_iter_per_epoch=400, num_workers=4, pretrained='pretrained/res18_naive.pth_MSceleb.tar', print_freq=50, result_dir='results', resume='checkpoints', save_model='False', save_result='True', seed=1)
+building model...
+module.feature.weight
+module.feature.bias
+module.fc.weight
+module.fc.bias
+Model loaded from Msceleb pretrained
+module.feature.weight
+module.feature.bias
+module.fc.weight
+module.fc.bias
+Model loaded from Msceleb pretrained
+module.feature.weight
+module.feature.bias
+module.fc.weight
+module.fc.bias
+Model loaded from Msceleb pretrained
+
+ Initial learning rate is:
+0.001
+0.01
+0.001
+0.01
+0.001
+0.01
+Training ...
+Epoch [1/100], Iter [50/110] Training Accuracy1: 70.3125, Training Accuracy2: 68.3594, Training Accuracy3: 67.5781,Avg Accuracy: 70.3125, Loss1: 0.4687, %
+Epoch [1/100], Iter [100/110] Training Accuracy1: 75.7812, Training Accuracy2: 78.1250, Training Accuracy3: 75.0000,Avg Accuracy: 75.3906, Loss1: 0.3672, %
+Evaluating ...
+Epoch [1/100] Test Accuracy on the 3137 test images: Model1 79.6621 % Model2 80.8734 % Model3 79.4071 % Avg Accuracy 80.4272
+Training ...
+
+******************************
+	Adjusted learning rate: 1
+
+0.00095
+0.0095
+0.00095
+0.0095
+0.00095
+0.0095
+******************************
+Epoch [2/100], Iter [50/110] Training Accuracy1: 84.7656, Training Accuracy2: 83.5938, Training Accuracy3: 85.5469,Avg Accuracy: 84.3750, Loss1: 0.2855, %
+Epoch [2/100], Iter [100/110] Training Accuracy1: 80.0781, Training Accuracy2: 78.9062, Training Accuracy3: 79.2969,Avg Accuracy: 78.1250, Loss1: 0.3435, %
+Evaluating ...
+Epoch [2/100] Test Accuracy on the 3137 test images: Model1 83.0092 % Model2 80.7778 % Model3 81.0966 % Avg Accuracy 82.8180
+Training ...
+
+******************************
+	Adjusted learning rate: 2
+
+0.0009025
+0.009025
+0.0009025
+0.009025
+0.0009025
+0.009025
+******************************
+Epoch [3/100], Iter [50/110] Training Accuracy1: 83.9844, Training Accuracy2: 86.7188, Training Accuracy3: 86.7188,Avg Accuracy: 87.8906, Loss1: 0.2375, %
+Epoch [3/100], Iter [100/110] Training Accuracy1: 85.5469, Training Accuracy2: 83.9844, Training Accuracy3: 85.1562,Avg Accuracy: 86.7188, Loss1: 0.2586, %
+Evaluating ...
+Epoch [3/100] Test Accuracy on the 3137 test images: Model1 84.5075 % Model2 83.8699 % Model3 84.7944 % Avg Accuracy 84.9538
+Training ...
+
+******************************
+	Adjusted learning rate: 3
+
+0.000857375
+0.00857375
+0.000857375
+0.00857375
+0.000857375
+0.00857375
+******************************
+Epoch [4/100], Iter [50/110] Training Accuracy1: 85.5469, Training Accuracy2: 83.5938, Training Accuracy3: 84.7656,Avg Accuracy: 85.5469, Loss1: 0.2643, %
+Epoch [4/100], Iter [100/110] Training Accuracy1: 81.2500, Training Accuracy2: 82.0312, Training Accuracy3: 83.2031,Avg Accuracy: 82.8125, Loss1: 0.2919, %
+Evaluating ...
+Epoch [4/100] Test Accuracy on the 3137 test images: Model1 83.7106 % Model2 83.6787 % Model3 85.6232 % Avg Accuracy 85.1769
+Training ...
+
+******************************
+	Adjusted learning rate: 4
+
+0.0008145062499999999
+0.0081450625
+0.0008145062499999999
+0.0081450625
+0.0008145062499999999
+0.0081450625
+******************************
+Epoch [5/100], Iter [50/110] Training Accuracy1: 85.1562, Training Accuracy2: 85.1562, Training Accuracy3: 83.9844,Avg Accuracy: 85.5469, Loss1: 0.2648, %
+Epoch [5/100], Iter [100/110] Training Accuracy1: 83.5938, Training Accuracy2: 83.9844, Training Accuracy3: 86.3281,Avg Accuracy: 85.1562, Loss1: 0.2250, %
+Evaluating ...
+Epoch [5/100] Test Accuracy on the 3137 test images: Model1 85.7826 % Model2 86.2926 % Model3 86.1970 % Avg Accuracy 86.8983
+Training ...
+
+******************************
+	Adjusted learning rate: 5
+
+0.0007737809374999998
+0.007737809374999999
+0.0007737809374999998
+0.007737809374999999
+0.0007737809374999998
+0.007737809374999999
+******************************
+Epoch [6/100], Iter [50/110] Training Accuracy1: 85.1562, Training Accuracy2: 85.5469, Training Accuracy3: 87.1094,Avg Accuracy: 86.7188, Loss1: 0.2193, %
+Epoch [6/100], Iter [100/110] Training Accuracy1: 83.5938, Training Accuracy2: 80.8594, Training Accuracy3: 83.2031,Avg Accuracy: 82.4219, Loss1: 0.2799, %
+Evaluating ...
+Epoch [6/100] Test Accuracy on the 3137 test images: Model1 85.5595 % Model2 86.0695 % Model3 86.2926 % Avg Accuracy 86.6114
+Training ...
+
+******************************
+	Adjusted learning rate: 6
+
+0.0007350918906249997
+0.007350918906249998
+0.0007350918906249997
+0.007350918906249998
+0.0007350918906249997
+0.007350918906249998
+******************************
+Epoch [7/100], Iter [50/110] Training Accuracy1: 85.9375, Training Accuracy2: 87.8906, Training Accuracy3: 85.9375,Avg Accuracy: 88.6719, Loss1: 0.2334, %
+Epoch [7/100], Iter [100/110] Training Accuracy1: 86.7188, Training Accuracy2: 87.1094, Training Accuracy3: 85.1562,Avg Accuracy: 86.7188, Loss1: 0.2207, %
+Evaluating ...
+Epoch [7/100] Test Accuracy on the 3137 test images: Model1 86.8346 % Model2 87.6953 % Model3 86.8664 % Avg Accuracy 87.7271
+Training ...
+
+******************************
+	Adjusted learning rate: 7
+
+0.0006983372960937497
+0.006983372960937498
+0.0006983372960937497
+0.006983372960937498
+0.0006983372960937497
+0.006983372960937498
+******************************
+Epoch [8/100], Iter [50/110] Training Accuracy1: 92.1875, Training Accuracy2: 91.7969, Training Accuracy3: 93.7500,Avg Accuracy: 93.3594, Loss1: 0.1567, %
+Epoch [8/100], Iter [100/110] Training Accuracy1: 85.9375, Training Accuracy2: 87.1094, Training Accuracy3: 86.3281,Avg Accuracy: 86.7188, Loss1: 0.2159, %
+Evaluating ...
+Epoch [8/100] Test Accuracy on the 3137 test images: Model1 86.8027 % Model2 86.7708 % Model3 87.4721 % Avg Accuracy 87.7590
+Training ...
+
+******************************
+	Adjusted learning rate: 8
+
+0.0006634204312890621
+0.006634204312890623
+0.0006634204312890621
+0.006634204312890623
+0.0006634204312890621
+0.006634204312890623
+******************************
+Epoch [9/100], Iter [50/110] Training Accuracy1: 89.0625, Training Accuracy2: 89.4531, Training Accuracy3: 89.8438,Avg Accuracy: 90.6250, Loss1: 0.1984, %
+Epoch [9/100], Iter [100/110] Training Accuracy1: 87.5000, Training Accuracy2: 87.5000, Training Accuracy3: 87.1094,Avg Accuracy: 87.5000, Loss1: 0.2085, %
+Evaluating ...
+Epoch [9/100] Test Accuracy on the 3137 test images: Model1 87.6315 % Model2 87.7590 % Model3 87.3446 % Avg Accuracy 88.2372
+Training ...
+
+******************************
+	Adjusted learning rate: 9
+
+0.000630249409724609
+0.006302494097246091
+0.000630249409724609
+0.006302494097246091
+0.000630249409724609
+0.006302494097246091
+******************************
+Epoch [10/100], Iter [50/110] Training Accuracy1: 85.1562, Training Accuracy2: 87.5000, Training Accuracy3: 86.7188,Avg Accuracy: 87.1094, Loss1: 0.2074, %
+Epoch [10/100], Iter [100/110] Training Accuracy1: 91.7969, Training Accuracy2: 89.8438, Training Accuracy3: 90.6250,Avg Accuracy: 91.0156, Loss1: 0.1706, %
+Evaluating ...
+Epoch [10/100] Test Accuracy on the 3137 test images: Model1 87.9184 % Model2 86.8027 % Model3 87.7271 % Avg Accuracy 87.8546
+Training ...
+
+******************************
+	Adjusted learning rate: 10
+
+0.0005987369392383785
+0.005987369392383786
+0.0005987369392383785
+0.005987369392383786
+0.0005987369392383785
+0.005987369392383786
+******************************
+Epoch [11/100], Iter [50/110] Training Accuracy1: 88.6719, Training Accuracy2: 90.6250, Training Accuracy3: 89.4531,Avg Accuracy: 89.8438, Loss1: 0.1605, %
+Epoch [11/100], Iter [100/110] Training Accuracy1: 87.8906, Training Accuracy2: 89.4531, Training Accuracy3: 87.1094,Avg Accuracy: 88.2812, Loss1: 0.1664, %
+Evaluating ...
+Epoch [11/100] Test Accuracy on the 3137 test images: Model1 88.0140 % Model2 87.1215 % Model3 87.5040 % Avg Accuracy 88.2690
+Training ...
+
+******************************
+	Adjusted learning rate: 11
+
+0.0005688000922764595
+0.005688000922764597
+0.0005688000922764595
+0.005688000922764597
+0.0005688000922764595
+0.005688000922764597
+******************************
+Epoch [12/100], Iter [50/110] Training Accuracy1: 89.0625, Training Accuracy2: 91.0156, Training Accuracy3: 89.4531,Avg Accuracy: 91.4062, Loss1: 0.1754, %
+Epoch [12/100], Iter [100/110] Training Accuracy1: 89.0625, Training Accuracy2: 87.1094, Training Accuracy3: 89.0625,Avg Accuracy: 89.4531, Loss1: 0.1732, %
+Evaluating ...
+Epoch [12/100] Test Accuracy on the 3137 test images: Model1 87.4084 % Model2 87.9821 % Model3 87.8228 % Avg Accuracy 88.1097
+Training ...
+
+******************************
+	Adjusted learning rate: 12
+
+0.0005403600876626365
+0.005403600876626367
+0.0005403600876626365
+0.005403600876626367
+0.0005403600876626365
+0.005403600876626367
+******************************
+Epoch [13/100], Iter [50/110] Training Accuracy1: 90.2344, Training Accuracy2: 87.8906, Training Accuracy3: 89.0625,Avg Accuracy: 89.4531, Loss1: 0.1446, %
+Epoch [13/100], Iter [100/110] Training Accuracy1: 89.0625, Training Accuracy2: 89.8438, Training Accuracy3: 90.6250,Avg Accuracy: 89.8438, Loss1: 0.1533, %
+Evaluating ...
+Epoch [13/100] Test Accuracy on the 3137 test images: Model1 88.3647 % Model2 88.0140 % Model3 88.1097 % Avg Accuracy 88.0140
+Training ...
+
+******************************
+	Adjusted learning rate: 13
+
+0.0005133420832795047
+0.005133420832795048
+0.0005133420832795047
+0.005133420832795048
+0.0005133420832795047
+0.005133420832795048
+******************************
+Epoch [14/100], Iter [50/110] Training Accuracy1: 92.5781, Training Accuracy2: 91.0156, Training Accuracy3: 89.4531,Avg Accuracy: 91.4062, Loss1: 0.1389, %
+Epoch [14/100], Iter [100/110] Training Accuracy1: 88.6719, Training Accuracy2: 88.6719, Training Accuracy3: 89.0625,Avg Accuracy: 89.0625, Loss1: 0.1904, %
+Evaluating ...
+Epoch [14/100] Test Accuracy on the 3137 test images: Model1 88.0459 % Model2 87.8228 % Model3 88.5878 % Avg Accuracy 88.8110
+Training ...
+
+******************************
+	Adjusted learning rate: 14
+
+0.00048767497911552944
+0.0048767497911552955
+0.00048767497911552944
+0.0048767497911552955
+0.00048767497911552944
+0.0048767497911552955
+******************************
+Epoch [15/100], Iter [50/110] Training Accuracy1: 91.4062, Training Accuracy2: 91.4062, Training Accuracy3: 91.7969,Avg Accuracy: 91.7969, Loss1: 0.1205, %
+Epoch [15/100], Iter [100/110] Training Accuracy1: 89.8438, Training Accuracy2: 88.2812, Training Accuracy3: 90.2344,Avg Accuracy: 89.4531, Loss1: 0.1530, %
+Evaluating ...
+Epoch [15/100] Test Accuracy on the 3137 test images: Model1 88.1415 % Model2 88.3328 % Model3 88.0140 % Avg Accuracy 88.6835
+Training ...
+
+******************************
+	Adjusted learning rate: 15
+
+0.00046329123015975297
+0.00463291230159753
+0.00046329123015975297
+0.00463291230159753
+0.00046329123015975297
+0.00463291230159753
+******************************
+Epoch [16/100], Iter [50/110] Training Accuracy1: 89.8438, Training Accuracy2: 91.4062, Training Accuracy3: 91.7969,Avg Accuracy: 91.4062, Loss1: 0.1362, %
+Epoch [16/100], Iter [100/110] Training Accuracy1: 87.8906, Training Accuracy2: 89.4531, Training Accuracy3: 85.5469,Avg Accuracy: 88.2812, Loss1: 0.1559, %
+Evaluating ...
+Epoch [16/100] Test Accuracy on the 3137 test images: Model1 88.1415 % Model2 88.1415 % Model3 88.3966 % Avg Accuracy 88.6516
+Training ...
+
+******************************
+	Adjusted learning rate: 16
+
+0.0004401266686517653
+0.0044012666865176535
+0.0004401266686517653
+0.0044012666865176535
+0.0004401266686517653
+0.0044012666865176535
+******************************
+Epoch [17/100], Iter [50/110] Training Accuracy1: 91.7969, Training Accuracy2: 91.4062, Training Accuracy3: 91.4062,Avg Accuracy: 92.1875, Loss1: 0.1298, %
+Epoch [17/100], Iter [100/110] Training Accuracy1: 91.4062, Training Accuracy2: 90.2344, Training Accuracy3: 91.0156,Avg Accuracy: 91.4062, Loss1: 0.1532, %
+Evaluating ...
+Epoch [17/100] Test Accuracy on the 3137 test images: Model1 88.1097 % Model2 88.2053 % Model3 88.0140 % Avg Accuracy 88.6197
+Training ...
+
+******************************
+	Adjusted learning rate: 17
+
+0.00041812033521917703
+0.004181203352191771
+0.00041812033521917703
+0.004181203352191771
+0.00041812033521917703
+0.004181203352191771
+******************************
+Epoch [18/100], Iter [50/110] Training Accuracy1: 91.4062, Training Accuracy2: 91.4062, Training Accuracy3: 92.1875,Avg Accuracy: 92.9688, Loss1: 0.1512, %
+Epoch [18/100], Iter [100/110] Training Accuracy1: 89.8438, Training Accuracy2: 89.8438, Training Accuracy3: 87.8906,Avg Accuracy: 87.8906, Loss1: 0.1697, %
+Evaluating ...
+Epoch [18/100] Test Accuracy on the 3137 test images: Model1 88.5241 % Model2 88.5241 % Model3 87.7271 % Avg Accuracy 88.5878
+Training ...
+
+******************************
+	Adjusted learning rate: 18
+
+0.00039721431845821814
+0.003972143184582182
+0.00039721431845821814
+0.003972143184582182
+0.00039721431845821814
+0.003972143184582182
+******************************
+Epoch [19/100], Iter [50/110] Training Accuracy1: 92.9688, Training Accuracy2: 92.5781, Training Accuracy3: 93.7500,Avg Accuracy: 94.1406, Loss1: 0.1121, %
+Epoch [19/100], Iter [100/110] Training Accuracy1: 95.3125, Training Accuracy2: 95.7031, Training Accuracy3: 94.1406,Avg Accuracy: 96.0938, Loss1: 0.0938, %
+Evaluating ...
+Epoch [19/100] Test Accuracy on the 3137 test images: Model1 88.3966 % Model2 87.4084 % Model3 88.1415 % Avg Accuracy 88.3328
+Training ...
+
+******************************
+	Adjusted learning rate: 19
+
+0.0003773536025353072
+0.0037735360253530726
+0.0003773536025353072
+0.0037735360253530726
+0.0003773536025353072
+0.0037735360253530726
+******************************
+Epoch [20/100], Iter [50/110] Training Accuracy1: 90.6250, Training Accuracy2: 91.4062, Training Accuracy3: 91.4062,Avg Accuracy: 91.4062, Loss1: 0.1207, %
+Epoch [20/100], Iter [100/110] Training Accuracy1: 94.1406, Training Accuracy2: 94.1406, Training Accuracy3: 93.7500,Avg Accuracy: 94.5312, Loss1: 0.1102, %
+Evaluating ...
+Epoch [20/100] Test Accuracy on the 3137 test images: Model1 88.5878 % Model2 88.4922 % Model3 88.4603 % Avg Accuracy 88.8428
+Training ...
+
+******************************
+	Adjusted learning rate: 20
+
+0.0003584859224085418
+0.0035848592240854188
+0.0003584859224085418
+0.0035848592240854188
+0.0003584859224085418
+0.0035848592240854188
+******************************
+Epoch [21/100], Iter [50/110] Training Accuracy1: 91.4062, Training Accuracy2: 92.1875, Training Accuracy3: 90.2344,Avg Accuracy: 91.4062, Loss1: 0.1218, %
+Epoch [21/100], Iter [100/110] Training Accuracy1: 87.8906, Training Accuracy2: 91.0156, Training Accuracy3: 88.6719,Avg Accuracy: 89.0625, Loss1: 0.1427, %
+Evaluating ...
+Epoch [21/100] Test Accuracy on the 3137 test images: Model1 88.3328 % Model2 88.2372 % Model3 88.5559 % Avg Accuracy 88.6197
+Training ...
+
+******************************
+	Adjusted learning rate: 21
+
+0.0003405616262881147
+0.0034056162628811476
+0.0003405616262881147
+0.0034056162628811476
+0.0003405616262881147
+0.0034056162628811476
+******************************
+Epoch [22/100], Iter [50/110] Training Accuracy1: 92.9688, Training Accuracy2: 92.5781, Training Accuracy3: 92.5781,Avg Accuracy: 92.9688, Loss1: 0.1237, %
+Epoch [22/100], Iter [100/110] Training Accuracy1: 89.8438, Training Accuracy2: 89.8438, Training Accuracy3: 90.6250,Avg Accuracy: 91.4062, Loss1: 0.1324, %
+Evaluating ...
+Epoch [22/100] Test Accuracy on the 3137 test images: Model1 88.4603 % Model2 88.4284 % Model3 88.9066 % Avg Accuracy 88.9385
+Training ...
+
+******************************
+	Adjusted learning rate: 22
+
+0.00032353354497370894
+0.0032353354497370902
+0.00032353354497370894
+0.0032353354497370902
+0.00032353354497370894
+0.0032353354497370902
+******************************
+Epoch [23/100], Iter [50/110] Training Accuracy1: 91.7969, Training Accuracy2: 92.1875, Training Accuracy3: 92.5781,Avg Accuracy: 92.1875, Loss1: 0.1233, %
+Epoch [23/100], Iter [100/110] Training Accuracy1: 91.0156, Training Accuracy2: 89.8438, Training Accuracy3: 88.6719,Avg Accuracy: 90.2344, Loss1: 0.1206, %
+Evaluating ...
+Epoch [23/100] Test Accuracy on the 3137 test images: Model1 88.8747 % Model2 88.6835 % Model3 88.9066 % Avg Accuracy 88.8747
+Training ...
+
+******************************
+	Adjusted learning rate: 23
+
+0.00030735686772502346
+0.0030735686772502355
+0.00030735686772502346
+0.0030735686772502355
+0.00030735686772502346
+0.0030735686772502355
+******************************
+Epoch [24/100], Iter [50/110] Training Accuracy1: 94.1406, Training Accuracy2: 94.1406, Training Accuracy3: 94.9219,Avg Accuracy: 94.5312, Loss1: 0.0906, %
+Epoch [24/100], Iter [100/110] Training Accuracy1: 92.1875, Training Accuracy2: 91.7969, Training Accuracy3: 91.4062,Avg Accuracy: 90.6250, Loss1: 0.1330, %
+Evaluating ...
+Epoch [24/100] Test Accuracy on the 3137 test images: Model1 89.2254 % Model2 88.6835 % Model3 88.8747 % Avg Accuracy 89.2891
+Training ...
+
+******************************
+	Adjusted learning rate: 24
+
+0.00029198902433877225
+0.0029198902433877237
+0.00029198902433877225
+0.0029198902433877237
+0.00029198902433877225
+0.0029198902433877237
+******************************
+Epoch [25/100], Iter [50/110] Training Accuracy1: 94.5312, Training Accuracy2: 92.5781, Training Accuracy3: 95.3125,Avg Accuracy: 94.1406, Loss1: 0.0813, %
+Epoch [25/100], Iter [100/110] Training Accuracy1: 96.4844, Training Accuracy2: 94.9219, Training Accuracy3: 95.7031,Avg Accuracy: 96.8750, Loss1: 0.0808, %
+Evaluating ...
+Epoch [25/100] Test Accuracy on the 3137 test images: Model1 89.0341 % Model2 88.6197 % Model3 88.7153 % Avg Accuracy 89.1297
+Training ...
+
+******************************
+	Adjusted learning rate: 25
+
+0.00027738957312183364
+0.0027738957312183374
+0.00027738957312183364
+0.0027738957312183374
+0.00027738957312183364
+0.0027738957312183374
+******************************
+Epoch [26/100], Iter [50/110] Training Accuracy1: 92.9688, Training Accuracy2: 94.5312, Training Accuracy3: 93.7500,Avg Accuracy: 93.7500, Loss1: 0.0958, %
+Epoch [26/100], Iter [100/110] Training Accuracy1: 93.3594, Training Accuracy2: 92.9688, Training Accuracy3: 92.1875,Avg Accuracy: 93.3594, Loss1: 0.0983, %
+Evaluating ...
+Epoch [26/100] Test Accuracy on the 3137 test images: Model1 89.0022 % Model2 88.9704 % Model3 89.1935 % Avg Accuracy 89.4804
+Training ...
+
+******************************
+	Adjusted learning rate: 26
+
+0.0002635200944657419
+0.0026352009446574203
+0.0002635200944657419
+0.0026352009446574203
+0.0002635200944657419
+0.0026352009446574203
+******************************
+Epoch [27/100], Iter [50/110] Training Accuracy1: 93.7500, Training Accuracy2: 94.5312, Training Accuracy3: 94.1406,Avg Accuracy: 94.1406, Loss1: 0.0871, %
+Epoch [27/100], Iter [100/110] Training Accuracy1: 92.1875, Training Accuracy2: 92.5781, Training Accuracy3: 93.3594,Avg Accuracy: 92.5781, Loss1: 0.1078, %
+Evaluating ...
+Epoch [27/100] Test Accuracy on the 3137 test images: Model1 89.0660 % Model2 88.7153 % Model3 89.1616 % Avg Accuracy 89.1297
+Training ...
+
+******************************
+	Adjusted learning rate: 27
+
+0.0002503440897424548
+0.002503440897424549
+0.0002503440897424548
+0.002503440897424549
+0.0002503440897424548
+0.002503440897424549
+******************************
+Epoch [28/100], Iter [50/110] Training Accuracy1: 92.1875, Training Accuracy2: 92.1875, Training Accuracy3: 94.5312,Avg Accuracy: 92.9688, Loss1: 0.0898, %
+Epoch [28/100], Iter [100/110] Training Accuracy1: 95.3125, Training Accuracy2: 95.7031, Training Accuracy3: 94.1406,Avg Accuracy: 95.7031, Loss1: 0.0592, %
+Evaluating ...
+Epoch [28/100] Test Accuracy on the 3137 test images: Model1 88.4603 % Model2 88.7791 % Model3 88.7791 % Avg Accuracy 88.7791
+Training ...
+
+******************************
+	Adjusted learning rate: 28
+
+0.00023782688525533205
+0.0023782688525533216
+0.00023782688525533205
+0.0023782688525533216
+0.00023782688525533205
+0.0023782688525533216
+******************************
+Epoch [29/100], Iter [50/110] Training Accuracy1: 92.5781, Training Accuracy2: 93.3594, Training Accuracy3: 94.9219,Avg Accuracy: 93.7500, Loss1: 0.0814, %
+Epoch [29/100], Iter [100/110] Training Accuracy1: 93.3594, Training Accuracy2: 94.5312, Training Accuracy3: 92.9688,Avg Accuracy: 93.3594, Loss1: 0.0769, %
+Evaluating ...
+Epoch [29/100] Test Accuracy on the 3137 test images: Model1 89.1616 % Model2 88.6197 % Model3 89.4485 % Avg Accuracy 89.2573
+Training ...
+
+******************************
+	Adjusted learning rate: 29
+
+0.00022593554099256544
+0.0022593554099256553
+0.00022593554099256544
+0.0022593554099256553
+0.00022593554099256544
+0.0022593554099256553
+******************************
+Epoch [30/100], Iter [50/110] Training Accuracy1: 91.7969, Training Accuracy2: 93.3594, Training Accuracy3: 91.7969,Avg Accuracy: 92.1875, Loss1: 0.1043, %
+Epoch [30/100], Iter [100/110] Training Accuracy1: 94.5312, Training Accuracy2: 96.4844, Training Accuracy3: 96.0938,Avg Accuracy: 96.0938, Loss1: 0.0634, %
+Evaluating ...
+Epoch [30/100] Test Accuracy on the 3137 test images: Model1 88.7153 % Model2 88.8428 % Model3 88.7153 % Avg Accuracy 89.0660
+Training ...
+
+******************************
+	Adjusted learning rate: 30
+
+0.00021463876394293716
+0.0021463876394293723
+0.00021463876394293716
+0.0021463876394293723
+0.00021463876394293716
+0.0021463876394293723
+******************************
+Epoch [31/100], Iter [50/110] Training Accuracy1: 93.3594, Training Accuracy2: 93.7500, Training Accuracy3: 94.1406,Avg Accuracy: 93.3594, Loss1: 0.0780, %
+Epoch [31/100], Iter [100/110] Training Accuracy1: 94.5312, Training Accuracy2: 95.3125, Training Accuracy3: 94.5312,Avg Accuracy: 95.3125, Loss1: 0.0633, %
+Evaluating ...
+Epoch [31/100] Test Accuracy on the 3137 test images: Model1 89.9586 % Model2 89.0979 % Model3 89.1935 % Avg Accuracy 89.4485
+Training ...
+
+******************************
+	Adjusted learning rate: 31
+
+0.0002039068257457903
+0.0020390682574579037
+0.0002039068257457903
+0.0020390682574579037
+0.0002039068257457903
+0.0020390682574579037
+******************************
+Epoch [32/100], Iter [50/110] Training Accuracy1: 93.3594, Training Accuracy2: 92.1875, Training Accuracy3: 92.5781,Avg Accuracy: 92.5781, Loss1: 0.0823, %
+Epoch [32/100], Iter [100/110] Training Accuracy1: 93.3594, Training Accuracy2: 92.9688, Training Accuracy3: 93.3594,Avg Accuracy: 93.3594, Loss1: 0.0770, %
+Evaluating ...
+Epoch [32/100] Test Accuracy on the 3137 test images: Model1 89.2891 % Model2 89.1935 % Model3 88.9704 % Avg Accuracy 89.2573
+Training ...
+
+******************************
+	Adjusted learning rate: 32
+
+0.00019371148445850077
+0.0019371148445850085
+0.00019371148445850077
+0.0019371148445850085
+0.00019371148445850077
+0.0019371148445850085
+******************************
+Epoch [33/100], Iter [50/110] Training Accuracy1: 91.7969, Training Accuracy2: 93.3594, Training Accuracy3: 92.1875,Avg Accuracy: 92.9688, Loss1: 0.0827, %
+Epoch [33/100], Iter [100/110] Training Accuracy1: 92.9688, Training Accuracy2: 93.3594, Training Accuracy3: 92.9688,Avg Accuracy: 92.9688, Loss1: 0.0685, %
+Evaluating ...
+Epoch [33/100] Test Accuracy on the 3137 test images: Model1 89.4485 % Model2 89.0979 % Model3 89.1297 % Avg Accuracy 89.5123
+Training ...
+
+******************************
+	Adjusted learning rate: 33
+
+0.00018402591023557573
+0.0018402591023557579
+0.00018402591023557573
+0.0018402591023557579
+0.00018402591023557573
+0.0018402591023557579
+******************************
+Epoch [34/100], Iter [50/110] Training Accuracy1: 92.9688, Training Accuracy2: 93.3594, Training Accuracy3: 92.5781,Avg Accuracy: 92.9688, Loss1: 0.0899, %
+Epoch [34/100], Iter [100/110] Training Accuracy1: 96.4844, Training Accuracy2: 96.8750, Training Accuracy3: 96.0938,Avg Accuracy: 96.8750, Loss1: 0.0596, %
+Evaluating ...
+Epoch [34/100] Test Accuracy on the 3137 test images: Model1 89.2891 % Model2 89.3848 % Model3 89.0022 % Avg Accuracy 89.3848
+Training ...
+
+******************************
+	Adjusted learning rate: 34
+
+0.00017482461472379692
+0.0017482461472379698
+0.00017482461472379692
+0.0017482461472379698
+0.00017482461472379692
+0.0017482461472379698
+******************************
+Epoch [35/100], Iter [50/110] Training Accuracy1: 94.1406, Training Accuracy2: 94.9219, Training Accuracy3: 94.5312,Avg Accuracy: 94.9219, Loss1: 0.0759, %
+Epoch [35/100], Iter [100/110] Training Accuracy1: 94.9219, Training Accuracy2: 93.7500, Training Accuracy3: 94.9219,Avg Accuracy: 94.5312, Loss1: 0.0667, %
+Evaluating ...
+Epoch [35/100] Test Accuracy on the 3137 test images: Model1 89.1616 % Model2 89.3848 % Model3 89.0341 % Avg Accuracy 89.6398
+Training ...
+
+******************************
+	Adjusted learning rate: 35
+
+0.00016608338398760707
+0.0016608338398760713
+0.00016608338398760707
+0.0016608338398760713
+0.00016608338398760707
+0.0016608338398760713
+******************************
+Epoch [36/100], Iter [50/110] Training Accuracy1: 93.3594, Training Accuracy2: 92.9688, Training Accuracy3: 92.1875,Avg Accuracy: 93.7500, Loss1: 0.0755, %
+Epoch [36/100], Iter [100/110] Training Accuracy1: 94.1406, Training Accuracy2: 95.7031, Training Accuracy3: 94.5312,Avg Accuracy: 94.9219, Loss1: 0.0607, %
+Evaluating ...
+Epoch [36/100] Test Accuracy on the 3137 test images: Model1 89.8629 % Model2 89.4485 % Model3 89.3210 % Avg Accuracy 89.5442
+Training ...
+
+******************************
+	Adjusted learning rate: 36
+
+0.0001577792147882267
+0.0015777921478822676
+0.0001577792147882267
+0.0015777921478822676
+0.0001577792147882267
+0.0015777921478822676
+******************************
+Epoch [37/100], Iter [50/110] Training Accuracy1: 93.3594, Training Accuracy2: 91.7969, Training Accuracy3: 93.3594,Avg Accuracy: 92.9688, Loss1: 0.0750, %
+Epoch [37/100], Iter [100/110] Training Accuracy1: 92.1875, Training Accuracy2: 92.5781, Training Accuracy3: 92.5781,Avg Accuracy: 93.7500, Loss1: 0.0778, %
+Evaluating ...
+Epoch [37/100] Test Accuracy on the 3137 test images: Model1 89.2573 % Model2 89.6079 % Model3 89.4166 % Avg Accuracy 89.6717
+Training ...
+
+******************************
+	Adjusted learning rate: 37
+
+0.00014989025404881537
+0.001498902540488154
+0.00014989025404881537
+0.001498902540488154
+0.00014989025404881537
+0.001498902540488154
+******************************
+Epoch [38/100], Iter [50/110] Training Accuracy1: 92.5781, Training Accuracy2: 90.6250, Training Accuracy3: 91.0156,Avg Accuracy: 91.7969, Loss1: 0.0892, %
+Epoch [38/100], Iter [100/110] Training Accuracy1: 94.9219, Training Accuracy2: 94.5312, Training Accuracy3: 94.1406,Avg Accuracy: 94.5312, Loss1: 0.0700, %
+Evaluating ...
+Epoch [38/100] Test Accuracy on the 3137 test images: Model1 89.1935 % Model2 89.5442 % Model3 89.7354 % Avg Accuracy 89.6079
+Training ...
+
+******************************
+	Adjusted learning rate: 38
+
+0.00014239574134637458
+0.0014239574134637463
+0.00014239574134637458
+0.0014239574134637463
+0.00014239574134637458
+0.0014239574134637463
+******************************
+Epoch [39/100], Iter [50/110] Training Accuracy1: 96.4844, Training Accuracy2: 95.7031, Training Accuracy3: 96.4844,Avg Accuracy: 96.0938, Loss1: 0.0539, %
+Epoch [39/100], Iter [100/110] Training Accuracy1: 94.1406, Training Accuracy2: 94.9219, Training Accuracy3: 94.9219,Avg Accuracy: 94.9219, Loss1: 0.0532, %
+Evaluating ...
+Epoch [39/100] Test Accuracy on the 3137 test images: Model1 89.4166 % Model2 89.6717 % Model3 89.5442 % Avg Accuracy 89.7992
+Training ...
+
+******************************
+	Adjusted learning rate: 39
+
+0.00013527595427905584
+0.0013527595427905588
+0.00013527595427905584
+0.0013527595427905588
+0.00013527595427905584
+0.0013527595427905588
+******************************
+Epoch [40/100], Iter [50/110] Training Accuracy1: 95.3125, Training Accuracy2: 96.0938, Training Accuracy3: 95.3125,Avg Accuracy: 95.7031, Loss1: 0.0563, %
+Epoch [40/100], Iter [100/110] Training Accuracy1: 95.3125, Training Accuracy2: 94.9219, Training Accuracy3: 95.3125,Avg Accuracy: 94.9219, Loss1: 0.0595, %
+Evaluating ...
+Epoch [40/100] Test Accuracy on the 3137 test images: Model1 89.2254 % Model2 89.0979 % Model3 89.0660 % Avg Accuracy 89.5123
+Training ...
+
+******************************
+	Adjusted learning rate: 40
+
+0.00012851215656510304
+0.0012851215656510308
+0.00012851215656510304
+0.0012851215656510308
+0.00012851215656510304
+0.0012851215656510308
+******************************
+Epoch [41/100], Iter [50/110] Training Accuracy1: 91.7969, Training Accuracy2: 93.7500, Training Accuracy3: 92.9688,Avg Accuracy: 93.3594, Loss1: 0.0739, %
+Epoch [41/100], Iter [100/110] Training Accuracy1: 95.7031, Training Accuracy2: 94.9219, Training Accuracy3: 94.5312,Avg Accuracy: 95.3125, Loss1: 0.0572, %
+Evaluating ...
+Epoch [41/100] Test Accuracy on the 3137 test images: Model1 89.3848 % Model2 89.3529 % Model3 89.3848 % Avg Accuracy 89.6717
+Training ...
+
+******************************
+	Adjusted learning rate: 41
+
+0.00012208654873684788
+0.0012208654873684791
+0.00012208654873684788
+0.0012208654873684791
+0.00012208654873684788
+0.0012208654873684791
+******************************
+Epoch [42/100], Iter [50/110] Training Accuracy1: 95.7031, Training Accuracy2: 96.4844, Training Accuracy3: 97.2656,Avg Accuracy: 96.4844, Loss1: 0.0415, %
+Epoch [42/100], Iter [100/110] Training Accuracy1: 95.7031, Training Accuracy2: 94.9219, Training Accuracy3: 94.9219,Avg Accuracy: 94.5312, Loss1: 0.0446, %
+Evaluating ...
+Epoch [42/100] Test Accuracy on the 3137 test images: Model1 89.2891 % Model2 89.3210 % Model3 89.4804 % Avg Accuracy 89.7354
+Training ...
+
+******************************
+	Adjusted learning rate: 42
+
+0.00011598222130000548
+0.0011598222130000551
+0.00011598222130000548
+0.0011598222130000551
+0.00011598222130000548
+0.0011598222130000551
+******************************
+Epoch [43/100], Iter [50/110] Training Accuracy1: 94.5312, Training Accuracy2: 94.9219, Training Accuracy3: 94.1406,Avg Accuracy: 94.5312, Loss1: 0.0593, %
+Epoch [43/100], Iter [100/110] Training Accuracy1: 94.9219, Training Accuracy2: 95.3125, Training Accuracy3: 94.9219,Avg Accuracy: 94.9219, Loss1: 0.0505, %
+Evaluating ...
+Epoch [43/100] Test Accuracy on the 3137 test images: Model1 89.3529 % Model2 89.2891 % Model3 89.4485 % Avg Accuracy 89.5442
+Training ...
+
+******************************
+	Adjusted learning rate: 43
+
+0.00011018311023500519
+0.0011018311023500522
+0.00011018311023500519
+0.0011018311023500522
+0.00011018311023500519
+0.0011018311023500522
+******************************
+Epoch [44/100], Iter [50/110] Training Accuracy1: 93.7500, Training Accuracy2: 94.5312, Training Accuracy3: 94.5312,Avg Accuracy: 94.9219, Loss1: 0.0553, %
+Epoch [44/100], Iter [100/110] Training Accuracy1: 95.3125, Training Accuracy2: 94.9219, Training Accuracy3: 96.0938,Avg Accuracy: 95.7031, Loss1: 0.0442, %
+Evaluating ...
+Epoch [44/100] Test Accuracy on the 3137 test images: Model1 89.2891 % Model2 89.4166 % Model3 89.4804 % Avg Accuracy 89.7354
+Training ...
+
+******************************
+	Adjusted learning rate: 44
+
+0.00010467395472325493
+0.0010467395472325495
+0.00010467395472325493
+0.0010467395472325495
+0.00010467395472325493
+0.0010467395472325495
+******************************
+Epoch [45/100], Iter [50/110] Training Accuracy1: 96.0938, Training Accuracy2: 94.5312, Training Accuracy3: 96.8750,Avg Accuracy: 96.0938, Loss1: 0.0443, %
+Epoch [45/100], Iter [100/110] Training Accuracy1: 92.1875, Training Accuracy2: 93.7500, Training Accuracy3: 93.7500,Avg Accuracy: 93.7500, Loss1: 0.0565, %
+Evaluating ...
+Epoch [45/100] Test Accuracy on the 3137 test images: Model1 89.4166 % Model2 89.6717 % Model3 89.6079 % Avg Accuracy 89.7673
+Training ...
+
+******************************
+	Adjusted learning rate: 45
+
+9.944025698709218e-05
+0.000994402569870922
+9.944025698709218e-05
+0.000994402569870922
+9.944025698709218e-05
+0.000994402569870922
+******************************
+Epoch [46/100], Iter [50/110] Training Accuracy1: 95.7031, Training Accuracy2: 95.3125, Training Accuracy3: 96.4844,Avg Accuracy: 96.4844, Loss1: 0.0464, %
+Epoch [46/100], Iter [100/110] Training Accuracy1: 95.7031, Training Accuracy2: 98.0469, Training Accuracy3: 97.6562,Avg Accuracy: 97.2656, Loss1: 0.0456, %
+Evaluating ...
+Epoch [46/100] Test Accuracy on the 3137 test images: Model1 89.3210 % Model2 89.4804 % Model3 89.3848 % Avg Accuracy 89.7992
+Training ...
+
+******************************
+	Adjusted learning rate: 46
+
+9.446824413773756e-05
+0.0009446824413773759
+9.446824413773756e-05
+0.0009446824413773759
+9.446824413773756e-05
+0.0009446824413773759
+******************************
+Epoch [47/100], Iter [50/110] Training Accuracy1: 96.0938, Training Accuracy2: 94.9219, Training Accuracy3: 96.4844,Avg Accuracy: 96.0938, Loss1: 0.0434, %
+Epoch [47/100], Iter [100/110] Training Accuracy1: 96.0938, Training Accuracy2: 97.6562, Training Accuracy3: 96.8750,Avg Accuracy: 97.6562, Loss1: 0.0398, %
+Evaluating ...
+Epoch [47/100] Test Accuracy on the 3137 test images: Model1 89.3848 % Model2 89.3848 % Model3 89.6079 % Avg Accuracy 89.7992
+Training ...
+
+******************************
+	Adjusted learning rate: 47
+
+8.974483193085068e-05
+0.0008974483193085071
+8.974483193085068e-05
+0.0008974483193085071
+8.974483193085068e-05
+0.0008974483193085071
+******************************
+Epoch [48/100], Iter [50/110] Training Accuracy1: 96.8750, Training Accuracy2: 96.8750, Training Accuracy3: 96.8750,Avg Accuracy: 96.0938, Loss1: 0.0429, %
+Epoch [48/100], Iter [100/110] Training Accuracy1: 96.8750, Training Accuracy2: 96.8750, Training Accuracy3: 95.7031,Avg Accuracy: 96.8750, Loss1: 0.0442, %
+Evaluating ...
+Epoch [48/100] Test Accuracy on the 3137 test images: Model1 89.2891 % Model2 89.2891 % Model3 89.1935 % Avg Accuracy 89.4485
+Training ...
+
+******************************
+	Adjusted learning rate: 48
+
+8.525759033430814e-05
+0.0008525759033430817
+8.525759033430814e-05
+0.0008525759033430817
+8.525759033430814e-05
+0.0008525759033430817
+******************************
+Epoch [49/100], Iter [50/110] Training Accuracy1: 94.5312, Training Accuracy2: 93.7500, Training Accuracy3: 94.1406,Avg Accuracy: 94.5312, Loss1: 0.0489, %
+Epoch [49/100], Iter [100/110] Training Accuracy1: 95.7031, Training Accuracy2: 94.9219, Training Accuracy3: 95.7031,Avg Accuracy: 95.7031, Loss1: 0.0395, %
+Evaluating ...
+Epoch [49/100] Test Accuracy on the 3137 test images: Model1 89.4804 % Model2 89.6079 % Model3 89.1935 % Avg Accuracy 89.5760
+Training ...
+
+******************************
+	Adjusted learning rate: 49
+
+8.099471081759274e-05
+0.0008099471081759276
+8.099471081759274e-05
+0.0008099471081759276
+8.099471081759274e-05
+0.0008099471081759276
+******************************
+Epoch [50/100], Iter [50/110] Training Accuracy1: 95.7031, Training Accuracy2: 95.7031, Training Accuracy3: 95.3125,Avg Accuracy: 95.3125, Loss1: 0.0375, %
+Epoch [50/100], Iter [100/110] Training Accuracy1: 93.7500, Training Accuracy2: 94.5312, Training Accuracy3: 93.3594,Avg Accuracy: 94.1406, Loss1: 0.0464, %
+Evaluating ...
+Epoch [50/100] Test Accuracy on the 3137 test images: Model1 89.3848 % Model2 89.3529 % Model3 89.2254 % Avg Accuracy 89.5123
+Training ...
+
+******************************
+	Adjusted learning rate: 50
+
+7.69449752767131e-05
+0.0007694497527671312
+7.69449752767131e-05
+0.0007694497527671312
+7.69449752767131e-05
+0.0007694497527671312
+******************************
+Epoch [51/100], Iter [50/110] Training Accuracy1: 96.4844, Training Accuracy2: 95.3125, Training Accuracy3: 95.7031,Avg Accuracy: 95.3125, Loss1: 0.0398, %
+Epoch [51/100], Iter [100/110] Training Accuracy1: 95.3125, Training Accuracy2: 95.3125, Training Accuracy3: 95.7031,Avg Accuracy: 94.9219, Loss1: 0.0393, %
+Evaluating ...
+Epoch [51/100] Test Accuracy on the 3137 test images: Model1 89.5760 % Model2 89.3529 % Model3 89.4166 % Avg Accuracy 89.4804
+Training ...
+
+******************************
+	Adjusted learning rate: 51
+
+7.309772651287744e-05
+0.0007309772651287747
+7.309772651287744e-05
+0.0007309772651287747
+7.309772651287744e-05
+0.0007309772651287747
+******************************
+Epoch [52/100], Iter [50/110] Training Accuracy1: 94.9219, Training Accuracy2: 95.3125, Training Accuracy3: 95.7031,Avg Accuracy: 96.0938, Loss1: 0.0414, %
+Epoch [52/100], Iter [100/110] Training Accuracy1: 95.3125, Training Accuracy2: 96.0938, Training Accuracy3: 96.0938,Avg Accuracy: 95.3125, Loss1: 0.0344, %
+Evaluating ...
+Epoch [52/100] Test Accuracy on the 3137 test images: Model1 89.4166 % Model2 89.4485 % Model3 89.6717 % Avg Accuracy 89.6717
+Training ...
+
+******************************
+	Adjusted learning rate: 52
+
+6.944284018723356e-05
+0.0006944284018723359
+6.944284018723356e-05
+0.0006944284018723359
+6.944284018723356e-05
+0.0006944284018723359
+******************************
+Epoch [53/100], Iter [50/110] Training Accuracy1: 97.2656, Training Accuracy2: 96.8750, Training Accuracy3: 97.6562,Avg Accuracy: 97.2656, Loss1: 0.0253, %
+Epoch [53/100], Iter [100/110] Training Accuracy1: 93.3594, Training Accuracy2: 93.7500, Training Accuracy3: 94.1406,Avg Accuracy: 92.9688, Loss1: 0.0480, %
+Evaluating ...
+Epoch [53/100] Test Accuracy on the 3137 test images: Model1 89.7354 % Model2 89.4166 % Model3 89.4166 % Avg Accuracy 89.7673
+Training ...
+
+******************************
+	Adjusted learning rate: 53
+
+6.597069817787189e-05
+0.0006597069817787191
+6.597069817787189e-05
+0.0006597069817787191
+6.597069817787189e-05
+0.0006597069817787191
+******************************
+Epoch [54/100], Iter [50/110] Training Accuracy1: 93.7500, Training Accuracy2: 93.7500, Training Accuracy3: 93.7500,Avg Accuracy: 93.7500, Loss1: 0.0381, %
+Epoch [54/100], Iter [100/110] Training Accuracy1: 94.5312, Training Accuracy2: 94.5312, Training Accuracy3: 94.9219,Avg Accuracy: 94.5312, Loss1: 0.0424, %
+Evaluating ...
+Epoch [54/100] Test Accuracy on the 3137 test images: Model1 89.7354 % Model2 89.5442 % Model3 89.2573 % Avg Accuracy 89.7035
+Training ...
+
+******************************
+	Adjusted learning rate: 54
+
+6.267216326897829e-05
+0.0006267216326897832
+6.267216326897829e-05
+0.0006267216326897832
+6.267216326897829e-05
+0.0006267216326897832
+******************************
+Epoch [55/100], Iter [50/110] Training Accuracy1: 96.0938, Training Accuracy2: 96.4844, Training Accuracy3: 95.7031,Avg Accuracy: 96.0938, Loss1: 0.0338, %
+Epoch [55/100], Iter [100/110] Training Accuracy1: 95.7031, Training Accuracy2: 93.7500, Training Accuracy3: 94.5312,Avg Accuracy: 95.3125, Loss1: 0.0407, %
+Evaluating ...
+Epoch [55/100] Test Accuracy on the 3137 test images: Model1 89.5442 % Model2 89.5123 % Model3 89.5442 % Avg Accuracy 89.7992
+Training ...
+
+******************************
+	Adjusted learning rate: 55
+
+5.953855510552937e-05
+0.000595385551055294
+5.953855510552937e-05
+0.000595385551055294
+5.953855510552937e-05
+0.000595385551055294
+******************************
+Epoch [56/100], Iter [50/110] Training Accuracy1: 95.3125, Training Accuracy2: 94.1406, Training Accuracy3: 94.5312,Avg Accuracy: 93.7500, Loss1: 0.0445, %
+Epoch [56/100], Iter [100/110] Training Accuracy1: 96.0938, Training Accuracy2: 96.8750, Training Accuracy3: 96.4844,Avg Accuracy: 96.4844, Loss1: 0.0330, %
+Evaluating ...
+Epoch [56/100] Test Accuracy on the 3137 test images: Model1 89.4804 % Model2 89.7354 % Model3 89.6398 % Avg Accuracy 89.7035
+Training ...
+
+******************************
+	Adjusted learning rate: 56
+
+5.65616273502529e-05
+0.0005656162735025292
+5.65616273502529e-05
+0.0005656162735025292
+5.65616273502529e-05
+0.0005656162735025292
+******************************
+Epoch [57/100], Iter [50/110] Training Accuracy1: 95.7031, Training Accuracy2: 95.3125, Training Accuracy3: 95.7031,Avg Accuracy: 96.0938, Loss1: 0.0347, %
+Epoch [57/100], Iter [100/110] Training Accuracy1: 94.5312, Training Accuracy2: 93.7500, Training Accuracy3: 94.5312,Avg Accuracy: 94.1406, Loss1: 0.0410, %
+Evaluating ...
+Epoch [57/100] Test Accuracy on the 3137 test images: Model1 89.5442 % Model2 89.7354 % Model3 89.6079 % Avg Accuracy 89.6717
+Training ...
+
+******************************
+	Adjusted learning rate: 57
+
+5.373354598274025e-05
+0.0005373354598274027
+5.373354598274025e-05
+0.0005373354598274027
+5.373354598274025e-05
+0.0005373354598274027
+******************************
+Epoch [58/100], Iter [50/110] Training Accuracy1: 94.9219, Training Accuracy2: 95.3125, Training Accuracy3: 94.9219,Avg Accuracy: 95.3125, Loss1: 0.0348, %
+Epoch [58/100], Iter [100/110] Training Accuracy1: 93.7500, Training Accuracy2: 95.3125, Training Accuracy3: 93.7500,Avg Accuracy: 94.9219, Loss1: 0.0288, %
+Evaluating ...
+Epoch [58/100] Test Accuracy on the 3137 test images: Model1 89.8310 % Model2 89.5760 % Model3 89.7992 % Avg Accuracy 89.6717
+Training ...
+
+******************************
+	Adjusted learning rate: 58
+
+5.104686868360323e-05
+0.0005104686868360325
+5.104686868360323e-05
+0.0005104686868360325
+5.104686868360323e-05
+0.0005104686868360325
+******************************
+Epoch [59/100], Iter [50/110] Training Accuracy1: 94.1406, Training Accuracy2: 94.5312, Training Accuracy3: 95.3125,Avg Accuracy: 94.9219, Loss1: 0.0390, %
+Epoch [59/100], Iter [100/110] Training Accuracy1: 95.3125, Training Accuracy2: 94.9219, Training Accuracy3: 94.9219,Avg Accuracy: 95.3125, Loss1: 0.0339, %
+Evaluating ...
+Models saved checkpoints/fplus/epoch_58_noise_ferplus_trainvalid_list.txt_acc_89.83.pth
+Epoch [59/100] Test Accuracy on the 3137 test images: Model1 89.4485 % Model2 89.3210 % Model3 89.7673 % Avg Accuracy 89.8310
+Training ...
+
+******************************
+	Adjusted learning rate: 59
+
+4.849452524942307e-05
+0.0004849452524942309
+4.849452524942307e-05
+0.0004849452524942309
+4.849452524942307e-05
+0.0004849452524942309
+******************************
+Epoch [60/100], Iter [50/110] Training Accuracy1: 93.7500, Training Accuracy2: 94.5312, Training Accuracy3: 94.1406,Avg Accuracy: 94.9219, Loss1: 0.0370, %
+Epoch [60/100], Iter [100/110] Training Accuracy1: 93.7500, Training Accuracy2: 93.7500, Training Accuracy3: 93.7500,Avg Accuracy: 94.1406, Loss1: 0.0368, %
+Evaluating ...
+Epoch [60/100] Test Accuracy on the 3137 test images: Model1 89.4166 % Model2 89.5442 % Model3 89.4804 % Avg Accuracy 89.7354
+Training ...
+
+******************************
+	Adjusted learning rate: 60
+
+4.606979898695191e-05
+0.00046069798986951934
+4.606979898695191e-05
+0.00046069798986951934
+4.606979898695191e-05
+0.00046069798986951934
+******************************
+Epoch [61/100], Iter [50/110] Training Accuracy1: 94.1406, Training Accuracy2: 94.1406, Training Accuracy3: 92.5781,Avg Accuracy: 94.9219, Loss1: 0.0380, %
+Epoch [61/100], Iter [100/110] Training Accuracy1: 94.9219, Training Accuracy2: 96.0938, Training Accuracy3: 95.7031,Avg Accuracy: 95.3125, Loss1: 0.0305, %
+Evaluating ...
+Epoch [61/100] Test Accuracy on the 3137 test images: Model1 89.5442 % Model2 89.3848 % Model3 89.6398 % Avg Accuracy 89.6717
+Training ...
+
+******************************
+	Adjusted learning rate: 61
+
+4.376630903760431e-05
+0.0004376630903760434
+4.376630903760431e-05
+0.0004376630903760434
+4.376630903760431e-05
+0.0004376630903760434
+******************************
+Epoch [62/100], Iter [50/110] Training Accuracy1: 97.6562, Training Accuracy2: 97.6562, Training Accuracy3: 97.2656,Avg Accuracy: 97.6562, Loss1: 0.0242, %
+Epoch [62/100], Iter [100/110] Training Accuracy1: 96.4844, Training Accuracy2: 96.4844, Training Accuracy3: 96.0938,Avg Accuracy: 96.4844, Loss1: 0.0304, %
+Evaluating ...
+Epoch [62/100] Test Accuracy on the 3137 test images: Model1 89.5760 % Model2 89.5123 % Model3 89.5442 % Avg Accuracy 89.5760
+Training ...
+
+******************************
+	Adjusted learning rate: 62
+
+4.157799358572409e-05
+0.00041577993585724117
+4.157799358572409e-05
+0.00041577993585724117
+4.157799358572409e-05
+0.00041577993585724117
+******************************
+Epoch [63/100], Iter [50/110] Training Accuracy1: 93.3594, Training Accuracy2: 92.9688, Training Accuracy3: 94.1406,Avg Accuracy: 94.1406, Loss1: 0.0346, %
+Epoch [63/100], Iter [100/110] Training Accuracy1: 96.0938, Training Accuracy2: 95.7031, Training Accuracy3: 96.0938,Avg Accuracy: 96.0938, Loss1: 0.0289, %
+Evaluating ...
+Epoch [63/100] Test Accuracy on the 3137 test images: Model1 89.5760 % Model2 89.6398 % Model3 89.7035 % Avg Accuracy 89.7673
+Training ...
+
+******************************
+	Adjusted learning rate: 63
+
+3.9499093906437885e-05
+0.0003949909390643791
+3.9499093906437885e-05
+0.0003949909390643791
+3.9499093906437885e-05
+0.0003949909390643791
+******************************
+Epoch [64/100], Iter [50/110] Training Accuracy1: 94.1406, Training Accuracy2: 95.3125, Training Accuracy3: 94.9219,Avg Accuracy: 94.1406, Loss1: 0.0300, %
+Epoch [64/100], Iter [100/110] Training Accuracy1: 93.3594, Training Accuracy2: 92.5781, Training Accuracy3: 92.1875,Avg Accuracy: 91.7969, Loss1: 0.0394, %
+Evaluating ...
+Epoch [64/100] Test Accuracy on the 3137 test images: Model1 89.5123 % Model2 89.5442 % Model3 89.7673 % Avg Accuracy 89.7035
+Training ...
+
+******************************
+	Adjusted learning rate: 64
+
+3.752413921111599e-05
+0.0003752413921111601
+3.752413921111599e-05
+0.0003752413921111601
+3.752413921111599e-05
+0.0003752413921111601
+******************************
+Epoch [65/100], Iter [50/110] Training Accuracy1: 97.2656, Training Accuracy2: 96.4844, Training Accuracy3: 96.0938,Avg Accuracy: 96.4844, Loss1: 0.0231, %
+Epoch [65/100], Iter [100/110] Training Accuracy1: 96.4844, Training Accuracy2: 95.7031, Training Accuracy3: 94.9219,Avg Accuracy: 96.4844, Loss1: 0.0290, %
+Evaluating ...
+Epoch [65/100] Test Accuracy on the 3137 test images: Model1 89.2573 % Model2 89.5442 % Model3 89.6398 % Avg Accuracy 89.3848
+Training ...
+
+******************************
+	Adjusted learning rate: 65
+
+3.564793225056019e-05
+0.00035647932250560207
+3.564793225056019e-05
+0.00035647932250560207
+3.564793225056019e-05
+0.00035647932250560207
+******************************
+Epoch [66/100], Iter [50/110] Training Accuracy1: 94.5312, Training Accuracy2: 94.5312, Training Accuracy3: 95.7031,Avg Accuracy: 95.3125, Loss1: 0.0356, %
+Epoch [66/100], Iter [100/110] Training Accuracy1: 97.2656, Training Accuracy2: 98.0469, Training Accuracy3: 96.8750,Avg Accuracy: 97.2656, Loss1: 0.0240, %
+Evaluating ...
+Epoch [66/100] Test Accuracy on the 3137 test images: Model1 89.5442 % Model2 89.5760 % Model3 89.7673 % Avg Accuracy 89.7992
+Training ...
+
+******************************
+	Adjusted learning rate: 66
+
+3.3865535638032174e-05
+0.00033865535638032194
+3.3865535638032174e-05
+0.00033865535638032194
+3.3865535638032174e-05
+0.00033865535638032194
+******************************
+Epoch [67/100], Iter [50/110] Training Accuracy1: 94.9219, Training Accuracy2: 94.5312, Training Accuracy3: 94.5312,Avg Accuracy: 94.9219, Loss1: 0.0313, %
+Epoch [67/100], Iter [100/110] Training Accuracy1: 94.1406, Training Accuracy2: 93.7500, Training Accuracy3: 94.9219,Avg Accuracy: 94.1406, Loss1: 0.0306, %
+Evaluating ...
+Epoch [67/100] Test Accuracy on the 3137 test images: Model1 89.7992 % Model2 89.7673 % Model3 89.7354 % Avg Accuracy 89.7992
+Training ...
+
+******************************
+	Adjusted learning rate: 67
+
+3.2172258856130564e-05
+0.00032172258856130585
+3.2172258856130564e-05
+0.00032172258856130585
+3.2172258856130564e-05
+0.00032172258856130585
+******************************
+Epoch [68/100], Iter [50/110] Training Accuracy1: 94.5312, Training Accuracy2: 94.9219, Training Accuracy3: 94.9219,Avg Accuracy: 94.5312, Loss1: 0.0231, %
+Epoch [68/100], Iter [100/110] Training Accuracy1: 94.1406, Training Accuracy2: 92.9688, Training Accuracy3: 92.9688,Avg Accuracy: 92.9688, Loss1: 0.0321, %
+Evaluating ...
+Epoch [68/100] Test Accuracy on the 3137 test images: Model1 89.6717 % Model2 89.4166 % Model3 89.6398 % Avg Accuracy 89.7992
+Training ...
+
+******************************
+	Adjusted learning rate: 68
+
+3.056364591332403e-05
+0.0003056364591332405
+3.056364591332403e-05
+0.0003056364591332405
+3.056364591332403e-05
+0.0003056364591332405
+******************************
+Epoch [69/100], Iter [50/110] Training Accuracy1: 94.5312, Training Accuracy2: 94.9219, Training Accuracy3: 95.7031,Avg Accuracy: 94.5312, Loss1: 0.0292, %
+Epoch [69/100], Iter [100/110] Training Accuracy1: 97.2656, Training Accuracy2: 97.6562, Training Accuracy3: 98.0469,Avg Accuracy: 97.2656, Loss1: 0.0227, %
+Evaluating ...
+Epoch [69/100] Test Accuracy on the 3137 test images: Model1 89.7035 % Model2 89.2254 % Model3 89.6079 % Avg Accuracy 89.7035
+Training ...
+
+******************************
+	Adjusted learning rate: 69
+
+2.903546361765783e-05
+0.0002903546361765785
+2.903546361765783e-05
+0.0002903546361765785
+2.903546361765783e-05
+0.0002903546361765785
+******************************
+Epoch [70/100], Iter [50/110] Training Accuracy1: 94.9219, Training Accuracy2: 94.5312, Training Accuracy3: 94.5312,Avg Accuracy: 94.1406, Loss1: 0.0316, %
+Epoch [70/100], Iter [100/110] Training Accuracy1: 96.4844, Training Accuracy2: 96.4844, Training Accuracy3: 96.4844,Avg Accuracy: 96.4844, Loss1: 0.0249, %
+Evaluating ...
+Epoch [70/100] Test Accuracy on the 3137 test images: Model1 89.7035 % Model2 89.5442 % Model3 89.5123 % Avg Accuracy 89.7354
+Training ...
+
+******************************
+	Adjusted learning rate: 70
+
+2.758369043677494e-05
+0.00027583690436774953
+2.758369043677494e-05
+0.00027583690436774953
+2.758369043677494e-05
+0.00027583690436774953
+******************************
+Epoch [71/100], Iter [50/110] Training Accuracy1: 96.8750, Training Accuracy2: 96.4844, Training Accuracy3: 97.2656,Avg Accuracy: 96.8750, Loss1: 0.0224, %
+Epoch [71/100], Iter [100/110] Training Accuracy1: 92.1875, Training Accuracy2: 92.5781, Training Accuracy3: 92.9688,Avg Accuracy: 92.5781, Loss1: 0.0363, %
+Evaluating ...
+Epoch [71/100] Test Accuracy on the 3137 test images: Model1 89.6717 % Model2 89.5760 % Model3 89.7354 % Avg Accuracy 89.7354
+Training ...
+
+******************************
+	Adjusted learning rate: 71
+
+2.620450591493619e-05
+0.00026204505914936203
+2.620450591493619e-05
+0.00026204505914936203
+2.620450591493619e-05
+0.00026204505914936203
+******************************
+Epoch [72/100], Iter [50/110] Training Accuracy1: 97.6562, Training Accuracy2: 96.8750, Training Accuracy3: 97.2656,Avg Accuracy: 97.6562, Loss1: 0.0211, %
+Epoch [72/100], Iter [100/110] Training Accuracy1: 94.5312, Training Accuracy2: 95.3125, Training Accuracy3: 94.9219,Avg Accuracy: 94.9219, Loss1: 0.0275, %
+Evaluating ...
+Models saved checkpoints/fplus/epoch_71_noise_ferplus_trainvalid_list.txt_acc_89.86.pth
+Epoch [72/100] Test Accuracy on the 3137 test images: Model1 89.7992 % Model2 89.6717 % Model3 89.5123 % Avg Accuracy 89.8629
+Training ...
+
+******************************
+	Adjusted learning rate: 72
+
+2.489428061918938e-05
+0.00024894280619189394
+2.489428061918938e-05
+0.00024894280619189394
+2.489428061918938e-05
+0.00024894280619189394
+******************************
+Epoch [73/100], Iter [50/110] Training Accuracy1: 96.8750, Training Accuracy2: 97.6562, Training Accuracy3: 98.0469,Avg Accuracy: 97.2656, Loss1: 0.0204, %
+Epoch [73/100], Iter [100/110] Training Accuracy1: 93.3594, Training Accuracy2: 92.9688, Training Accuracy3: 92.9688,Avg Accuracy: 93.7500, Loss1: 0.0282, %
+Evaluating ...
+Models saved checkpoints/fplus/epoch_72_noise_ferplus_trainvalid_list.txt_acc_89.83.pth
+Epoch [73/100] Test Accuracy on the 3137 test images: Model1 89.6398 % Model2 89.6079 % Model3 89.5123 % Avg Accuracy 89.8310
+Training ...
+
+******************************
+	Adjusted learning rate: 73
+
+2.364956658822991e-05
+0.00023649566588229923
+2.364956658822991e-05
+0.00023649566588229923
+2.364956658822991e-05
+0.00023649566588229923
+******************************
+Epoch [74/100], Iter [50/110] Training Accuracy1: 95.7031, Training Accuracy2: 93.7500, Training Accuracy3: 94.1406,Avg Accuracy: 94.9219, Loss1: 0.0324, %
+Epoch [74/100], Iter [100/110] Training Accuracy1: 94.5312, Training Accuracy2: 95.7031, Training Accuracy3: 94.9219,Avg Accuracy: 94.9219, Loss1: 0.0261, %
+Evaluating ...
+Epoch [74/100] Test Accuracy on the 3137 test images: Model1 89.6717 % Model2 89.5123 % Model3 89.5760 % Avg Accuracy 89.7992
+Training ...
+
+******************************
+	Adjusted learning rate: 74
+
+2.2467088258818413e-05
+0.00022467088258818426
+2.2467088258818413e-05
+0.00022467088258818426
+2.2467088258818413e-05
+0.00022467088258818426
+******************************
+Epoch [75/100], Iter [50/110] Training Accuracy1: 97.2656, Training Accuracy2: 96.8750, Training Accuracy3: 96.4844,Avg Accuracy: 97.2656, Loss1: 0.0214, %
+Epoch [75/100], Iter [100/110] Training Accuracy1: 94.5312, Training Accuracy2: 93.3594, Training Accuracy3: 94.1406,Avg Accuracy: 94.5312, Loss1: 0.0296, %
+Evaluating ...
+Models saved checkpoints/fplus/epoch_74_noise_ferplus_trainvalid_list.txt_acc_89.89.pth
+Epoch [75/100] Test Accuracy on the 3137 test images: Model1 89.7035 % Model2 89.7673 % Model3 89.7035 % Avg Accuracy 89.8948
+Training ...
+
+******************************
+	Adjusted learning rate: 75
+
+2.134373384587749e-05
+0.00021343733845877503
+2.134373384587749e-05
+0.00021343733845877503
+2.134373384587749e-05
+0.00021343733845877503
+******************************
+Epoch [76/100], Iter [50/110] Training Accuracy1: 96.8750, Training Accuracy2: 96.4844, Training Accuracy3: 96.4844,Avg Accuracy: 96.4844, Loss1: 0.0221, %
+Epoch [76/100], Iter [100/110] Training Accuracy1: 95.3125, Training Accuracy2: 94.9219, Training Accuracy3: 94.9219,Avg Accuracy: 95.3125, Loss1: 0.0225, %
+Evaluating ...
+Models saved checkpoints/fplus/epoch_75_noise_ferplus_trainvalid_list.txt_acc_89.86.pth
+Epoch [76/100] Test Accuracy on the 3137 test images: Model1 89.8948 % Model2 89.5442 % Model3 89.5123 % Avg Accuracy 89.8629
+Training ...
+
+******************************
+	Adjusted learning rate: 76
+
+2.0276547153583614e-05
+0.00020276547153583627
+2.0276547153583614e-05
+0.00020276547153583627
+2.0276547153583614e-05
+0.00020276547153583627
+******************************
+Epoch [77/100], Iter [50/110] Training Accuracy1: 96.4844, Training Accuracy2: 95.7031, Training Accuracy3: 96.0938,Avg Accuracy: 96.8750, Loss1: 0.0233, %
+Epoch [77/100], Iter [100/110] Training Accuracy1: 95.7031, Training Accuracy2: 96.0938, Training Accuracy3: 96.0938,Avg Accuracy: 96.0938, Loss1: 0.0210, %
+Evaluating ...
+Models saved checkpoints/fplus/epoch_76_noise_ferplus_trainvalid_list.txt_acc_89.99.pth
+Epoch [77/100] Test Accuracy on the 3137 test images: Model1 89.7035 % Model2 89.6079 % Model3 89.5442 % Avg Accuracy 89.9904
+Training ...
+
+******************************
+	Adjusted learning rate: 77
+
+1.9262719795904432e-05
+0.00019262719795904446
+1.9262719795904432e-05
+0.00019262719795904446
+1.9262719795904432e-05
+0.00019262719795904446
+******************************
+Epoch [78/100], Iter [50/110] Training Accuracy1: 96.0938, Training Accuracy2: 96.0938, Training Accuracy3: 96.4844,Avg Accuracy: 96.0938, Loss1: 0.0183, %
+Epoch [78/100], Iter [100/110] Training Accuracy1: 95.7031, Training Accuracy2: 96.4844, Training Accuracy3: 95.7031,Avg Accuracy: 96.0938, Loss1: 0.0230, %
+Evaluating ...
+Epoch [78/100] Test Accuracy on the 3137 test images: Model1 89.5442 % Model2 89.6079 % Model3 89.7673 % Avg Accuracy 89.6079
+Training ...
+
+******************************
+	Adjusted learning rate: 78
+
+1.829958380610921e-05
+0.00018299583806109224
+1.829958380610921e-05
+0.00018299583806109224
+1.829958380610921e-05
+0.00018299583806109224
+******************************
+Epoch [79/100], Iter [50/110] Training Accuracy1: 96.4844, Training Accuracy2: 96.0938, Training Accuracy3: 96.0938,Avg Accuracy: 96.4844, Loss1: 0.0192, %
+Epoch [79/100], Iter [100/110] Training Accuracy1: 96.4844, Training Accuracy2: 97.2656, Training Accuracy3: 96.4844,Avg Accuracy: 96.8750, Loss1: 0.0213, %
+Evaluating ...
+Epoch [79/100] Test Accuracy on the 3137 test images: Model1 89.4804 % Model2 89.5760 % Model3 89.8310 % Avg Accuracy 89.7673
+Training ...
+
+******************************
+	Adjusted learning rate: 79
+
+1.738460461580375e-05
+0.0001738460461580376
+1.738460461580375e-05
+0.0001738460461580376
+1.738460461580375e-05
+0.0001738460461580376
+******************************
+Epoch [80/100], Iter [50/110] Training Accuracy1: 94.5312, Training Accuracy2: 94.1406, Training Accuracy3: 94.9219,Avg Accuracy: 94.9219, Loss1: 0.0263, %
+Epoch [80/100], Iter [100/110] Training Accuracy1: 94.9219, Training Accuracy2: 94.5312, Training Accuracy3: 94.9219,Avg Accuracy: 94.9219, Loss1: 0.0233, %
+Evaluating ...
+Epoch [80/100] Test Accuracy on the 3137 test images: Model1 89.7354 % Model2 89.5442 % Model3 89.6079 % Avg Accuracy 89.7354
+Training ...
+
+******************************
+	Adjusted learning rate: 80
+
+1.6515374385013564e-05
+0.00016515374385013573
+1.6515374385013564e-05
+0.00016515374385013573
+1.6515374385013564e-05
+0.00016515374385013573
+******************************
+Epoch [81/100], Iter [50/110] Training Accuracy1: 96.0938, Training Accuracy2: 95.7031, Training Accuracy3: 96.0938,Avg Accuracy: 95.7031, Loss1: 0.0186, %
+Epoch [81/100], Iter [100/110] Training Accuracy1: 93.7500, Training Accuracy2: 94.5312, Training Accuracy3: 94.5312,Avg Accuracy: 94.1406, Loss1: 0.0235, %
+Evaluating ...
+Models saved checkpoints/fplus/epoch_80_noise_ferplus_trainvalid_list.txt_acc_89.83.pth
+Epoch [81/100] Test Accuracy on the 3137 test images: Model1 89.7035 % Model2 89.6079 % Model3 89.6398 % Avg Accuracy 89.8310
+Training ...
+
+******************************
+	Adjusted learning rate: 81
+
+1.5689605665762886e-05
+0.00015689605665762893
+1.5689605665762886e-05
+0.00015689605665762893
+1.5689605665762886e-05
+0.00015689605665762893
+******************************
+Epoch [82/100], Iter [50/110] Training Accuracy1: 95.7031, Training Accuracy2: 95.3125, Training Accuracy3: 96.0938,Avg Accuracy: 95.3125, Loss1: 0.0221, %
+Epoch [82/100], Iter [100/110] Training Accuracy1: 93.3594, Training Accuracy2: 94.1406, Training Accuracy3: 94.9219,Avg Accuracy: 94.5312, Loss1: 0.0310, %
+Evaluating ...
+Epoch [82/100] Test Accuracy on the 3137 test images: Model1 89.7992 % Model2 89.5442 % Model3 89.7035 % Avg Accuracy 89.6398
+Training ...
+
+******************************
+	Adjusted learning rate: 82
+
+1.490512538247474e-05
+0.00014905125382474747
+1.490512538247474e-05
+0.00014905125382474747
+1.490512538247474e-05
+0.00014905125382474747
+******************************
+Epoch [83/100], Iter [50/110] Training Accuracy1: 96.4844, Training Accuracy2: 96.8750, Training Accuracy3: 96.8750,Avg Accuracy: 96.8750, Loss1: 0.0158, %
+Epoch [83/100], Iter [100/110] Training Accuracy1: 94.5312, Training Accuracy2: 94.9219, Training Accuracy3: 95.3125,Avg Accuracy: 94.9219, Loss1: 0.0242, %
+Evaluating ...
+Models saved checkpoints/fplus/epoch_82_noise_ferplus_trainvalid_list.txt_acc_89.83.pth
+Epoch [83/100] Test Accuracy on the 3137 test images: Model1 89.5442 % Model2 89.6079 % Model3 89.6717 % Avg Accuracy 89.8310
+Training ...
+
+******************************
+	Adjusted learning rate: 83
+
+1.4159869113351003e-05
+0.0001415986911335101
+1.4159869113351003e-05
+0.0001415986911335101
+1.4159869113351003e-05
+0.0001415986911335101
+******************************
+Epoch [84/100], Iter [50/110] Training Accuracy1: 94.5312, Training Accuracy2: 94.1406, Training Accuracy3: 94.1406,Avg Accuracy: 94.5312, Loss1: 0.0241, %
+Epoch [84/100], Iter [100/110] Training Accuracy1: 94.9219, Training Accuracy2: 94.5312, Training Accuracy3: 94.1406,Avg Accuracy: 94.9219, Loss1: 0.0251, %
+Evaluating ...
+Epoch [84/100] Test Accuracy on the 3137 test images: Model1 89.7992 % Model2 89.5442 % Model3 89.4804 % Avg Accuracy 89.7673
+Training ...
+
+******************************
+	Adjusted learning rate: 84
+
+1.3451875657683452e-05
+0.00013451875657683458
+1.3451875657683452e-05
+0.00013451875657683458
+1.3451875657683452e-05
+0.00013451875657683458
+******************************
+Epoch [85/100], Iter [50/110] Training Accuracy1: 96.0938, Training Accuracy2: 95.3125, Training Accuracy3: 95.7031,Avg Accuracy: 95.3125, Loss1: 0.0186, %
+Epoch [85/100], Iter [100/110] Training Accuracy1: 95.7031, Training Accuracy2: 95.3125, Training Accuracy3: 94.9219,Avg Accuracy: 95.7031, Loss1: 0.0239, %
+Evaluating ...
+Models saved checkpoints/fplus/epoch_84_noise_ferplus_trainvalid_list.txt_acc_89.86.pth
+Epoch [85/100] Test Accuracy on the 3137 test images: Model1 89.8629 % Model2 89.6079 % Model3 89.6717 % Avg Accuracy 89.8629
+Training ...
+
+******************************
+	Adjusted learning rate: 85
+
+1.277928187479928e-05
+0.00012779281874799285
+1.277928187479928e-05
+0.00012779281874799285
+1.277928187479928e-05
+0.00012779281874799285
+******************************
+Epoch [86/100], Iter [50/110] Training Accuracy1: 94.1406, Training Accuracy2: 93.7500, Training Accuracy3: 94.1406,Avg Accuracy: 94.1406, Loss1: 0.0247, %
+Epoch [86/100], Iter [100/110] Training Accuracy1: 95.7031, Training Accuracy2: 95.3125, Training Accuracy3: 95.3125,Avg Accuracy: 95.7031, Loss1: 0.0189, %
+Evaluating ...
+Models saved checkpoints/fplus/epoch_85_noise_ferplus_trainvalid_list.txt_acc_89.86.pth
+Epoch [86/100] Test Accuracy on the 3137 test images: Model1 89.7992 % Model2 89.7035 % Model3 89.5123 % Avg Accuracy 89.8629
+Training ...
+
+******************************
+	Adjusted learning rate: 86
+
+1.2140317781059316e-05
+0.0001214031778105932
+1.2140317781059316e-05
+0.0001214031778105932
+1.2140317781059316e-05
+0.0001214031778105932
+******************************
+Epoch [87/100], Iter [50/110] Training Accuracy1: 94.5312, Training Accuracy2: 94.1406, Training Accuracy3: 94.5312,Avg Accuracy: 94.9219, Loss1: 0.0210, %
+Epoch [87/100], Iter [100/110] Training Accuracy1: 95.3125, Training Accuracy2: 96.4844, Training Accuracy3: 95.3125,Avg Accuracy: 96.0938, Loss1: 0.0200, %
+Evaluating ...
+Epoch [87/100] Test Accuracy on the 3137 test images: Model1 89.6398 % Model2 89.5442 % Model3 89.4804 % Avg Accuracy 89.7673
+Training ...
+
+******************************
+	Adjusted learning rate: 87
+
+1.153330189200635e-05
+0.00011533301892006353
+1.153330189200635e-05
+0.00011533301892006353
+1.153330189200635e-05
+0.00011533301892006353
+******************************
+Epoch [88/100], Iter [50/110] Training Accuracy1: 96.0938, Training Accuracy2: 96.4844, Training Accuracy3: 96.4844,Avg Accuracy: 96.8750, Loss1: 0.0218, %
+Epoch [88/100], Iter [100/110] Training Accuracy1: 96.0938, Training Accuracy2: 94.5312, Training Accuracy3: 94.9219,Avg Accuracy: 94.9219, Loss1: 0.0226, %
+Evaluating ...
+Models saved checkpoints/fplus/epoch_87_noise_ferplus_trainvalid_list.txt_acc_89.92.pth
+Epoch [88/100] Test Accuracy on the 3137 test images: Model1 89.8310 % Model2 89.7035 % Model3 89.6079 % Avg Accuracy 89.9267
+Training ...
+
+******************************
+	Adjusted learning rate: 88
+
+1.0956636797406032e-05
+0.00010956636797406035
+1.0956636797406032e-05
+0.00010956636797406035
+1.0956636797406032e-05
+0.00010956636797406035
+******************************
+Epoch [89/100], Iter [50/110] Training Accuracy1: 93.7500, Training Accuracy2: 93.3594, Training Accuracy3: 92.9688,Avg Accuracy: 93.3594, Loss1: 0.0244, %
+Epoch [89/100], Iter [100/110] Training Accuracy1: 96.0938, Training Accuracy2: 96.4844, Training Accuracy3: 96.0938,Avg Accuracy: 96.0938, Loss1: 0.0180, %
+Evaluating ...
+Epoch [89/100] Test Accuracy on the 3137 test images: Model1 89.4166 % Model2 89.5442 % Model3 89.6398 % Avg Accuracy 89.7035
+Training ...
+
+******************************
+	Adjusted learning rate: 89
+
+1.0408804957535729e-05
+0.00010408804957535733
+1.0408804957535729e-05
+0.00010408804957535733
+1.0408804957535729e-05
+0.00010408804957535733
+******************************
+Epoch [90/100], Iter [50/110] Training Accuracy1: 94.5312, Training Accuracy2: 95.7031, Training Accuracy3: 94.5312,Avg Accuracy: 95.3125, Loss1: 0.0222, %
+Epoch [90/100], Iter [100/110] Training Accuracy1: 95.7031, Training Accuracy2: 95.7031, Training Accuracy3: 95.7031,Avg Accuracy: 95.7031, Loss1: 0.0213, %
+Evaluating ...
+Models saved checkpoints/fplus/epoch_89_noise_ferplus_trainvalid_list.txt_acc_89.95.pth
+Epoch [90/100] Test Accuracy on the 3137 test images: Model1 89.7992 % Model2 89.7035 % Model3 89.5760 % Avg Accuracy 89.9586
+Training ...
+
+******************************
+	Adjusted learning rate: 90
+
+9.888364709658941e-06
+9.888364709658946e-05
+9.888364709658941e-06
+9.888364709658946e-05
+9.888364709658941e-06
+9.888364709658946e-05
+******************************
+Epoch [91/100], Iter [50/110] Training Accuracy1: 96.4844, Training Accuracy2: 95.7031, Training Accuracy3: 96.0938,Avg Accuracy: 95.7031, Loss1: 0.0200, %
+Epoch [91/100], Iter [100/110] Training Accuracy1: 96.8750, Training Accuracy2: 96.8750, Training Accuracy3: 96.8750,Avg Accuracy: 97.2656, Loss1: 0.0197, %
+Evaluating ...
+Epoch [91/100] Test Accuracy on the 3137 test images: Model1 89.6717 % Model2 89.6717 % Model3 89.5123 % Avg Accuracy 89.7035
+Training ...
+
+******************************
+	Adjusted learning rate: 91
+
+9.393946474175994e-06
+9.393946474175998e-05
+9.393946474175994e-06
+9.393946474175998e-05
+9.393946474175994e-06
+9.393946474175998e-05
+******************************
+Epoch [92/100], Iter [50/110] Training Accuracy1: 96.8750, Training Accuracy2: 96.4844, Training Accuracy3: 96.8750,Avg Accuracy: 96.4844, Loss1: 0.0212, %
+Epoch [92/100], Iter [100/110] Training Accuracy1: 94.9219, Training Accuracy2: 94.1406, Training Accuracy3: 95.3125,Avg Accuracy: 94.9219, Loss1: 0.0243, %
+Evaluating ...
+Epoch [92/100] Test Accuracy on the 3137 test images: Model1 89.4804 % Model2 89.4804 % Model3 89.4804 % Avg Accuracy 89.7992
+Training ...
+
+******************************
+	Adjusted learning rate: 92
+
+8.924249150467194e-06
+8.924249150467197e-05
+8.924249150467194e-06
+8.924249150467197e-05
+8.924249150467194e-06
+8.924249150467197e-05
+******************************
+Epoch [93/100], Iter [50/110] Training Accuracy1: 95.3125, Training Accuracy2: 94.1406, Training Accuracy3: 94.9219,Avg Accuracy: 95.3125, Loss1: 0.0226, %
+Epoch [93/100], Iter [100/110] Training Accuracy1: 93.7500, Training Accuracy2: 93.3594, Training Accuracy3: 94.1406,Avg Accuracy: 93.3594, Loss1: 0.0246, %
+Evaluating ...
+Epoch [93/100] Test Accuracy on the 3137 test images: Model1 89.5123 % Model2 89.6079 % Model3 89.6079 % Avg Accuracy 89.7673
+Training ...
+
+******************************
+	Adjusted learning rate: 93
+
+8.478036692943835e-06
+8.478036692943837e-05
+8.478036692943835e-06
+8.478036692943837e-05
+8.478036692943835e-06
+8.478036692943837e-05
+******************************
+Epoch [94/100], Iter [50/110] Training Accuracy1: 95.3125, Training Accuracy2: 93.7500, Training Accuracy3: 94.9219,Avg Accuracy: 95.3125, Loss1: 0.0242, %
+Epoch [94/100], Iter [100/110] Training Accuracy1: 94.1406, Training Accuracy2: 95.3125, Training Accuracy3: 94.9219,Avg Accuracy: 94.5312, Loss1: 0.0179, %
+Evaluating ...
+Models saved checkpoints/fplus/epoch_93_noise_ferplus_trainvalid_list.txt_acc_89.92.pth
+Epoch [94/100] Test Accuracy on the 3137 test images: Model1 89.7035 % Model2 89.6398 % Model3 89.7354 % Avg Accuracy 89.9267
+Training ...
+
+******************************
+	Adjusted learning rate: 94
+
+8.054134858296643e-06
+8.054134858296645e-05
+8.054134858296643e-06
+8.054134858296645e-05
+8.054134858296643e-06
+8.054134858296645e-05
+******************************
+Epoch [95/100], Iter [50/110] Training Accuracy1: 95.7031, Training Accuracy2: 95.7031, Training Accuracy3: 96.0938,Avg Accuracy: 95.7031, Loss1: 0.0177, %
+Epoch [95/100], Iter [100/110] Training Accuracy1: 97.2656, Training Accuracy2: 96.4844, Training Accuracy3: 96.4844,Avg Accuracy: 96.8750, Loss1: 0.0182, %
+Evaluating ...
+Models saved checkpoints/fplus/epoch_94_noise_ferplus_trainvalid_list.txt_acc_89.89.pth
+Epoch [95/100] Test Accuracy on the 3137 test images: Model1 89.7992 % Model2 89.5760 % Model3 89.5760 % Avg Accuracy 89.8948
+Training ...
+
+******************************
+	Adjusted learning rate: 95
+
+7.65142811538181e-06
+7.651428115381812e-05
+7.65142811538181e-06
+7.651428115381812e-05
+7.65142811538181e-06
+7.651428115381812e-05
+******************************
+Epoch [96/100], Iter [50/110] Training Accuracy1: 95.7031, Training Accuracy2: 95.7031, Training Accuracy3: 95.7031,Avg Accuracy: 95.3125, Loss1: 0.0230, %
+Epoch [96/100], Iter [100/110] Training Accuracy1: 94.9219, Training Accuracy2: 95.3125, Training Accuracy3: 95.7031,Avg Accuracy: 95.3125, Loss1: 0.0240, %
+Evaluating ...
+Epoch [96/100] Test Accuracy on the 3137 test images: Model1 89.5760 % Model2 89.7035 % Model3 89.5123 % Avg Accuracy 89.7992
+Training ...
+
+******************************
+	Adjusted learning rate: 96
+
+7.26885670961272e-06
+7.268856709612721e-05
+7.26885670961272e-06
+7.268856709612721e-05
+7.26885670961272e-06
+7.268856709612721e-05
+******************************
+Epoch [97/100], Iter [50/110] Training Accuracy1: 96.0938, Training Accuracy2: 94.9219, Training Accuracy3: 94.9219,Avg Accuracy: 95.3125, Loss1: 0.0262, %
+Epoch [97/100], Iter [100/110] Training Accuracy1: 94.9219, Training Accuracy2: 95.3125, Training Accuracy3: 94.5312,Avg Accuracy: 94.9219, Loss1: 0.0213, %
+Evaluating ...
+Models saved checkpoints/fplus/epoch_96_noise_ferplus_trainvalid_list.txt_acc_89.86.pth
+Epoch [97/100] Test Accuracy on the 3137 test images: Model1 89.5442 % Model2 89.7354 % Model3 89.7354 % Avg Accuracy 89.8629
+Training ...
+
+******************************
+	Adjusted learning rate: 97
+
+6.905413874132084e-06
+6.905413874132085e-05
+6.905413874132084e-06
+6.905413874132085e-05
+6.905413874132084e-06
+6.905413874132085e-05
+******************************
+Epoch [98/100], Iter [50/110] Training Accuracy1: 95.7031, Training Accuracy2: 96.0938, Training Accuracy3: 95.7031,Avg Accuracy: 95.7031, Loss1: 0.0177, %
+Epoch [98/100], Iter [100/110] Training Accuracy1: 94.9219, Training Accuracy2: 95.3125, Training Accuracy3: 95.3125,Avg Accuracy: 94.9219, Loss1: 0.0213, %
+Evaluating ...
+Epoch [98/100] Test Accuracy on the 3137 test images: Model1 89.6398 % Model2 89.6079 % Model3 89.6398 % Avg Accuracy 89.7673
+Training ...
+
+******************************
+	Adjusted learning rate: 98
+
+6.5601431804254795e-06
+6.56014318042548e-05
+6.5601431804254795e-06
+6.56014318042548e-05
+6.5601431804254795e-06
+6.56014318042548e-05
+******************************
+Epoch [99/100], Iter [50/110] Training Accuracy1: 96.0938, Training Accuracy2: 96.0938, Training Accuracy3: 96.0938,Avg Accuracy: 96.0938, Loss1: 0.0169, %
+Epoch [99/100], Iter [100/110] Training Accuracy1: 95.3125, Training Accuracy2: 94.5312, Training Accuracy3: 94.1406,Avg Accuracy: 94.1406, Loss1: 0.0242, %
+Evaluating ...
+Epoch [99/100] Test Accuracy on the 3137 test images: Model1 89.7035 % Model2 89.5760 % Model3 89.5760 % Avg Accuracy 89.7992
+Training ...
+
+******************************
+	Adjusted learning rate: 99
+
+6.232136021404205e-06
+6.232136021404205e-05
+6.232136021404205e-06
+6.232136021404205e-05
+6.232136021404205e-06
+6.232136021404205e-05
+******************************
+Epoch [100/100], Iter [50/110] Training Accuracy1: 95.7031, Training Accuracy2: 96.0938, Training Accuracy3: 96.4844,Avg Accuracy: 95.7031, Loss1: 0.0180, %
+Epoch [100/100], Iter [100/110] Training Accuracy1: 95.7031, Training Accuracy2: 96.0938, Training Accuracy3: 95.7031,Avg Accuracy: 95.7031, Loss1: 0.0215, %
+Evaluating ...
+Epoch [100/100] Test Accuracy on the 3137 test images: Model1 89.5123 % Model2 89.6079 % Model3 89.8310 % Avg Accuracy 89.5123
