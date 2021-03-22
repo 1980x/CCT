@@ -1,0 +1,2206 @@
+
+			Aum Sri Sai Ram
+
+
+
+All teacher models loaded from  checkpoints/rafdb/epoch_73_noise_train_label.txt_acc_90.54.pth
+Training ...
+Training Epoch: [0][0/191]	overall_loss (6.071)	Prec1  (7.812) 	
+Training Epoch: [0][30/191]	overall_loss (3.619)	Prec1  (59.173) 	
+Training Epoch: [0][60/191]	overall_loss (3.181)	Prec1  (65.138) 	
+Training Epoch: [0][90/191]	overall_loss (2.949)	Prec1  (67.926) 	
+Training Epoch: [0][120/191]	overall_loss (2.795)	Prec1  (69.951) 	
+Training Epoch: [0][150/191]	overall_loss (2.688)	Prec1  (71.420) 	
+Training Epoch: [0][180/191]	overall_loss (2.633)	Prec1  (72.194) 	
+
+Testing [47/48]	Prec@1  (82.59452056884766)	
+Epoch: 0   Test Acc: 82.59452056884766
+Training ...
+Training Epoch: [1][0/191]	overall_loss (1.696)	Prec1  (84.375) 	
+Training Epoch: [1][30/191]	overall_loss (1.990)	Prec1  (80.645) 	
+Training Epoch: [1][60/191]	overall_loss (1.978)	Prec1  (80.840) 	
+Training Epoch: [1][90/191]	overall_loss (1.962)	Prec1  (81.164) 	
+Training Epoch: [1][120/191]	overall_loss (1.992)	Prec1  (80.385) 	
+Training Epoch: [1][150/191]	overall_loss (1.967)	Prec1  (80.815) 	
+Training Epoch: [1][180/191]	overall_loss (1.957)	Prec1  (81.034) 	
+
+Testing [47/48]	Prec@1  (83.7027359008789)	
+Epoch: 1   Test Acc: 83.7027359008789
+Training ...
+Training Epoch: [2][0/191]	overall_loss (1.699)	Prec1  (85.938) 	
+Training Epoch: [2][30/191]	overall_loss (1.761)	Prec1  (83.619) 	
+Training Epoch: [2][60/191]	overall_loss (1.776)	Prec1  (82.966) 	
+Training Epoch: [2][90/191]	overall_loss (1.773)	Prec1  (82.984) 	
+Training Epoch: [2][120/191]	overall_loss (1.783)	Prec1  (82.864) 	
+Training Epoch: [2][150/191]	overall_loss (1.764)	Prec1  (83.123) 	
+Training Epoch: [2][180/191]	overall_loss (1.753)	Prec1  (83.374) 	
+
+Testing [47/48]	Prec@1  (85.75619506835938)	
+Epoch: 2   Test Acc: 85.75619506835938
+Training ...
+Training Epoch: [3][0/191]	overall_loss (1.453)	Prec1  (89.062) 	
+Training Epoch: [3][30/191]	overall_loss (1.634)	Prec1  (85.181) 	
+Training Epoch: [3][60/191]	overall_loss (1.642)	Prec1  (85.451) 	
+Training Epoch: [3][90/191]	overall_loss (1.626)	Prec1  (85.440) 	
+Training Epoch: [3][120/191]	overall_loss (1.634)	Prec1  (85.395) 	
+Training Epoch: [3][150/191]	overall_loss (1.632)	Prec1  (85.265) 	
+Training Epoch: [3][180/191]	overall_loss (1.637)	Prec1  (85.195) 	
+
+Testing [47/48]	Prec@1  (85.00651550292969)	
+Epoch: 3   Test Acc: 85.00651550292969
+Training ...
+Training Epoch: [4][0/191]	overall_loss (1.577)	Prec1  (81.250) 	
+Training Epoch: [4][30/191]	overall_loss (1.472)	Prec1  (86.895) 	
+Training Epoch: [4][60/191]	overall_loss (1.531)	Prec1  (86.424) 	
+Training Epoch: [4][90/191]	overall_loss (1.566)	Prec1  (85.869) 	
+Training Epoch: [4][120/191]	overall_loss (1.570)	Prec1  (86.015) 	
+Training Epoch: [4][150/191]	overall_loss (1.558)	Prec1  (86.238) 	
+Training Epoch: [4][180/191]	overall_loss (1.558)	Prec1  (86.102) 	
+
+Testing [47/48]	Prec@1  (84.28943634033203)	
+Epoch: 4   Test Acc: 84.28943634033203
+Training ...
+Training Epoch: [5][0/191]	overall_loss (1.771)	Prec1  (85.938) 	
+Training Epoch: [5][30/191]	overall_loss (1.418)	Prec1  (88.508) 	
+Training Epoch: [5][60/191]	overall_loss (1.446)	Prec1  (87.705) 	
+Training Epoch: [5][90/191]	overall_loss (1.438)	Prec1  (87.758) 	
+Training Epoch: [5][120/191]	overall_loss (1.468)	Prec1  (87.371) 	
+Training Epoch: [5][150/191]	overall_loss (1.486)	Prec1  (87.252) 	
+Training Epoch: [5][180/191]	overall_loss (1.492)	Prec1  (87.310) 	
+
+Testing [47/48]	Prec@1  (86.31029510498047)	
+Epoch: 5   Test Acc: 86.31029510498047
+Training ...
+Training Epoch: [6][0/191]	overall_loss (1.780)	Prec1  (82.812) 	
+Training Epoch: [6][30/191]	overall_loss (1.335)	Prec1  (89.919) 	
+Training Epoch: [6][60/191]	overall_loss (1.360)	Prec1  (89.626) 	
+Training Epoch: [6][90/191]	overall_loss (1.385)	Prec1  (89.320) 	
+Training Epoch: [6][120/191]	overall_loss (1.375)	Prec1  (89.489) 	
+Training Epoch: [6][150/191]	overall_loss (1.390)	Prec1  (89.332) 	
+Training Epoch: [6][180/191]	overall_loss (1.413)	Prec1  (88.907) 	
+
+Testing [47/48]	Prec@1  (85.49543762207031)	
+Epoch: 6   Test Acc: 85.49543762207031
+Training ...
+Training Epoch: [7][0/191]	overall_loss (1.188)	Prec1  (92.188) 	
+Training Epoch: [7][30/191]	overall_loss (1.416)	Prec1  (88.609) 	
+Training Epoch: [7][60/191]	overall_loss (1.360)	Prec1  (89.293) 	
+Training Epoch: [7][90/191]	overall_loss (1.331)	Prec1  (89.595) 	
+Training Epoch: [7][120/191]	overall_loss (1.338)	Prec1  (89.514) 	
+Training Epoch: [7][150/191]	overall_loss (1.355)	Prec1  (89.300) 	
+Training Epoch: [7][180/191]	overall_loss (1.372)	Prec1  (89.080) 	
+
+Testing [47/48]	Prec@1  (85.62581634521484)	
+Epoch: 7   Test Acc: 85.62581634521484
+Training ...
+Training Epoch: [8][0/191]	overall_loss (1.038)	Prec1  (93.750) 	
+Training Epoch: [8][30/191]	overall_loss (1.226)	Prec1  (91.129) 	
+Training Epoch: [8][60/191]	overall_loss (1.279)	Prec1  (90.574) 	
+Training Epoch: [8][90/191]	overall_loss (1.308)	Prec1  (90.385) 	
+Training Epoch: [8][120/191]	overall_loss (1.307)	Prec1  (90.160) 	
+Training Epoch: [8][150/191]	overall_loss (1.308)	Prec1  (90.108) 	
+Training Epoch: [8][180/191]	overall_loss (1.309)	Prec1  (90.219) 	
+
+Testing [47/48]	Prec@1  (86.7992172241211)	
+Epoch: 8   Test Acc: 86.7992172241211
+Training ...
+Training Epoch: [9][0/191]	overall_loss (1.307)	Prec1  (92.188) 	
+Training Epoch: [9][30/191]	overall_loss (1.314)	Prec1  (90.524) 	
+Training Epoch: [9][60/191]	overall_loss (1.292)	Prec1  (90.292) 	
+Training Epoch: [9][90/191]	overall_loss (1.288)	Prec1  (90.402) 	
+Training Epoch: [9][120/191]	overall_loss (1.297)	Prec1  (90.289) 	
+Training Epoch: [9][150/191]	overall_loss (1.292)	Prec1  (90.563) 	
+Training Epoch: [9][180/191]	overall_loss (1.279)	Prec1  (90.660) 	
+
+Testing [47/48]	Prec@1  (86.70143127441406)	
+Epoch: 9   Test Acc: 86.70143127441406
+Training ...
+Training Epoch: [10][0/191]	overall_loss (1.506)	Prec1  (87.500) 	
+Training Epoch: [10][30/191]	overall_loss (1.218)	Prec1  (91.734) 	
+Training Epoch: [10][60/191]	overall_loss (1.242)	Prec1  (91.496) 	
+Training Epoch: [10][90/191]	overall_loss (1.255)	Prec1  (91.380) 	
+Training Epoch: [10][120/191]	overall_loss (1.252)	Prec1  (91.503) 	
+Training Epoch: [10][150/191]	overall_loss (1.263)	Prec1  (91.401) 	
+Training Epoch: [10][180/191]	overall_loss (1.257)	Prec1  (91.497) 	
+
+Testing [47/48]	Prec@1  (86.27770233154297)	
+Epoch: 10   Test Acc: 86.27770233154297
+Training ...
+Training Epoch: [11][0/191]	overall_loss (1.326)	Prec1  (92.188) 	
+Training Epoch: [11][30/191]	overall_loss (1.261)	Prec1  (90.726) 	
+Training Epoch: [11][60/191]	overall_loss (1.257)	Prec1  (90.651) 	
+Training Epoch: [11][90/191]	overall_loss (1.230)	Prec1  (91.501) 	
+Training Epoch: [11][120/191]	overall_loss (1.221)	Prec1  (91.581) 	
+Training Epoch: [11][150/191]	overall_loss (1.232)	Prec1  (91.484) 	
+Training Epoch: [11][180/191]	overall_loss (1.227)	Prec1  (91.523) 	
+
+Testing [47/48]	Prec@1  (87.35332489013672)	
+Epoch: 11   Test Acc: 87.35332489013672
+Training ...
+Training Epoch: [12][0/191]	overall_loss (0.872)	Prec1  (95.312) 	
+Training Epoch: [12][30/191]	overall_loss (1.217)	Prec1  (91.986) 	
+Training Epoch: [12][60/191]	overall_loss (1.175)	Prec1  (92.572) 	
+Training Epoch: [12][90/191]	overall_loss (1.195)	Prec1  (92.291) 	
+Training Epoch: [12][120/191]	overall_loss (1.200)	Prec1  (92.278) 	
+Training Epoch: [12][150/191]	overall_loss (1.192)	Prec1  (92.394) 	
+Training Epoch: [12][180/191]	overall_loss (1.198)	Prec1  (92.343) 	
+
+Testing [47/48]	Prec@1  (87.41851043701172)	
+Epoch: 12   Test Acc: 87.41851043701172
+Training ...
+Training Epoch: [13][0/191]	overall_loss (0.940)	Prec1  (98.438) 	
+Training Epoch: [13][30/191]	overall_loss (1.197)	Prec1  (92.792) 	
+Training Epoch: [13][60/191]	overall_loss (1.174)	Prec1  (93.186) 	
+Training Epoch: [13][90/191]	overall_loss (1.180)	Prec1  (93.063) 	
+Training Epoch: [13][120/191]	overall_loss (1.185)	Prec1  (93.027) 	
+Training Epoch: [13][150/191]	overall_loss (1.185)	Prec1  (92.901) 	
+Training Epoch: [13][180/191]	overall_loss (1.187)	Prec1  (92.723) 	
+
+Testing [47/48]	Prec@1  (87.38591766357422)	
+Epoch: 13   Test Acc: 87.38591766357422
+Training ...
+Training Epoch: [14][0/191]	overall_loss (0.960)	Prec1  (96.875) 	
+Training Epoch: [14][30/191]	overall_loss (1.124)	Prec1  (94.204) 	
+Training Epoch: [14][60/191]	overall_loss (1.147)	Prec1  (93.289) 	
+Training Epoch: [14][90/191]	overall_loss (1.155)	Prec1  (93.269) 	
+Training Epoch: [14][120/191]	overall_loss (1.151)	Prec1  (93.388) 	
+Training Epoch: [14][150/191]	overall_loss (1.148)	Prec1  (93.450) 	
+Training Epoch: [14][180/191]	overall_loss (1.154)	Prec1  (93.258) 	
+
+Testing [47/48]	Prec@1  (87.54888916015625)	
+Epoch: 14   Test Acc: 87.54888916015625
+Training ...
+Training Epoch: [15][0/191]	overall_loss (0.804)	Prec1  (95.312) 	
+Training Epoch: [15][30/191]	overall_loss (1.172)	Prec1  (93.246) 	
+Training Epoch: [15][60/191]	overall_loss (1.153)	Prec1  (93.391) 	
+Training Epoch: [15][90/191]	overall_loss (1.147)	Prec1  (93.201) 	
+Training Epoch: [15][120/191]	overall_loss (1.136)	Prec1  (93.376) 	
+Training Epoch: [15][150/191]	overall_loss (1.144)	Prec1  (93.377) 	
+Training Epoch: [15][180/191]	overall_loss (1.150)	Prec1  (93.301) 	
+
+Testing [47/48]	Prec@1  (86.89700317382812)	
+Epoch: 15   Test Acc: 86.89700317382812
+Training ...
+Training Epoch: [16][0/191]	overall_loss (1.154)	Prec1  (93.750) 	
+Training Epoch: [16][30/191]	overall_loss (1.140)	Prec1  (93.851) 	
+Training Epoch: [16][60/191]	overall_loss (1.103)	Prec1  (94.185) 	
+Training Epoch: [16][90/191]	overall_loss (1.127)	Prec1  (93.733) 	
+Training Epoch: [16][120/191]	overall_loss (1.131)	Prec1  (93.595) 	
+Training Epoch: [16][150/191]	overall_loss (1.127)	Prec1  (93.750) 	
+Training Epoch: [16][180/191]	overall_loss (1.130)	Prec1  (93.690) 	
+
+Testing [47/48]	Prec@1  (86.8644027709961)	
+Epoch: 16   Test Acc: 86.8644027709961
+Training ...
+Training Epoch: [17][0/191]	overall_loss (0.981)	Prec1  (92.188) 	
+Training Epoch: [17][30/191]	overall_loss (1.129)	Prec1  (93.246) 	
+Training Epoch: [17][60/191]	overall_loss (1.106)	Prec1  (93.827) 	
+Training Epoch: [17][90/191]	overall_loss (1.115)	Prec1  (93.887) 	
+Training Epoch: [17][120/191]	overall_loss (1.116)	Prec1  (94.073) 	
+Training Epoch: [17][150/191]	overall_loss (1.122)	Prec1  (93.895) 	
+Training Epoch: [17][180/191]	overall_loss (1.123)	Prec1  (93.905) 	
+
+Testing [47/48]	Prec@1  (87.22294616699219)	
+Epoch: 17   Test Acc: 87.22294616699219
+Training ...
+Training Epoch: [18][0/191]	overall_loss (1.183)	Prec1  (90.625) 	
+Training Epoch: [18][30/191]	overall_loss (1.127)	Prec1  (93.498) 	
+Training Epoch: [18][60/191]	overall_loss (1.089)	Prec1  (94.314) 	
+Training Epoch: [18][90/191]	overall_loss (1.108)	Prec1  (94.162) 	
+Training Epoch: [18][120/191]	overall_loss (1.097)	Prec1  (94.150) 	
+Training Epoch: [18][150/191]	overall_loss (1.095)	Prec1  (94.123) 	
+Training Epoch: [18][180/191]	overall_loss (1.098)	Prec1  (94.121) 	
+
+Testing [47/48]	Prec@1  (86.50586700439453)	
+Epoch: 18   Test Acc: 86.50586700439453
+Training ...
+Training Epoch: [19][0/191]	overall_loss (1.041)	Prec1  (93.750) 	
+Training Epoch: [19][30/191]	overall_loss (1.090)	Prec1  (94.204) 	
+Training Epoch: [19][60/191]	overall_loss (1.081)	Prec1  (94.262) 	
+Training Epoch: [19][90/191]	overall_loss (1.090)	Prec1  (94.368) 	
+Training Epoch: [19][120/191]	overall_loss (1.109)	Prec1  (94.267) 	
+Training Epoch: [19][150/191]	overall_loss (1.107)	Prec1  (94.143) 	
+Training Epoch: [19][180/191]	overall_loss (1.105)	Prec1  (94.259) 	
+
+Testing [47/48]	Prec@1  (86.99478149414062)	
+Epoch: 19   Test Acc: 86.99478149414062
+Training ...
+Training Epoch: [20][0/191]	overall_loss (0.980)	Prec1  (96.875) 	
+Training Epoch: [20][30/191]	overall_loss (1.114)	Prec1  (94.153) 	
+Training Epoch: [20][60/191]	overall_loss (1.088)	Prec1  (94.390) 	
+Training Epoch: [20][90/191]	overall_loss (1.079)	Prec1  (94.471) 	
+Training Epoch: [20][120/191]	overall_loss (1.065)	Prec1  (94.551) 	
+Training Epoch: [20][150/191]	overall_loss (1.075)	Prec1  (94.319) 	
+Training Epoch: [20][180/191]	overall_loss (1.092)	Prec1  (94.121) 	
+
+Testing [47/48]	Prec@1  (86.7992172241211)	
+Epoch: 20   Test Acc: 86.7992172241211
+Training ...
+Training Epoch: [21][0/191]	overall_loss (1.279)	Prec1  (92.188) 	
+Training Epoch: [21][30/191]	overall_loss (1.060)	Prec1  (95.413) 	
+Training Epoch: [21][60/191]	overall_loss (1.061)	Prec1  (95.056) 	
+Training Epoch: [21][90/191]	overall_loss (1.063)	Prec1  (94.952) 	
+Training Epoch: [21][120/191]	overall_loss (1.063)	Prec1  (94.990) 	
+Training Epoch: [21][150/191]	overall_loss (1.066)	Prec1  (95.012) 	
+Training Epoch: [21][180/191]	overall_loss (1.072)	Prec1  (94.907) 	
+
+Testing [47/48]	Prec@1  (87.87483215332031)	
+Epoch: 21   Test Acc: 87.87483215332031
+Training ...
+Training Epoch: [22][0/191]	overall_loss (0.915)	Prec1  (100.000) 	
+Training Epoch: [22][30/191]	overall_loss (1.082)	Prec1  (94.808) 	
+Training Epoch: [22][60/191]	overall_loss (1.062)	Prec1  (95.082) 	
+Training Epoch: [22][90/191]	overall_loss (1.067)	Prec1  (94.986) 	
+Training Epoch: [22][120/191]	overall_loss (1.063)	Prec1  (95.119) 	
+Training Epoch: [22][150/191]	overall_loss (1.054)	Prec1  (95.250) 	
+Training Epoch: [22][180/191]	overall_loss (1.056)	Prec1  (95.304) 	
+
+Testing [47/48]	Prec@1  (88.39634704589844)	
+Epoch: 22   Test Acc: 88.39634704589844
+Training ...
+Training Epoch: [23][0/191]	overall_loss (0.989)	Prec1  (93.750) 	
+Training Epoch: [23][30/191]	overall_loss (1.041)	Prec1  (95.968) 	
+Training Epoch: [23][60/191]	overall_loss (1.035)	Prec1  (95.697) 	
+Training Epoch: [23][90/191]	overall_loss (1.055)	Prec1  (95.312) 	
+Training Epoch: [23][120/191]	overall_loss (1.058)	Prec1  (95.170) 	
+Training Epoch: [23][150/191]	overall_loss (1.055)	Prec1  (95.137) 	
+Training Epoch: [23][180/191]	overall_loss (1.058)	Prec1  (95.071) 	
+
+Testing [47/48]	Prec@1  (87.74446105957031)	
+Epoch: 23   Test Acc: 87.74446105957031
+Training ...
+Training Epoch: [24][0/191]	overall_loss (1.044)	Prec1  (98.438) 	
+Training Epoch: [24][30/191]	overall_loss (1.067)	Prec1  (94.456) 	
+Training Epoch: [24][60/191]	overall_loss (1.052)	Prec1  (94.672) 	
+Training Epoch: [24][90/191]	overall_loss (1.055)	Prec1  (94.918) 	
+Training Epoch: [24][120/191]	overall_loss (1.040)	Prec1  (95.145) 	
+Training Epoch: [24][150/191]	overall_loss (1.049)	Prec1  (95.075) 	
+Training Epoch: [24][180/191]	overall_loss (1.047)	Prec1  (95.148) 	
+
+Testing [47/48]	Prec@1  (87.94002532958984)	
+Epoch: 24   Test Acc: 87.94002532958984
+Training ...
+Training Epoch: [25][0/191]	overall_loss (1.178)	Prec1  (95.312) 	
+Training Epoch: [25][30/191]	overall_loss (1.026)	Prec1  (95.514) 	
+Training Epoch: [25][60/191]	overall_loss (1.054)	Prec1  (94.954) 	
+Training Epoch: [25][90/191]	overall_loss (1.048)	Prec1  (94.969) 	
+Training Epoch: [25][120/191]	overall_loss (1.050)	Prec1  (94.951) 	
+Training Epoch: [25][150/191]	overall_loss (1.057)	Prec1  (95.002) 	
+Training Epoch: [25][180/191]	overall_loss (1.065)	Prec1  (94.907) 	
+
+Testing [47/48]	Prec@1  (86.8318099975586)	
+Epoch: 25   Test Acc: 86.8318099975586
+Training ...
+Training Epoch: [26][0/191]	overall_loss (1.300)	Prec1  (92.188) 	
+Training Epoch: [26][30/191]	overall_loss (1.051)	Prec1  (95.363) 	
+Training Epoch: [26][60/191]	overall_loss (1.026)	Prec1  (95.902) 	
+Training Epoch: [26][90/191]	overall_loss (1.042)	Prec1  (95.570) 	
+Training Epoch: [26][120/191]	overall_loss (1.038)	Prec1  (95.635) 	
+Training Epoch: [26][150/191]	overall_loss (1.036)	Prec1  (95.633) 	
+Training Epoch: [26][180/191]	overall_loss (1.036)	Prec1  (95.571) 	
+
+Testing [47/48]	Prec@1  (86.99478149414062)	
+Epoch: 26   Test Acc: 86.99478149414062
+Training ...
+Training Epoch: [27][0/191]	overall_loss (1.027)	Prec1  (93.750) 	
+Training Epoch: [27][30/191]	overall_loss (1.040)	Prec1  (95.716) 	
+Training Epoch: [27][60/191]	overall_loss (1.056)	Prec1  (95.517) 	
+Training Epoch: [27][90/191]	overall_loss (1.058)	Prec1  (95.450) 	
+Training Epoch: [27][120/191]	overall_loss (1.056)	Prec1  (95.300) 	
+Training Epoch: [27][150/191]	overall_loss (1.052)	Prec1  (95.333) 	
+Training Epoch: [27][180/191]	overall_loss (1.058)	Prec1  (95.218) 	
+
+Testing [47/48]	Prec@1  (87.71186065673828)	
+Epoch: 27   Test Acc: 87.71186065673828
+Training ...
+Training Epoch: [28][0/191]	overall_loss (1.113)	Prec1  (96.875) 	
+Training Epoch: [28][30/191]	overall_loss (1.041)	Prec1  (95.565) 	
+Training Epoch: [28][60/191]	overall_loss (1.025)	Prec1  (95.825) 	
+Training Epoch: [28][90/191]	overall_loss (1.018)	Prec1  (95.982) 	
+Training Epoch: [28][120/191]	overall_loss (1.029)	Prec1  (95.881) 	
+Training Epoch: [28][150/191]	overall_loss (1.036)	Prec1  (95.654) 	
+Training Epoch: [28][180/191]	overall_loss (1.041)	Prec1  (95.675) 	
+
+Testing [47/48]	Prec@1  (87.84223937988281)	
+Epoch: 28   Test Acc: 87.84223937988281
+Training ...
+Training Epoch: [29][0/191]	overall_loss (0.893)	Prec1  (100.000) 	
+Training Epoch: [29][30/191]	overall_loss (1.010)	Prec1  (96.018) 	
+Training Epoch: [29][60/191]	overall_loss (0.986)	Prec1  (95.953) 	
+Training Epoch: [29][90/191]	overall_loss (1.023)	Prec1  (95.484) 	
+Training Epoch: [29][120/191]	overall_loss (1.028)	Prec1  (95.622) 	
+Training Epoch: [29][150/191]	overall_loss (1.030)	Prec1  (95.664) 	
+Training Epoch: [29][180/191]	overall_loss (1.029)	Prec1  (95.615) 	
+
+Testing [47/48]	Prec@1  (87.58148193359375)	
+Epoch: 29   Test Acc: 87.58148193359375
+Training ...
+Training Epoch: [30][0/191]	overall_loss (1.045)	Prec1  (96.875) 	
+Training Epoch: [30][30/191]	overall_loss (0.985)	Prec1  (96.976) 	
+Training Epoch: [30][60/191]	overall_loss (0.990)	Prec1  (96.773) 	
+Training Epoch: [30][90/191]	overall_loss (0.988)	Prec1  (96.617) 	
+Training Epoch: [30][120/191]	overall_loss (0.992)	Prec1  (96.475) 	
+Training Epoch: [30][150/191]	overall_loss (1.000)	Prec1  (96.285) 	
+Training Epoch: [30][180/191]	overall_loss (0.999)	Prec1  (96.288) 	
+
+Testing [47/48]	Prec@1  (88.39634704589844)	
+Epoch: 30   Test Acc: 88.39634704589844
+Training ...
+Training Epoch: [31][0/191]	overall_loss (0.993)	Prec1  (95.312) 	
+Training Epoch: [31][30/191]	overall_loss (1.044)	Prec1  (96.169) 	
+Training Epoch: [31][60/191]	overall_loss (1.038)	Prec1  (96.081) 	
+Training Epoch: [31][90/191]	overall_loss (1.030)	Prec1  (96.085) 	
+Training Epoch: [31][120/191]	overall_loss (1.029)	Prec1  (96.074) 	
+Training Epoch: [31][150/191]	overall_loss (1.025)	Prec1  (95.995) 	
+Training Epoch: [31][180/191]	overall_loss (1.016)	Prec1  (96.029) 	
+
+Testing [47/48]	Prec@1  (87.84223937988281)	
+Epoch: 31   Test Acc: 87.84223937988281
+Training ...
+Training Epoch: [32][0/191]	overall_loss (0.809)	Prec1  (98.438) 	
+Training Epoch: [32][30/191]	overall_loss (0.950)	Prec1  (96.573) 	
+Training Epoch: [32][60/191]	overall_loss (0.978)	Prec1  (96.465) 	
+Training Epoch: [32][90/191]	overall_loss (0.980)	Prec1  (96.446) 	
+Training Epoch: [32][120/191]	overall_loss (0.993)	Prec1  (96.346) 	
+Training Epoch: [32][150/191]	overall_loss (0.996)	Prec1  (96.368) 	
+Training Epoch: [32][180/191]	overall_loss (0.998)	Prec1  (96.340) 	
+
+Testing [47/48]	Prec@1  (87.48370361328125)	
+Epoch: 32   Test Acc: 87.48370361328125
+Training ...
+Training Epoch: [33][0/191]	overall_loss (1.089)	Prec1  (98.438) 	
+Training Epoch: [33][30/191]	overall_loss (1.021)	Prec1  (96.472) 	
+Training Epoch: [33][60/191]	overall_loss (1.014)	Prec1  (96.491) 	
+Training Epoch: [33][90/191]	overall_loss (0.991)	Prec1  (96.600) 	
+Training Epoch: [33][120/191]	overall_loss (1.003)	Prec1  (96.307) 	
+Training Epoch: [33][150/191]	overall_loss (1.010)	Prec1  (96.182) 	
+Training Epoch: [33][180/191]	overall_loss (1.017)	Prec1  (96.038) 	
+
+Testing [47/48]	Prec@1  (87.80964660644531)	
+Epoch: 33   Test Acc: 87.80964660644531
+Training ...
+Training Epoch: [34][0/191]	overall_loss (0.740)	Prec1  (100.000) 	
+Training Epoch: [34][30/191]	overall_loss (1.037)	Prec1  (95.766) 	
+Training Epoch: [34][60/191]	overall_loss (1.014)	Prec1  (96.132) 	
+Training Epoch: [34][90/191]	overall_loss (1.015)	Prec1  (95.982) 	
+Training Epoch: [34][120/191]	overall_loss (1.014)	Prec1  (95.868) 	
+Training Epoch: [34][150/191]	overall_loss (1.013)	Prec1  (95.902) 	
+Training Epoch: [34][180/191]	overall_loss (1.019)	Prec1  (95.925) 	
+
+Testing [47/48]	Prec@1  (88.59191131591797)	
+Epoch: 34   Test Acc: 88.59191131591797
+Training ...
+Training Epoch: [35][0/191]	overall_loss (0.862)	Prec1  (98.438) 	
+Training Epoch: [35][30/191]	overall_loss (0.996)	Prec1  (96.573) 	
+Training Epoch: [35][60/191]	overall_loss (1.006)	Prec1  (96.363) 	
+Training Epoch: [35][90/191]	overall_loss (0.998)	Prec1  (96.429) 	
+Training Epoch: [35][120/191]	overall_loss (0.990)	Prec1  (96.268) 	
+Training Epoch: [35][150/191]	overall_loss (0.996)	Prec1  (96.337) 	
+Training Epoch: [35][180/191]	overall_loss (0.992)	Prec1  (96.314) 	
+
+Testing [47/48]	Prec@1  (88.689697265625)	
+Epoch: 35   Test Acc: 88.689697265625
+Training ...
+Training Epoch: [36][0/191]	overall_loss (0.851)	Prec1  (96.875) 	
+Training Epoch: [36][30/191]	overall_loss (1.004)	Prec1  (96.724) 	
+Training Epoch: [36][60/191]	overall_loss (1.010)	Prec1  (96.516) 	
+Training Epoch: [36][90/191]	overall_loss (1.008)	Prec1  (96.463) 	
+Training Epoch: [36][120/191]	overall_loss (1.006)	Prec1  (96.436) 	
+Training Epoch: [36][150/191]	overall_loss (1.011)	Prec1  (96.254) 	
+Training Epoch: [36][180/191]	overall_loss (1.012)	Prec1  (96.236) 	
+
+Testing [47/48]	Prec@1  (87.22294616699219)	
+Epoch: 36   Test Acc: 87.22294616699219
+Training ...
+Training Epoch: [37][0/191]	overall_loss (1.516)	Prec1  (90.625) 	
+Training Epoch: [37][30/191]	overall_loss (1.033)	Prec1  (96.421) 	
+Training Epoch: [37][60/191]	overall_loss (0.993)	Prec1  (96.824) 	
+Training Epoch: [37][90/191]	overall_loss (1.021)	Prec1  (96.326) 	
+Training Epoch: [37][120/191]	overall_loss (1.020)	Prec1  (96.358) 	
+Training Epoch: [37][150/191]	overall_loss (1.019)	Prec1  (96.223) 	
+Training Epoch: [37][180/191]	overall_loss (1.016)	Prec1  (96.184) 	
+
+Testing [47/48]	Prec@1  (87.12516021728516)	
+Epoch: 37   Test Acc: 87.12516021728516
+Training ...
+Training Epoch: [38][0/191]	overall_loss (0.939)	Prec1  (98.438) 	
+Training Epoch: [38][30/191]	overall_loss (0.942)	Prec1  (97.026) 	
+Training Epoch: [38][60/191]	overall_loss (0.970)	Prec1  (96.542) 	
+Training Epoch: [38][90/191]	overall_loss (0.974)	Prec1  (96.600) 	
+Training Epoch: [38][120/191]	overall_loss (0.976)	Prec1  (96.655) 	
+Training Epoch: [38][150/191]	overall_loss (0.977)	Prec1  (96.689) 	
+Training Epoch: [38][180/191]	overall_loss (0.988)	Prec1  (96.573) 	
+
+Testing [47/48]	Prec@1  (87.64667510986328)	
+Epoch: 38   Test Acc: 87.64667510986328
+Training ...
+Training Epoch: [39][0/191]	overall_loss (0.974)	Prec1  (96.875) 	
+Training Epoch: [39][30/191]	overall_loss (1.000)	Prec1  (96.724) 	
+Training Epoch: [39][60/191]	overall_loss (0.993)	Prec1  (96.670) 	
+Training Epoch: [39][90/191]	overall_loss (1.007)	Prec1  (96.446) 	
+Training Epoch: [39][120/191]	overall_loss (1.004)	Prec1  (96.513) 	
+Training Epoch: [39][150/191]	overall_loss (1.008)	Prec1  (96.368) 	
+Training Epoch: [39][180/191]	overall_loss (1.007)	Prec1  (96.253) 	
+
+Testing [47/48]	Prec@1  (88.82007598876953)	
+Epoch: 39   Test Acc: 88.82007598876953
+Training ...
+Training Epoch: [40][0/191]	overall_loss (0.876)	Prec1  (96.875) 	
+Training Epoch: [40][30/191]	overall_loss (0.983)	Prec1  (96.925) 	
+Training Epoch: [40][60/191]	overall_loss (0.970)	Prec1  (97.157) 	
+Training Epoch: [40][90/191]	overall_loss (0.971)	Prec1  (97.253) 	
+Training Epoch: [40][120/191]	overall_loss (0.966)	Prec1  (97.469) 	
+Training Epoch: [40][150/191]	overall_loss (0.955)	Prec1  (97.465) 	
+Training Epoch: [40][180/191]	overall_loss (0.950)	Prec1  (97.540) 	
+
+Testing [47/48]	Prec@1  (89.60234832763672)	
+Epoch: 40   Test Acc: 89.60234832763672
+Training ...
+Training Epoch: [41][0/191]	overall_loss (0.918)	Prec1  (100.000) 	
+Training Epoch: [41][30/191]	overall_loss (0.944)	Prec1  (97.480) 	
+Training Epoch: [41][60/191]	overall_loss (0.928)	Prec1  (97.951) 	
+Training Epoch: [41][90/191]	overall_loss (0.926)	Prec1  (97.991) 	
+Training Epoch: [41][120/191]	overall_loss (0.935)	Prec1  (97.895) 	
+Training Epoch: [41][150/191]	overall_loss (0.929)	Prec1  (97.972) 	
+Training Epoch: [41][180/191]	overall_loss (0.928)	Prec1  (97.989) 	
+
+Testing [47/48]	Prec@1  (89.96088409423828)	
+Epoch: 41   Test Acc: 89.96088409423828
+Training ...
+Training Epoch: [42][0/191]	overall_loss (0.744)	Prec1  (98.438) 	
+Training Epoch: [42][30/191]	overall_loss (0.889)	Prec1  (98.085) 	
+Training Epoch: [42][60/191]	overall_loss (0.899)	Prec1  (98.079) 	
+Training Epoch: [42][90/191]	overall_loss (0.911)	Prec1  (97.802) 	
+Training Epoch: [42][120/191]	overall_loss (0.924)	Prec1  (97.831) 	
+Training Epoch: [42][150/191]	overall_loss (0.917)	Prec1  (97.858) 	
+Training Epoch: [42][180/191]	overall_loss (0.920)	Prec1  (97.825) 	
+
+Testing [47/48]	Prec@1  (89.60234832763672)	
+Epoch: 42   Test Acc: 89.60234832763672
+Training ...
+Training Epoch: [43][0/191]	overall_loss (0.818)	Prec1  (100.000) 	
+Training Epoch: [43][30/191]	overall_loss (0.900)	Prec1  (98.488) 	
+Training Epoch: [43][60/191]	overall_loss (0.906)	Prec1  (98.028) 	
+Training Epoch: [43][90/191]	overall_loss (0.909)	Prec1  (98.128) 	
+Training Epoch: [43][120/191]	overall_loss (0.908)	Prec1  (98.102) 	
+Training Epoch: [43][150/191]	overall_loss (0.909)	Prec1  (98.096) 	
+Training Epoch: [43][180/191]	overall_loss (0.913)	Prec1  (98.101) 	
+
+Testing [47/48]	Prec@1  (89.76531982421875)	
+Epoch: 43   Test Acc: 89.76531982421875
+Training ...
+Training Epoch: [44][0/191]	overall_loss (0.883)	Prec1  (98.438) 	
+Training Epoch: [44][30/191]	overall_loss (0.911)	Prec1  (97.833) 	
+Training Epoch: [44][60/191]	overall_loss (0.885)	Prec1  (98.130) 	
+Training Epoch: [44][90/191]	overall_loss (0.875)	Prec1  (98.094) 	
+Training Epoch: [44][120/191]	overall_loss (0.886)	Prec1  (98.179) 	
+Training Epoch: [44][150/191]	overall_loss (0.899)	Prec1  (98.200) 	
+Training Epoch: [44][180/191]	overall_loss (0.895)	Prec1  (98.273) 	
+
+Testing [47/48]	Prec@1  (89.83050537109375)	
+Epoch: 44   Test Acc: 89.83050537109375
+Training ...
+Training Epoch: [45][0/191]	overall_loss (1.070)	Prec1  (98.438) 	
+Training Epoch: [45][30/191]	overall_loss (0.897)	Prec1  (98.387) 	
+Training Epoch: [45][60/191]	overall_loss (0.898)	Prec1  (98.361) 	
+Training Epoch: [45][90/191]	overall_loss (0.903)	Prec1  (98.266) 	
+Training Epoch: [45][120/191]	overall_loss (0.898)	Prec1  (98.205) 	
+Training Epoch: [45][150/191]	overall_loss (0.890)	Prec1  (98.334) 	
+Training Epoch: [45][180/191]	overall_loss (0.890)	Prec1  (98.394) 	
+
+Testing [47/48]	Prec@1  (89.92829132080078)	
+Epoch: 45   Test Acc: 89.92829132080078
+Training ...
+Training Epoch: [46][0/191]	overall_loss (0.739)	Prec1  (100.000) 	
+Training Epoch: [46][30/191]	overall_loss (0.913)	Prec1  (98.589) 	
+Training Epoch: [46][60/191]	overall_loss (0.896)	Prec1  (98.591) 	
+Training Epoch: [46][90/191]	overall_loss (0.892)	Prec1  (98.541) 	
+Training Epoch: [46][120/191]	overall_loss (0.895)	Prec1  (98.580) 	
+Training Epoch: [46][150/191]	overall_loss (0.896)	Prec1  (98.541) 	
+Training Epoch: [46][180/191]	overall_loss (0.895)	Prec1  (98.489) 	
+
+Testing [47/48]	Prec@1  (89.99347686767578)	
+Epoch: 46   Test Acc: 89.99347686767578
+Training ...
+Training Epoch: [47][0/191]	overall_loss (1.044)	Prec1  (98.438) 	
+Training Epoch: [47][30/191]	overall_loss (0.908)	Prec1  (98.538) 	
+Training Epoch: [47][60/191]	overall_loss (0.890)	Prec1  (98.642) 	
+Training Epoch: [47][90/191]	overall_loss (0.888)	Prec1  (98.558) 	
+Training Epoch: [47][120/191]	overall_loss (0.891)	Prec1  (98.554) 	
+Training Epoch: [47][150/191]	overall_loss (0.890)	Prec1  (98.582) 	
+Training Epoch: [47][180/191]	overall_loss (0.887)	Prec1  (98.550) 	
+
+Testing [47/48]	Prec@1  (89.79791259765625)	
+Epoch: 47   Test Acc: 89.79791259765625
+Training ...
+Training Epoch: [48][0/191]	overall_loss (0.755)	Prec1  (96.875) 	
+Training Epoch: [48][30/191]	overall_loss (0.887)	Prec1  (98.790) 	
+Training Epoch: [48][60/191]	overall_loss (0.897)	Prec1  (98.770) 	
+Training Epoch: [48][90/191]	overall_loss (0.898)	Prec1  (98.506) 	
+Training Epoch: [48][120/191]	overall_loss (0.899)	Prec1  (98.476) 	
+Training Epoch: [48][150/191]	overall_loss (0.896)	Prec1  (98.520) 	
+Training Epoch: [48][180/191]	overall_loss (0.898)	Prec1  (98.558) 	
+
+Testing [47/48]	Prec@1  (89.96088409423828)	
+Epoch: 48   Test Acc: 89.96088409423828
+Training ...
+Training Epoch: [49][0/191]	overall_loss (0.823)	Prec1  (100.000) 	
+Training Epoch: [49][30/191]	overall_loss (0.874)	Prec1  (98.740) 	
+Training Epoch: [49][60/191]	overall_loss (0.870)	Prec1  (98.566) 	
+Training Epoch: [49][90/191]	overall_loss (0.887)	Prec1  (98.506) 	
+Training Epoch: [49][120/191]	overall_loss (0.887)	Prec1  (98.515) 	
+Training Epoch: [49][150/191]	overall_loss (0.893)	Prec1  (98.510) 	
+Training Epoch: [49][180/191]	overall_loss (0.890)	Prec1  (98.550) 	
+
+Testing [47/48]	Prec@1  (89.86309814453125)	
+Epoch: 49   Test Acc: 89.86309814453125
+Training ...
+Training Epoch: [50][0/191]	overall_loss (1.075)	Prec1  (96.875) 	
+Training Epoch: [50][30/191]	overall_loss (0.915)	Prec1  (98.286) 	
+Training Epoch: [50][60/191]	overall_loss (0.901)	Prec1  (98.437) 	
+Training Epoch: [50][90/191]	overall_loss (0.898)	Prec1  (98.592) 	
+Training Epoch: [50][120/191]	overall_loss (0.891)	Prec1  (98.631) 	
+Training Epoch: [50][150/191]	overall_loss (0.887)	Prec1  (98.665) 	
+Training Epoch: [50][180/191]	overall_loss (0.885)	Prec1  (98.619) 	
+
+Testing [47/48]	Prec@1  (89.96088409423828)	
+Epoch: 50   Test Acc: 89.96088409423828
+Training ...
+Training Epoch: [51][0/191]	overall_loss (0.887)	Prec1  (96.875) 	
+Training Epoch: [51][30/191]	overall_loss (0.868)	Prec1  (98.790) 	
+Training Epoch: [51][60/191]	overall_loss (0.866)	Prec1  (98.899) 	
+Training Epoch: [51][90/191]	overall_loss (0.880)	Prec1  (98.832) 	
+Training Epoch: [51][120/191]	overall_loss (0.880)	Prec1  (98.889) 	
+Training Epoch: [51][150/191]	overall_loss (0.880)	Prec1  (98.851) 	
+Training Epoch: [51][180/191]	overall_loss (0.885)	Prec1  (98.817) 	
+
+Testing [47/48]	Prec@1  (90.05867004394531)	
+Epoch: 51   Test Acc: 90.05867004394531
+Training ...
+Training Epoch: [52][0/191]	overall_loss (0.822)	Prec1  (96.875) 	
+Training Epoch: [52][30/191]	overall_loss (0.893)	Prec1  (98.790) 	
+Training Epoch: [52][60/191]	overall_loss (0.881)	Prec1  (98.796) 	
+Training Epoch: [52][90/191]	overall_loss (0.882)	Prec1  (98.832) 	
+Training Epoch: [52][120/191]	overall_loss (0.896)	Prec1  (98.580) 	
+Training Epoch: [52][150/191]	overall_loss (0.891)	Prec1  (98.665) 	
+Training Epoch: [52][180/191]	overall_loss (0.888)	Prec1  (98.688) 	
+
+Testing [47/48]	Prec@1  (89.99347686767578)	
+Epoch: 52   Test Acc: 89.99347686767578
+Training ...
+Training Epoch: [53][0/191]	overall_loss (0.934)	Prec1  (98.438) 	
+Training Epoch: [53][30/191]	overall_loss (0.848)	Prec1  (98.891) 	
+Training Epoch: [53][60/191]	overall_loss (0.876)	Prec1  (98.566) 	
+Training Epoch: [53][90/191]	overall_loss (0.881)	Prec1  (98.541) 	
+Training Epoch: [53][120/191]	overall_loss (0.876)	Prec1  (98.722) 	
+Training Epoch: [53][150/191]	overall_loss (0.877)	Prec1  (98.748) 	
+Training Epoch: [53][180/191]	overall_loss (0.884)	Prec1  (98.774) 	
+
+Testing [47/48]	Prec@1  (90.05867004394531)	
+Epoch: 53   Test Acc: 90.05867004394531
+Training ...
+Training Epoch: [54][0/191]	overall_loss (0.793)	Prec1  (96.875) 	
+Training Epoch: [54][30/191]	overall_loss (0.895)	Prec1  (98.387) 	
+Training Epoch: [54][60/191]	overall_loss (0.896)	Prec1  (98.514) 	
+Training Epoch: [54][90/191]	overall_loss (0.877)	Prec1  (98.695) 	
+Training Epoch: [54][120/191]	overall_loss (0.888)	Prec1  (98.631) 	
+Training Epoch: [54][150/191]	overall_loss (0.874)	Prec1  (98.675) 	
+Training Epoch: [54][180/191]	overall_loss (0.885)	Prec1  (98.653) 	
+
+Testing [47/48]	Prec@1  (89.83050537109375)	
+Epoch: 54   Test Acc: 89.83050537109375
+Training ...
+Training Epoch: [55][0/191]	overall_loss (0.749)	Prec1  (98.438) 	
+Training Epoch: [55][30/191]	overall_loss (0.880)	Prec1  (98.790) 	
+Training Epoch: [55][60/191]	overall_loss (0.879)	Prec1  (98.770) 	
+Training Epoch: [55][90/191]	overall_loss (0.882)	Prec1  (98.764) 	
+Training Epoch: [55][120/191]	overall_loss (0.881)	Prec1  (98.709) 	
+Training Epoch: [55][150/191]	overall_loss (0.881)	Prec1  (98.769) 	
+Training Epoch: [55][180/191]	overall_loss (0.883)	Prec1  (98.722) 	
+
+Testing [47/48]	Prec@1  (90.12385559082031)	
+Epoch: 55   Test Acc: 90.12385559082031
+Training ...
+Training Epoch: [56][0/191]	overall_loss (0.838)	Prec1  (100.000) 	
+Training Epoch: [56][30/191]	overall_loss (0.876)	Prec1  (98.639) 	
+Training Epoch: [56][60/191]	overall_loss (0.892)	Prec1  (98.412) 	
+Training Epoch: [56][90/191]	overall_loss (0.888)	Prec1  (98.489) 	
+Training Epoch: [56][120/191]	overall_loss (0.885)	Prec1  (98.502) 	
+Training Epoch: [56][150/191]	overall_loss (0.882)	Prec1  (98.386) 	
+Training Epoch: [56][180/191]	overall_loss (0.879)	Prec1  (98.489) 	
+
+Testing [47/48]	Prec@1  (89.96088409423828)	
+Epoch: 56   Test Acc: 89.96088409423828
+Training ...
+Training Epoch: [57][0/191]	overall_loss (0.875)	Prec1  (100.000) 	
+Training Epoch: [57][30/191]	overall_loss (0.876)	Prec1  (99.093) 	
+Training Epoch: [57][60/191]	overall_loss (0.865)	Prec1  (98.847) 	
+Training Epoch: [57][90/191]	overall_loss (0.863)	Prec1  (98.901) 	
+Training Epoch: [57][120/191]	overall_loss (0.854)	Prec1  (98.980) 	
+Training Epoch: [57][150/191]	overall_loss (0.860)	Prec1  (98.955) 	
+Training Epoch: [57][180/191]	overall_loss (0.869)	Prec1  (98.886) 	
+
+Testing [47/48]	Prec@1  (89.96088409423828)	
+Epoch: 57   Test Acc: 89.96088409423828
+Training ...
+Training Epoch: [58][0/191]	overall_loss (0.912)	Prec1  (98.438) 	
+Training Epoch: [58][30/191]	overall_loss (0.861)	Prec1  (98.841) 	
+Training Epoch: [58][60/191]	overall_loss (0.877)	Prec1  (98.719) 	
+Training Epoch: [58][90/191]	overall_loss (0.878)	Prec1  (98.729) 	
+Training Epoch: [58][120/191]	overall_loss (0.880)	Prec1  (98.696) 	
+Training Epoch: [58][150/191]	overall_loss (0.884)	Prec1  (98.665) 	
+Training Epoch: [58][180/191]	overall_loss (0.883)	Prec1  (98.705) 	
+
+Testing [47/48]	Prec@1  (90.22164154052734)	
+Epoch: 58   Test Acc: 90.22164154052734
+Training ...
+Training Epoch: [59][0/191]	overall_loss (0.738)	Prec1  (98.438) 	
+Training Epoch: [59][30/191]	overall_loss (0.880)	Prec1  (99.244) 	
+Training Epoch: [59][60/191]	overall_loss (0.889)	Prec1  (99.001) 	
+Training Epoch: [59][90/191]	overall_loss (0.886)	Prec1  (99.004) 	
+Training Epoch: [59][120/191]	overall_loss (0.884)	Prec1  (98.902) 	
+Training Epoch: [59][150/191]	overall_loss (0.885)	Prec1  (98.810) 	
+Training Epoch: [59][180/191]	overall_loss (0.888)	Prec1  (98.783) 	
+
+Testing [47/48]	Prec@1  (90.5149917602539)	
+Epoch: 59   Test Acc: 90.5149917602539
+Training ...
+Training Epoch: [60][0/191]	overall_loss (0.733)	Prec1  (100.000) 	
+Training Epoch: [60][30/191]	overall_loss (0.862)	Prec1  (98.740) 	
+Training Epoch: [60][60/191]	overall_loss (0.871)	Prec1  (98.822) 	
+Training Epoch: [60][90/191]	overall_loss (0.877)	Prec1  (98.884) 	
+Training Epoch: [60][120/191]	overall_loss (0.885)	Prec1  (98.722) 	
+Training Epoch: [60][150/191]	overall_loss (0.884)	Prec1  (98.758) 	
+Training Epoch: [60][180/191]	overall_loss (0.880)	Prec1  (98.835) 	
+
+Testing [47/48]	Prec@1  (90.22164154052734)	
+Epoch: 60   Test Acc: 90.22164154052734
+Training ...
+Training Epoch: [61][0/191]	overall_loss (1.136)	Prec1  (96.875) 	
+Training Epoch: [61][30/191]	overall_loss (0.855)	Prec1  (98.891) 	
+Training Epoch: [61][60/191]	overall_loss (0.878)	Prec1  (98.694) 	
+Training Epoch: [61][90/191]	overall_loss (0.893)	Prec1  (98.695) 	
+Training Epoch: [61][120/191]	overall_loss (0.882)	Prec1  (98.670) 	
+Training Epoch: [61][150/191]	overall_loss (0.883)	Prec1  (98.738) 	
+Training Epoch: [61][180/191]	overall_loss (0.882)	Prec1  (98.679) 	
+
+Testing [47/48]	Prec@1  (90.12385559082031)	
+Epoch: 61   Test Acc: 90.12385559082031
+Training ...
+Training Epoch: [62][0/191]	overall_loss (0.964)	Prec1  (95.312) 	
+Training Epoch: [62][30/191]	overall_loss (0.872)	Prec1  (98.891) 	
+Training Epoch: [62][60/191]	overall_loss (0.881)	Prec1  (98.770) 	
+Training Epoch: [62][90/191]	overall_loss (0.878)	Prec1  (98.781) 	
+Training Epoch: [62][120/191]	overall_loss (0.883)	Prec1  (98.709) 	
+Training Epoch: [62][150/191]	overall_loss (0.879)	Prec1  (98.707) 	
+Training Epoch: [62][180/191]	overall_loss (0.875)	Prec1  (98.783) 	
+
+Testing [47/48]	Prec@1  (89.86309814453125)	
+Epoch: 62   Test Acc: 89.86309814453125
+Training ...
+Training Epoch: [63][0/191]	overall_loss (0.782)	Prec1  (100.000) 	
+Training Epoch: [63][30/191]	overall_loss (0.854)	Prec1  (99.244) 	
+Training Epoch: [63][60/191]	overall_loss (0.872)	Prec1  (99.027) 	
+Training Epoch: [63][90/191]	overall_loss (0.881)	Prec1  (98.970) 	
+Training Epoch: [63][120/191]	overall_loss (0.878)	Prec1  (99.032) 	
+Training Epoch: [63][150/191]	overall_loss (0.877)	Prec1  (98.965) 	
+Training Epoch: [63][180/191]	overall_loss (0.881)	Prec1  (98.826) 	
+
+Testing [47/48]	Prec@1  (89.99347686767578)	
+Epoch: 63   Test Acc: 89.99347686767578
+Training ...
+Training Epoch: [64][0/191]	overall_loss (1.090)	Prec1  (98.438) 	
+Training Epoch: [64][30/191]	overall_loss (0.893)	Prec1  (98.589) 	
+Training Epoch: [64][60/191]	overall_loss (0.884)	Prec1  (98.694) 	
+Training Epoch: [64][90/191]	overall_loss (0.883)	Prec1  (98.678) 	
+Training Epoch: [64][120/191]	overall_loss (0.880)	Prec1  (98.709) 	
+Training Epoch: [64][150/191]	overall_loss (0.883)	Prec1  (98.758) 	
+Training Epoch: [64][180/191]	overall_loss (0.881)	Prec1  (98.791) 	
+
+Testing [47/48]	Prec@1  (90.22164154052734)	
+Epoch: 64   Test Acc: 90.22164154052734
+Training ...
+Training Epoch: [65][0/191]	overall_loss (0.971)	Prec1  (98.438) 	
+Training Epoch: [65][30/191]	overall_loss (0.880)	Prec1  (98.992) 	
+Training Epoch: [65][60/191]	overall_loss (0.878)	Prec1  (98.924) 	
+Training Epoch: [65][90/191]	overall_loss (0.878)	Prec1  (98.935) 	
+Training Epoch: [65][120/191]	overall_loss (0.879)	Prec1  (98.864) 	
+Training Epoch: [65][150/191]	overall_loss (0.876)	Prec1  (98.851) 	
+Training Epoch: [65][180/191]	overall_loss (0.878)	Prec1  (98.783) 	
+
+Testing [47/48]	Prec@1  (90.31942749023438)	
+Epoch: 65   Test Acc: 90.31942749023438
+Training ...
+Training Epoch: [66][0/191]	overall_loss (0.699)	Prec1  (100.000) 	
+Training Epoch: [66][30/191]	overall_loss (0.891)	Prec1  (98.740) 	
+Training Epoch: [66][60/191]	overall_loss (0.906)	Prec1  (98.745) 	
+Training Epoch: [66][90/191]	overall_loss (0.891)	Prec1  (98.661) 	
+Training Epoch: [66][120/191]	overall_loss (0.883)	Prec1  (98.747) 	
+Training Epoch: [66][150/191]	overall_loss (0.880)	Prec1  (98.800) 	
+Training Epoch: [66][180/191]	overall_loss (0.884)	Prec1  (98.766) 	
+
+Testing [47/48]	Prec@1  (89.86309814453125)	
+Epoch: 66   Test Acc: 89.86309814453125
+Training ...
+Training Epoch: [67][0/191]	overall_loss (0.867)	Prec1  (100.000) 	
+Training Epoch: [67][30/191]	overall_loss (0.858)	Prec1  (99.093) 	
+Training Epoch: [67][60/191]	overall_loss (0.863)	Prec1  (99.078) 	
+Training Epoch: [67][90/191]	overall_loss (0.871)	Prec1  (98.987) 	
+Training Epoch: [67][120/191]	overall_loss (0.871)	Prec1  (98.928) 	
+Training Epoch: [67][150/191]	overall_loss (0.873)	Prec1  (98.820) 	
+Training Epoch: [67][180/191]	overall_loss (0.873)	Prec1  (98.869) 	
+
+Testing [47/48]	Prec@1  (89.92829132080078)	
+Epoch: 67   Test Acc: 89.92829132080078
+Training ...
+Training Epoch: [68][0/191]	overall_loss (0.766)	Prec1  (100.000) 	
+Training Epoch: [68][30/191]	overall_loss (0.886)	Prec1  (98.992) 	
+Training Epoch: [68][60/191]	overall_loss (0.871)	Prec1  (99.103) 	
+Training Epoch: [68][90/191]	overall_loss (0.870)	Prec1  (99.090) 	
+Training Epoch: [68][120/191]	overall_loss (0.874)	Prec1  (98.889) 	
+Training Epoch: [68][150/191]	overall_loss (0.873)	Prec1  (98.882) 	
+Training Epoch: [68][180/191]	overall_loss (0.873)	Prec1  (98.861) 	
+
+Testing [47/48]	Prec@1  (89.76531982421875)	
+Epoch: 68   Test Acc: 89.76531982421875
+Training ...
+Training Epoch: [69][0/191]	overall_loss (0.815)	Prec1  (98.438) 	
+Training Epoch: [69][30/191]	overall_loss (0.893)	Prec1  (98.992) 	
+Training Epoch: [69][60/191]	overall_loss (0.886)	Prec1  (98.924) 	
+Training Epoch: [69][90/191]	overall_loss (0.884)	Prec1  (98.987) 	
+Training Epoch: [69][120/191]	overall_loss (0.877)	Prec1  (98.993) 	
+Training Epoch: [69][150/191]	overall_loss (0.869)	Prec1  (99.007) 	
+Training Epoch: [69][180/191]	overall_loss (0.870)	Prec1  (98.886) 	
+
+Testing [47/48]	Prec@1  (89.86309814453125)	
+Epoch: 69   Test Acc: 89.86309814453125
+Training ...
+Training Epoch: [70][0/191]	overall_loss (0.909)	Prec1  (100.000) 	
+Training Epoch: [70][30/191]	overall_loss (0.879)	Prec1  (98.790) 	
+Training Epoch: [70][60/191]	overall_loss (0.876)	Prec1  (98.873) 	
+Training Epoch: [70][90/191]	overall_loss (0.871)	Prec1  (99.090) 	
+Training Epoch: [70][120/191]	overall_loss (0.876)	Prec1  (99.006) 	
+Training Epoch: [70][150/191]	overall_loss (0.874)	Prec1  (99.017) 	
+Training Epoch: [70][180/191]	overall_loss (0.877)	Prec1  (98.973) 	
+
+Testing [47/48]	Prec@1  (89.96088409423828)	
+Epoch: 70   Test Acc: 89.96088409423828
+Training ...
+Training Epoch: [71][0/191]	overall_loss (0.814)	Prec1  (100.000) 	
+Training Epoch: [71][30/191]	overall_loss (0.872)	Prec1  (99.143) 	
+Training Epoch: [71][60/191]	overall_loss (0.868)	Prec1  (99.027) 	
+Training Epoch: [71][90/191]	overall_loss (0.865)	Prec1  (99.021) 	
+Training Epoch: [71][120/191]	overall_loss (0.868)	Prec1  (98.980) 	
+Training Epoch: [71][150/191]	overall_loss (0.866)	Prec1  (98.965) 	
+Training Epoch: [71][180/191]	overall_loss (0.865)	Prec1  (98.999) 	
+
+Testing [47/48]	Prec@1  (90.28682708740234)	
+Epoch: 71   Test Acc: 90.28682708740234
+Training ...
+Training Epoch: [72][0/191]	overall_loss (0.875)	Prec1  (100.000) 	
+Training Epoch: [72][30/191]	overall_loss (0.845)	Prec1  (98.841) 	
+Training Epoch: [72][60/191]	overall_loss (0.861)	Prec1  (98.745) 	
+Training Epoch: [72][90/191]	overall_loss (0.862)	Prec1  (98.884) 	
+Training Epoch: [72][120/191]	overall_loss (0.872)	Prec1  (98.877) 	
+Training Epoch: [72][150/191]	overall_loss (0.869)	Prec1  (98.851) 	
+Training Epoch: [72][180/191]	overall_loss (0.868)	Prec1  (98.912) 	
+
+Testing [47/48]	Prec@1  (90.15644836425781)	
+Epoch: 72   Test Acc: 90.15644836425781
+Training ...
+Training Epoch: [73][0/191]	overall_loss (0.846)	Prec1  (98.438) 	
+Training Epoch: [73][30/191]	overall_loss (0.864)	Prec1  (98.740) 	
+Training Epoch: [73][60/191]	overall_loss (0.862)	Prec1  (98.796) 	
+Training Epoch: [73][90/191]	overall_loss (0.880)	Prec1  (98.781) 	
+Training Epoch: [73][120/191]	overall_loss (0.872)	Prec1  (98.928) 	
+Training Epoch: [73][150/191]	overall_loss (0.868)	Prec1  (98.934) 	
+Training Epoch: [73][180/191]	overall_loss (0.869)	Prec1  (98.999) 	
+
+Testing [47/48]	Prec@1  (90.25423431396484)	
+Epoch: 73   Test Acc: 90.25423431396484
+Training ...
+Training Epoch: [74][0/191]	overall_loss (0.982)	Prec1  (100.000) 	
+Training Epoch: [74][30/191]	overall_loss (0.895)	Prec1  (98.538) 	
+Training Epoch: [74][60/191]	overall_loss (0.887)	Prec1  (98.796) 	
+Training Epoch: [74][90/191]	overall_loss (0.882)	Prec1  (98.764) 	
+Training Epoch: [74][120/191]	overall_loss (0.872)	Prec1  (98.877) 	
+Training Epoch: [74][150/191]	overall_loss (0.870)	Prec1  (98.841) 	
+Training Epoch: [74][180/191]	overall_loss (0.871)	Prec1  (98.826) 	
+
+Testing [47/48]	Prec@1  (90.05867004394531)	
+Epoch: 74   Test Acc: 90.05867004394531
+Training ...
+Training Epoch: [75][0/191]	overall_loss (0.919)	Prec1  (98.438) 	
+Training Epoch: [75][30/191]	overall_loss (0.864)	Prec1  (98.891) 	
+Training Epoch: [75][60/191]	overall_loss (0.867)	Prec1  (98.770) 	
+Training Epoch: [75][90/191]	overall_loss (0.867)	Prec1  (98.850) 	
+Training Epoch: [75][120/191]	overall_loss (0.865)	Prec1  (98.941) 	
+Training Epoch: [75][150/191]	overall_loss (0.863)	Prec1  (98.986) 	
+Training Epoch: [75][180/191]	overall_loss (0.863)	Prec1  (99.016) 	
+
+Testing [47/48]	Prec@1  (89.96088409423828)	
+Epoch: 75   Test Acc: 89.96088409423828
+Training ...
+Training Epoch: [76][0/191]	overall_loss (0.764)	Prec1  (98.438) 	
+Training Epoch: [76][30/191]	overall_loss (0.858)	Prec1  (99.042) 	
+Training Epoch: [76][60/191]	overall_loss (0.862)	Prec1  (99.027) 	
+Training Epoch: [76][90/191]	overall_loss (0.854)	Prec1  (99.073) 	
+Training Epoch: [76][120/191]	overall_loss (0.860)	Prec1  (99.109) 	
+Training Epoch: [76][150/191]	overall_loss (0.861)	Prec1  (99.038) 	
+Training Epoch: [76][180/191]	overall_loss (0.863)	Prec1  (98.973) 	
+
+Testing [47/48]	Prec@1  (90.15644836425781)	
+Epoch: 76   Test Acc: 90.15644836425781
+Training ...
+Training Epoch: [77][0/191]	overall_loss (0.786)	Prec1  (100.000) 	
+Training Epoch: [77][30/191]	overall_loss (0.861)	Prec1  (99.042) 	
+Training Epoch: [77][60/191]	overall_loss (0.881)	Prec1  (99.078) 	
+Training Epoch: [77][90/191]	overall_loss (0.871)	Prec1  (98.953) 	
+Training Epoch: [77][120/191]	overall_loss (0.867)	Prec1  (98.967) 	
+Training Epoch: [77][150/191]	overall_loss (0.875)	Prec1  (98.945) 	
+Training Epoch: [77][180/191]	overall_loss (0.872)	Prec1  (98.938) 	
+
+Testing [47/48]	Prec@1  (90.38461303710938)	
+Epoch: 77   Test Acc: 90.38461303710938
+Training ...
+Training Epoch: [78][0/191]	overall_loss (0.947)	Prec1  (100.000) 	
+Training Epoch: [78][30/191]	overall_loss (0.841)	Prec1  (99.345) 	
+Training Epoch: [78][60/191]	overall_loss (0.850)	Prec1  (99.334) 	
+Training Epoch: [78][90/191]	overall_loss (0.854)	Prec1  (99.245) 	
+Training Epoch: [78][120/191]	overall_loss (0.863)	Prec1  (99.186) 	
+Training Epoch: [78][150/191]	overall_loss (0.868)	Prec1  (99.141) 	
+Training Epoch: [78][180/191]	overall_loss (0.867)	Prec1  (99.119) 	
+
+Testing [47/48]	Prec@1  (90.02607727050781)	
+Epoch: 78   Test Acc: 90.02607727050781
+Training ...
+Training Epoch: [79][0/191]	overall_loss (0.787)	Prec1  (100.000) 	
+Training Epoch: [79][30/191]	overall_loss (0.865)	Prec1  (98.891) 	
+Training Epoch: [79][60/191]	overall_loss (0.861)	Prec1  (99.027) 	
+Training Epoch: [79][90/191]	overall_loss (0.869)	Prec1  (99.073) 	
+Training Epoch: [79][120/191]	overall_loss (0.865)	Prec1  (99.096) 	
+Training Epoch: [79][150/191]	overall_loss (0.868)	Prec1  (99.038) 	
+Training Epoch: [79][180/191]	overall_loss (0.867)	Prec1  (99.025) 	
+
+Testing [47/48]	Prec@1  (90.15644836425781)	
+Epoch: 79   Test Acc: 90.15644836425781
+Training ...
+Training Epoch: [80][0/191]	overall_loss (1.006)	Prec1  (96.875) 	
+Training Epoch: [80][30/191]	overall_loss (0.853)	Prec1  (99.143) 	
+Training Epoch: [80][60/191]	overall_loss (0.864)	Prec1  (99.103) 	
+Training Epoch: [80][90/191]	overall_loss (0.868)	Prec1  (99.141) 	
+Training Epoch: [80][120/191]	overall_loss (0.869)	Prec1  (99.083) 	
+Training Epoch: [80][150/191]	overall_loss (0.865)	Prec1  (99.131) 	
+Training Epoch: [80][180/191]	overall_loss (0.863)	Prec1  (99.119) 	
+
+Testing [47/48]	Prec@1  (90.12385559082031)	
+Epoch: 80   Test Acc: 90.12385559082031
+Training ...
+Training Epoch: [81][0/191]	overall_loss (1.092)	Prec1  (95.312) 	
+Training Epoch: [81][30/191]	overall_loss (0.892)	Prec1  (98.740) 	
+Training Epoch: [81][60/191]	overall_loss (0.878)	Prec1  (98.796) 	
+Training Epoch: [81][90/191]	overall_loss (0.880)	Prec1  (98.935) 	
+Training Epoch: [81][120/191]	overall_loss (0.867)	Prec1  (98.993) 	
+Training Epoch: [81][150/191]	overall_loss (0.867)	Prec1  (98.996) 	
+Training Epoch: [81][180/191]	overall_loss (0.868)	Prec1  (98.938) 	
+
+Testing [47/48]	Prec@1  (90.15644836425781)	
+Epoch: 81   Test Acc: 90.15644836425781
+Training ...
+Training Epoch: [82][0/191]	overall_loss (0.822)	Prec1  (100.000) 	
+Training Epoch: [82][30/191]	overall_loss (0.860)	Prec1  (99.345) 	
+Training Epoch: [82][60/191]	overall_loss (0.843)	Prec1  (99.283) 	
+Training Epoch: [82][90/191]	overall_loss (0.850)	Prec1  (99.193) 	
+Training Epoch: [82][120/191]	overall_loss (0.862)	Prec1  (99.057) 	
+Training Epoch: [82][150/191]	overall_loss (0.859)	Prec1  (99.069) 	
+Training Epoch: [82][180/191]	overall_loss (0.859)	Prec1  (99.059) 	
+
+Testing [47/48]	Prec@1  (90.09126281738281)	
+Epoch: 82   Test Acc: 90.09126281738281
+Training ...
+Training Epoch: [83][0/191]	overall_loss (0.930)	Prec1  (100.000) 	
+Training Epoch: [83][30/191]	overall_loss (0.844)	Prec1  (99.194) 	
+Training Epoch: [83][60/191]	overall_loss (0.865)	Prec1  (98.975) 	
+Training Epoch: [83][90/191]	overall_loss (0.868)	Prec1  (98.970) 	
+Training Epoch: [83][120/191]	overall_loss (0.869)	Prec1  (99.006) 	
+Training Epoch: [83][150/191]	overall_loss (0.868)	Prec1  (98.996) 	
+Training Epoch: [83][180/191]	overall_loss (0.863)	Prec1  (99.102) 	
+
+Testing [47/48]	Prec@1  (90.18904876708984)	
+Epoch: 83   Test Acc: 90.18904876708984
+Training ...
+Training Epoch: [84][0/191]	overall_loss (0.909)	Prec1  (98.438) 	
+Training Epoch: [84][30/191]	overall_loss (0.846)	Prec1  (98.992) 	
+Training Epoch: [84][60/191]	overall_loss (0.859)	Prec1  (99.001) 	
+Training Epoch: [84][90/191]	overall_loss (0.860)	Prec1  (99.056) 	
+Training Epoch: [84][120/191]	overall_loss (0.870)	Prec1  (99.019) 	
+Training Epoch: [84][150/191]	overall_loss (0.865)	Prec1  (99.017) 	
+Training Epoch: [84][180/191]	overall_loss (0.863)	Prec1  (99.050) 	
+
+Testing [47/48]	Prec@1  (90.12385559082031)	
+Epoch: 84   Test Acc: 90.12385559082031
+Training ...
+Training Epoch: [85][0/191]	overall_loss (0.889)	Prec1  (96.875) 	
+Training Epoch: [85][30/191]	overall_loss (0.843)	Prec1  (99.042) 	
+Training Epoch: [85][60/191]	overall_loss (0.837)	Prec1  (99.232) 	
+Training Epoch: [85][90/191]	overall_loss (0.844)	Prec1  (99.193) 	
+Training Epoch: [85][120/191]	overall_loss (0.853)	Prec1  (99.109) 	
+Training Epoch: [85][150/191]	overall_loss (0.859)	Prec1  (99.141) 	
+Training Epoch: [85][180/191]	overall_loss (0.862)	Prec1  (99.119) 	
+
+Testing [47/48]	Prec@1  (90.31942749023438)	
+Epoch: 85   Test Acc: 90.31942749023438
+Training ...
+Training Epoch: [86][0/191]	overall_loss (0.991)	Prec1  (100.000) 	
+Training Epoch: [86][30/191]	overall_loss (0.862)	Prec1  (99.093) 	
+Training Epoch: [86][60/191]	overall_loss (0.863)	Prec1  (99.001) 	
+Training Epoch: [86][90/191]	overall_loss (0.864)	Prec1  (99.056) 	
+Training Epoch: [86][120/191]	overall_loss (0.866)	Prec1  (98.915) 	
+Training Epoch: [86][150/191]	overall_loss (0.869)	Prec1  (98.934) 	
+Training Epoch: [86][180/191]	overall_loss (0.870)	Prec1  (98.921) 	
+
+Testing [47/48]	Prec@1  (90.15644836425781)	
+Epoch: 86   Test Acc: 90.15644836425781
+Training ...
+Training Epoch: [87][0/191]	overall_loss (0.741)	Prec1  (98.438) 	
+Training Epoch: [87][30/191]	overall_loss (0.866)	Prec1  (98.992) 	
+Training Epoch: [87][60/191]	overall_loss (0.853)	Prec1  (99.001) 	
+Training Epoch: [87][90/191]	overall_loss (0.867)	Prec1  (98.901) 	
+Training Epoch: [87][120/191]	overall_loss (0.872)	Prec1  (98.851) 	
+Training Epoch: [87][150/191]	overall_loss (0.866)	Prec1  (98.882) 	
+Training Epoch: [87][180/191]	overall_loss (0.862)	Prec1  (98.912) 	
+
+Testing [47/48]	Prec@1  (90.31942749023438)	
+Epoch: 87   Test Acc: 90.31942749023438
+Training ...
+Training Epoch: [88][0/191]	overall_loss (0.643)	Prec1  (100.000) 	
+Training Epoch: [88][30/191]	overall_loss (0.851)	Prec1  (98.942) 	
+Training Epoch: [88][60/191]	overall_loss (0.874)	Prec1  (98.899) 	
+Training Epoch: [88][90/191]	overall_loss (0.865)	Prec1  (98.987) 	
+Training Epoch: [88][120/191]	overall_loss (0.871)	Prec1  (98.928) 	
+Training Epoch: [88][150/191]	overall_loss (0.866)	Prec1  (98.913) 	
+Training Epoch: [88][180/191]	overall_loss (0.860)	Prec1  (98.973) 	
+
+Testing [47/48]	Prec@1  (90.35202026367188)	
+Epoch: 88   Test Acc: 90.35202026367188
+Training ...
+Training Epoch: [89][0/191]	overall_loss (0.765)	Prec1  (100.000) 	
+Training Epoch: [89][30/191]	overall_loss (0.841)	Prec1  (99.597) 	
+Training Epoch: [89][60/191]	overall_loss (0.836)	Prec1  (99.462) 	
+Training Epoch: [89][90/191]	overall_loss (0.850)	Prec1  (99.210) 	
+Training Epoch: [89][120/191]	overall_loss (0.853)	Prec1  (99.225) 	
+Training Epoch: [89][150/191]	overall_loss (0.856)	Prec1  (99.162) 	
+Training Epoch: [89][180/191]	overall_loss (0.859)	Prec1  (99.180) 	
+
+Testing [47/48]	Prec@1  (90.5475845336914)	
+Epoch: 89   Test Acc: 90.5475845336914
+Training ...
+Training Epoch: [90][0/191]	overall_loss (0.942)	Prec1  (98.438) 	
+Training Epoch: [90][30/191]	overall_loss (0.898)	Prec1  (98.589) 	
+Training Epoch: [90][60/191]	overall_loss (0.873)	Prec1  (98.899) 	
+Training Epoch: [90][90/191]	overall_loss (0.869)	Prec1  (98.987) 	
+Training Epoch: [90][120/191]	overall_loss (0.862)	Prec1  (99.019) 	
+Training Epoch: [90][150/191]	overall_loss (0.864)	Prec1  (99.038) 	
+Training Epoch: [90][180/191]	overall_loss (0.863)	Prec1  (99.059) 	
+
+Testing [47/48]	Prec@1  (90.31942749023438)	
+Epoch: 90   Test Acc: 90.31942749023438
+Training ...
+Training Epoch: [91][0/191]	overall_loss (0.816)	Prec1  (100.000) 	
+Training Epoch: [91][30/191]	overall_loss (0.862)	Prec1  (99.395) 	
+Training Epoch: [91][60/191]	overall_loss (0.849)	Prec1  (99.385) 	
+Training Epoch: [91][90/191]	overall_loss (0.847)	Prec1  (99.330) 	
+Training Epoch: [91][120/191]	overall_loss (0.850)	Prec1  (99.251) 	
+Training Epoch: [91][150/191]	overall_loss (0.851)	Prec1  (99.183) 	
+Training Epoch: [91][180/191]	overall_loss (0.854)	Prec1  (99.189) 	
+
+Testing [47/48]	Prec@1  (90.15644836425781)	
+Epoch: 91   Test Acc: 90.15644836425781
+Training ...
+Training Epoch: [92][0/191]	overall_loss (0.824)	Prec1  (100.000) 	
+Training Epoch: [92][30/191]	overall_loss (0.870)	Prec1  (98.992) 	
+Training Epoch: [92][60/191]	overall_loss (0.866)	Prec1  (99.155) 	
+Training Epoch: [92][90/191]	overall_loss (0.869)	Prec1  (99.073) 	
+Training Epoch: [92][120/191]	overall_loss (0.868)	Prec1  (99.096) 	
+Training Epoch: [92][150/191]	overall_loss (0.868)	Prec1  (99.069) 	
+Training Epoch: [92][180/191]	overall_loss (0.869)	Prec1  (99.094) 	
+
+Testing [47/48]	Prec@1  (90.18904876708984)	
+Epoch: 92   Test Acc: 90.18904876708984
+Training ...
+Training Epoch: [93][0/191]	overall_loss (0.802)	Prec1  (100.000) 	
+Training Epoch: [93][30/191]	overall_loss (0.847)	Prec1  (99.143) 	
+Training Epoch: [93][60/191]	overall_loss (0.854)	Prec1  (99.308) 	
+Training Epoch: [93][90/191]	overall_loss (0.857)	Prec1  (99.176) 	
+Training Epoch: [93][120/191]	overall_loss (0.863)	Prec1  (99.225) 	
+Training Epoch: [93][150/191]	overall_loss (0.865)	Prec1  (99.224) 	
+Training Epoch: [93][180/191]	overall_loss (0.860)	Prec1  (99.171) 	
+
+Testing [47/48]	Prec@1  (90.15644836425781)	
+Epoch: 93   Test Acc: 90.15644836425781
+Training ...
+Training Epoch: [94][0/191]	overall_loss (0.735)	Prec1  (100.000) 	
+Training Epoch: [94][30/191]	overall_loss (0.860)	Prec1  (99.194) 	
+Training Epoch: [94][60/191]	overall_loss (0.866)	Prec1  (99.078) 	
+Training Epoch: [94][90/191]	overall_loss (0.866)	Prec1  (99.141) 	
+Training Epoch: [94][120/191]	overall_loss (0.864)	Prec1  (99.135) 	
+Training Epoch: [94][150/191]	overall_loss (0.869)	Prec1  (99.131) 	
+Training Epoch: [94][180/191]	overall_loss (0.864)	Prec1  (99.137) 	
+
+Testing [47/48]	Prec@1  (90.5149917602539)	
+Epoch: 94   Test Acc: 90.5149917602539
+Training ...
+Training Epoch: [95][0/191]	overall_loss (0.730)	Prec1  (100.000) 	
+Training Epoch: [95][30/191]	overall_loss (0.861)	Prec1  (99.244) 	
+Training Epoch: [95][60/191]	overall_loss (0.872)	Prec1  (99.103) 	
+Training Epoch: [95][90/191]	overall_loss (0.873)	Prec1  (99.021) 	
+Training Epoch: [95][120/191]	overall_loss (0.871)	Prec1  (99.057) 	
+Training Epoch: [95][150/191]	overall_loss (0.866)	Prec1  (99.151) 	
+Training Epoch: [95][180/191]	overall_loss (0.863)	Prec1  (99.128) 	
+
+Testing [47/48]	Prec@1  (90.4498062133789)	
+Epoch: 95   Test Acc: 90.4498062133789
+Training ...
+Training Epoch: [96][0/191]	overall_loss (0.754)	Prec1  (100.000) 	
+Training Epoch: [96][30/191]	overall_loss (0.875)	Prec1  (99.345) 	
+Training Epoch: [96][60/191]	overall_loss (0.873)	Prec1  (99.129) 	
+Training Epoch: [96][90/191]	overall_loss (0.871)	Prec1  (99.141) 	
+Training Epoch: [96][120/191]	overall_loss (0.863)	Prec1  (99.161) 	
+Training Epoch: [96][150/191]	overall_loss (0.865)	Prec1  (99.089) 	
+Training Epoch: [96][180/191]	overall_loss (0.864)	Prec1  (99.111) 	
+
+Testing [47/48]	Prec@1  (90.22164154052734)	
+Epoch: 96   Test Acc: 90.22164154052734
+Training ...
+Training Epoch: [97][0/191]	overall_loss (0.833)	Prec1  (98.438) 	
+Training Epoch: [97][30/191]	overall_loss (0.865)	Prec1  (99.194) 	
+Training Epoch: [97][60/191]	overall_loss (0.854)	Prec1  (99.232) 	
+Training Epoch: [97][90/191]	overall_loss (0.854)	Prec1  (99.296) 	
+Training Epoch: [97][120/191]	overall_loss (0.864)	Prec1  (99.238) 	
+Training Epoch: [97][150/191]	overall_loss (0.862)	Prec1  (99.151) 	
+Training Epoch: [97][180/191]	overall_loss (0.857)	Prec1  (99.171) 	
+
+Testing [47/48]	Prec@1  (90.15644836425781)	
+Epoch: 97   Test Acc: 90.15644836425781
+Training ...
+Training Epoch: [98][0/191]	overall_loss (1.074)	Prec1  (96.875) 	
+Training Epoch: [98][30/191]	overall_loss (0.872)	Prec1  (98.992) 	
+Training Epoch: [98][60/191]	overall_loss (0.867)	Prec1  (98.924) 	
+Training Epoch: [98][90/191]	overall_loss (0.857)	Prec1  (99.090) 	
+Training Epoch: [98][120/191]	overall_loss (0.852)	Prec1  (99.199) 	
+Training Epoch: [98][150/191]	overall_loss (0.854)	Prec1  (99.193) 	
+Training Epoch: [98][180/191]	overall_loss (0.855)	Prec1  (99.232) 	
+
+Testing [47/48]	Prec@1  (90.28682708740234)	
+Epoch: 98   Test Acc: 90.28682708740234
+Training ...
+Training Epoch: [99][0/191]	overall_loss (0.817)	Prec1  (100.000) 	
+Training Epoch: [99][30/191]	overall_loss (0.846)	Prec1  (99.496) 	
+Training Epoch: [99][60/191]	overall_loss (0.850)	Prec1  (99.513) 	
+Training Epoch: [99][90/191]	overall_loss (0.859)	Prec1  (99.262) 	
+Training Epoch: [99][120/191]	overall_loss (0.856)	Prec1  (99.264) 	
+Training Epoch: [99][150/191]	overall_loss (0.860)	Prec1  (99.255) 	
+Training Epoch: [99][180/191]	overall_loss (0.855)	Prec1  (99.180) 	
+
+Testing [47/48]	Prec@1  (90.22164154052734)	
+Epoch: 99   Test Acc: 90.22164154052734
+Training ...
+Training Epoch: [100][0/191]	overall_loss (0.936)	Prec1  (100.000) 	
+Training Epoch: [100][30/191]	overall_loss (0.867)	Prec1  (99.042) 	
+Training Epoch: [100][60/191]	overall_loss (0.864)	Prec1  (99.103) 	
+Training Epoch: [100][90/191]	overall_loss (0.856)	Prec1  (99.090) 	
+Training Epoch: [100][120/191]	overall_loss (0.860)	Prec1  (99.019) 	
+Training Epoch: [100][150/191]	overall_loss (0.859)	Prec1  (99.069) 	
+Training Epoch: [100][180/191]	overall_loss (0.861)	Prec1  (99.076) 	
+
+Testing [47/48]	Prec@1  (90.5475845336914)	
+Epoch: 100   Test Acc: 90.5475845336914
+Training ...
+Training Epoch: [101][0/191]	overall_loss (0.802)	Prec1  (98.438) 	
+Training Epoch: [101][30/191]	overall_loss (0.867)	Prec1  (99.042) 	
+Training Epoch: [101][60/191]	overall_loss (0.876)	Prec1  (99.052) 	
+Training Epoch: [101][90/191]	overall_loss (0.868)	Prec1  (99.159) 	
+Training Epoch: [101][120/191]	overall_loss (0.867)	Prec1  (99.225) 	
+Training Epoch: [101][150/191]	overall_loss (0.860)	Prec1  (99.245) 	
+Training Epoch: [101][180/191]	overall_loss (0.857)	Prec1  (99.258) 	
+
+Testing [47/48]	Prec@1  (90.38461303710938)	
+Epoch: 101   Test Acc: 90.38461303710938
+Training ...
+Training Epoch: [102][0/191]	overall_loss (0.887)	Prec1  (100.000) 	
+Training Epoch: [102][30/191]	overall_loss (0.871)	Prec1  (99.244) 	
+Training Epoch: [102][60/191]	overall_loss (0.856)	Prec1  (99.180) 	
+Training Epoch: [102][90/191]	overall_loss (0.857)	Prec1  (99.107) 	
+Training Epoch: [102][120/191]	overall_loss (0.853)	Prec1  (99.199) 	
+Training Epoch: [102][150/191]	overall_loss (0.855)	Prec1  (99.203) 	
+Training Epoch: [102][180/191]	overall_loss (0.853)	Prec1  (99.275) 	
+
+Testing [47/48]	Prec@1  (90.35202026367188)	
+Epoch: 102   Test Acc: 90.35202026367188
+Training ...
+Training Epoch: [103][0/191]	overall_loss (0.721)	Prec1  (100.000) 	
+Training Epoch: [103][30/191]	overall_loss (0.873)	Prec1  (99.244) 	
+Training Epoch: [103][60/191]	overall_loss (0.869)	Prec1  (99.052) 	
+Training Epoch: [103][90/191]	overall_loss (0.865)	Prec1  (99.073) 	
+Training Epoch: [103][120/191]	overall_loss (0.856)	Prec1  (99.109) 	
+Training Epoch: [103][150/191]	overall_loss (0.856)	Prec1  (99.058) 	
+Training Epoch: [103][180/191]	overall_loss (0.855)	Prec1  (99.119) 	
+
+Testing [47/48]	Prec@1  (90.5475845336914)	
+Epoch: 103   Test Acc: 90.5475845336914
+Training ...
+Training Epoch: [104][0/191]	overall_loss (0.966)	Prec1  (96.875) 	
+Training Epoch: [104][30/191]	overall_loss (0.853)	Prec1  (99.143) 	
+Training Epoch: [104][60/191]	overall_loss (0.845)	Prec1  (99.180) 	
+Training Epoch: [104][90/191]	overall_loss (0.850)	Prec1  (99.159) 	
+Training Epoch: [104][120/191]	overall_loss (0.850)	Prec1  (99.122) 	
+Training Epoch: [104][150/191]	overall_loss (0.848)	Prec1  (99.172) 	
+Training Epoch: [104][180/191]	overall_loss (0.850)	Prec1  (99.154) 	
+
+Testing [47/48]	Prec@1  (90.35202026367188)	
+Epoch: 104   Test Acc: 90.35202026367188
+Training ...
+Training Epoch: [105][0/191]	overall_loss (0.937)	Prec1  (98.438) 	
+Training Epoch: [105][30/191]	overall_loss (0.833)	Prec1  (99.244) 	
+Training Epoch: [105][60/191]	overall_loss (0.847)	Prec1  (99.027) 	
+Training Epoch: [105][90/191]	overall_loss (0.846)	Prec1  (99.038) 	
+Training Epoch: [105][120/191]	overall_loss (0.848)	Prec1  (99.225) 	
+Training Epoch: [105][150/191]	overall_loss (0.846)	Prec1  (99.276) 	
+Training Epoch: [105][180/191]	overall_loss (0.843)	Prec1  (99.292) 	
+
+Testing [47/48]	Prec@1  (90.5149917602539)	
+Epoch: 105   Test Acc: 90.5149917602539
+Training ...
+Training Epoch: [106][0/191]	overall_loss (0.902)	Prec1  (96.875) 	
+Training Epoch: [106][30/191]	overall_loss (0.847)	Prec1  (99.042) 	
+Training Epoch: [106][60/191]	overall_loss (0.873)	Prec1  (99.129) 	
+Training Epoch: [106][90/191]	overall_loss (0.861)	Prec1  (99.245) 	
+Training Epoch: [106][120/191]	overall_loss (0.863)	Prec1  (99.174) 	
+Training Epoch: [106][150/191]	overall_loss (0.860)	Prec1  (99.224) 	
+Training Epoch: [106][180/191]	overall_loss (0.861)	Prec1  (99.163) 	
+
+Testing [47/48]	Prec@1  (90.4823989868164)	
+Epoch: 106   Test Acc: 90.4823989868164
+Training ...
+Training Epoch: [107][0/191]	overall_loss (0.708)	Prec1  (100.000) 	
+Training Epoch: [107][30/191]	overall_loss (0.816)	Prec1  (99.496) 	
+Training Epoch: [107][60/191]	overall_loss (0.819)	Prec1  (99.385) 	
+Training Epoch: [107][90/191]	overall_loss (0.834)	Prec1  (99.330) 	
+Training Epoch: [107][120/191]	overall_loss (0.849)	Prec1  (99.290) 	
+Training Epoch: [107][150/191]	overall_loss (0.847)	Prec1  (99.327) 	
+Training Epoch: [107][180/191]	overall_loss (0.848)	Prec1  (99.292) 	
+
+Testing [47/48]	Prec@1  (90.5801773071289)	
+Epoch: 107   Test Acc: 90.5801773071289
+Training ...
+Training Epoch: [108][0/191]	overall_loss (0.910)	Prec1  (98.438) 	
+Training Epoch: [108][30/191]	overall_loss (0.875)	Prec1  (99.446) 	
+Training Epoch: [108][60/191]	overall_loss (0.879)	Prec1  (99.283) 	
+Training Epoch: [108][90/191]	overall_loss (0.872)	Prec1  (99.227) 	
+Training Epoch: [108][120/191]	overall_loss (0.854)	Prec1  (99.329) 	
+Training Epoch: [108][150/191]	overall_loss (0.852)	Prec1  (99.276) 	
+Training Epoch: [108][180/191]	overall_loss (0.855)	Prec1  (99.249) 	
+
+Testing [47/48]	Prec@1  (90.38461303710938)	
+Epoch: 108   Test Acc: 90.38461303710938
+Training ...
+Training Epoch: [109][0/191]	overall_loss (0.616)	Prec1  (100.000) 	
+Training Epoch: [109][30/191]	overall_loss (0.850)	Prec1  (99.042) 	
+Training Epoch: [109][60/191]	overall_loss (0.862)	Prec1  (99.078) 	
+Training Epoch: [109][90/191]	overall_loss (0.860)	Prec1  (99.210) 	
+Training Epoch: [109][120/191]	overall_loss (0.853)	Prec1  (99.264) 	
+Training Epoch: [109][150/191]	overall_loss (0.854)	Prec1  (99.183) 	
+Training Epoch: [109][180/191]	overall_loss (0.856)	Prec1  (99.214) 	
+
+Testing [47/48]	Prec@1  (90.5149917602539)	
+Epoch: 109   Test Acc: 90.5149917602539
+Training ...
+Training Epoch: [110][0/191]	overall_loss (0.751)	Prec1  (98.438) 	
+Training Epoch: [110][30/191]	overall_loss (0.852)	Prec1  (99.395) 	
+Training Epoch: [110][60/191]	overall_loss (0.856)	Prec1  (99.308) 	
+Training Epoch: [110][90/191]	overall_loss (0.847)	Prec1  (99.296) 	
+Training Epoch: [110][120/191]	overall_loss (0.851)	Prec1  (99.316) 	
+Training Epoch: [110][150/191]	overall_loss (0.855)	Prec1  (99.296) 	
+Training Epoch: [110][180/191]	overall_loss (0.856)	Prec1  (99.258) 	
+
+Testing [47/48]	Prec@1  (90.5801773071289)	
+Epoch: 110   Test Acc: 90.5801773071289
+Training ...
+Training Epoch: [111][0/191]	overall_loss (0.817)	Prec1  (98.438) 	
+Training Epoch: [111][30/191]	overall_loss (0.869)	Prec1  (99.143) 	
+Training Epoch: [111][60/191]	overall_loss (0.854)	Prec1  (99.180) 	
+Training Epoch: [111][90/191]	overall_loss (0.846)	Prec1  (99.176) 	
+Training Epoch: [111][120/191]	overall_loss (0.859)	Prec1  (99.096) 	
+Training Epoch: [111][150/191]	overall_loss (0.853)	Prec1  (99.141) 	
+Training Epoch: [111][180/191]	overall_loss (0.855)	Prec1  (99.154) 	
+
+Testing [47/48]	Prec@1  (90.4823989868164)	
+Epoch: 111   Test Acc: 90.4823989868164
+Training ...
+Training Epoch: [112][0/191]	overall_loss (0.959)	Prec1  (98.438) 	
+Training Epoch: [112][30/191]	overall_loss (0.840)	Prec1  (99.597) 	
+Training Epoch: [112][60/191]	overall_loss (0.843)	Prec1  (99.411) 	
+Training Epoch: [112][90/191]	overall_loss (0.842)	Prec1  (99.365) 	
+Training Epoch: [112][120/191]	overall_loss (0.850)	Prec1  (99.290) 	
+Training Epoch: [112][150/191]	overall_loss (0.847)	Prec1  (99.348) 	
+Training Epoch: [112][180/191]	overall_loss (0.852)	Prec1  (99.284) 	
+
+Testing [47/48]	Prec@1  (90.4498062133789)	
+Epoch: 112   Test Acc: 90.4498062133789
+Training ...
+Training Epoch: [113][0/191]	overall_loss (0.814)	Prec1  (100.000) 	
+Training Epoch: [113][30/191]	overall_loss (0.872)	Prec1  (99.546) 	
+Training Epoch: [113][60/191]	overall_loss (0.864)	Prec1  (99.385) 	
+Training Epoch: [113][90/191]	overall_loss (0.855)	Prec1  (99.348) 	
+Training Epoch: [113][120/191]	overall_loss (0.848)	Prec1  (99.341) 	
+Training Epoch: [113][150/191]	overall_loss (0.850)	Prec1  (99.358) 	
+Training Epoch: [113][180/191]	overall_loss (0.856)	Prec1  (99.361) 	
+
+Testing [47/48]	Prec@1  (90.41720581054688)	
+Epoch: 113   Test Acc: 90.41720581054688
+Training ...
+Training Epoch: [114][0/191]	overall_loss (0.890)	Prec1  (98.438) 	
+Training Epoch: [114][30/191]	overall_loss (0.858)	Prec1  (99.446) 	
+Training Epoch: [114][60/191]	overall_loss (0.859)	Prec1  (99.206) 	
+Training Epoch: [114][90/191]	overall_loss (0.858)	Prec1  (99.176) 	
+Training Epoch: [114][120/191]	overall_loss (0.860)	Prec1  (99.199) 	
+Training Epoch: [114][150/191]	overall_loss (0.861)	Prec1  (99.193) 	
+Training Epoch: [114][180/191]	overall_loss (0.856)	Prec1  (99.206) 	
+
+Testing [47/48]	Prec@1  (90.4498062133789)	
+Epoch: 114   Test Acc: 90.4498062133789
+Training ...
+Training Epoch: [115][0/191]	overall_loss (0.855)	Prec1  (98.438) 	
+Training Epoch: [115][30/191]	overall_loss (0.846)	Prec1  (99.597) 	
+Training Epoch: [115][60/191]	overall_loss (0.853)	Prec1  (99.411) 	
+Training Epoch: [115][90/191]	overall_loss (0.851)	Prec1  (99.416) 	
+Training Epoch: [115][120/191]	overall_loss (0.850)	Prec1  (99.316) 	
+Training Epoch: [115][150/191]	overall_loss (0.853)	Prec1  (99.286) 	
+Training Epoch: [115][180/191]	overall_loss (0.854)	Prec1  (99.266) 	
+
+Testing [47/48]	Prec@1  (90.5149917602539)	
+Epoch: 115   Test Acc: 90.5149917602539
+Training ...
+Training Epoch: [116][0/191]	overall_loss (0.989)	Prec1  (98.438) 	
+Training Epoch: [116][30/191]	overall_loss (0.834)	Prec1  (99.294) 	
+Training Epoch: [116][60/191]	overall_loss (0.839)	Prec1  (99.308) 	
+Training Epoch: [116][90/191]	overall_loss (0.837)	Prec1  (99.365) 	
+Training Epoch: [116][120/191]	overall_loss (0.841)	Prec1  (99.380) 	
+Training Epoch: [116][150/191]	overall_loss (0.844)	Prec1  (99.369) 	
+Training Epoch: [116][180/191]	overall_loss (0.844)	Prec1  (99.335) 	
+
+Testing [47/48]	Prec@1  (90.41720581054688)	
+Epoch: 116   Test Acc: 90.41720581054688
+Training ...
+Training Epoch: [117][0/191]	overall_loss (0.837)	Prec1  (98.438) 	
+Training Epoch: [117][30/191]	overall_loss (0.849)	Prec1  (99.194) 	
+Training Epoch: [117][60/191]	overall_loss (0.843)	Prec1  (99.103) 	
+Training Epoch: [117][90/191]	overall_loss (0.845)	Prec1  (99.021) 	
+Training Epoch: [117][120/191]	overall_loss (0.846)	Prec1  (99.122) 	
+Training Epoch: [117][150/191]	overall_loss (0.856)	Prec1  (99.234) 	
+Training Epoch: [117][180/191]	overall_loss (0.856)	Prec1  (99.180) 	
+
+Testing [47/48]	Prec@1  (90.41720581054688)	
+Epoch: 117   Test Acc: 90.41720581054688
+Training ...
+Training Epoch: [118][0/191]	overall_loss (0.768)	Prec1  (100.000) 	
+Training Epoch: [118][30/191]	overall_loss (0.836)	Prec1  (99.395) 	
+Training Epoch: [118][60/191]	overall_loss (0.821)	Prec1  (99.334) 	
+Training Epoch: [118][90/191]	overall_loss (0.840)	Prec1  (99.210) 	
+Training Epoch: [118][120/191]	overall_loss (0.847)	Prec1  (99.238) 	
+Training Epoch: [118][150/191]	overall_loss (0.854)	Prec1  (99.265) 	
+Training Epoch: [118][180/191]	overall_loss (0.852)	Prec1  (99.275) 	
+
+Testing [47/48]	Prec@1  (90.4498062133789)	
+Epoch: 118   Test Acc: 90.4498062133789
+Training ...
+Training Epoch: [119][0/191]	overall_loss (0.865)	Prec1  (100.000) 	
+Training Epoch: [119][30/191]	overall_loss (0.865)	Prec1  (99.093) 	
+Training Epoch: [119][60/191]	overall_loss (0.852)	Prec1  (99.360) 	
+Training Epoch: [119][90/191]	overall_loss (0.863)	Prec1  (99.279) 	
+Training Epoch: [119][120/191]	overall_loss (0.858)	Prec1  (99.264) 	
+Training Epoch: [119][150/191]	overall_loss (0.855)	Prec1  (99.317) 	
+Training Epoch: [119][180/191]	overall_loss (0.852)	Prec1  (99.318) 	
+
+Testing [47/48]	Prec@1  (90.4498062133789)	
+Epoch: 119   Test Acc: 90.4498062133789
+Training ...
+Training Epoch: [120][0/191]	overall_loss (0.832)	Prec1  (100.000) 	
+Training Epoch: [120][30/191]	overall_loss (0.895)	Prec1  (99.042) 	
+Training Epoch: [120][60/191]	overall_loss (0.881)	Prec1  (99.052) 	
+Training Epoch: [120][90/191]	overall_loss (0.883)	Prec1  (99.021) 	
+Training Epoch: [120][120/191]	overall_loss (0.877)	Prec1  (99.057) 	
+Training Epoch: [120][150/191]	overall_loss (0.871)	Prec1  (99.079) 	
+Training Epoch: [120][180/191]	overall_loss (0.867)	Prec1  (99.119) 	
+
+Testing [47/48]	Prec@1  (90.5149917602539)	
+Epoch: 120   Test Acc: 90.5149917602539
+Training ...
+Training Epoch: [121][0/191]	overall_loss (0.653)	Prec1  (100.000) 	
+Training Epoch: [121][30/191]	overall_loss (0.870)	Prec1  (99.345) 	
+Training Epoch: [121][60/191]	overall_loss (0.868)	Prec1  (99.206) 	
+Training Epoch: [121][90/191]	overall_loss (0.860)	Prec1  (99.193) 	
+Training Epoch: [121][120/191]	overall_loss (0.856)	Prec1  (99.212) 	
+Training Epoch: [121][150/191]	overall_loss (0.853)	Prec1  (99.214) 	
+Training Epoch: [121][180/191]	overall_loss (0.855)	Prec1  (99.197) 	
+
+Testing [47/48]	Prec@1  (90.5149917602539)	
+Epoch: 121   Test Acc: 90.5149917602539
+Training ...
+Training Epoch: [122][0/191]	overall_loss (0.897)	Prec1  (100.000) 	
+Training Epoch: [122][30/191]	overall_loss (0.861)	Prec1  (99.093) 	
+Training Epoch: [122][60/191]	overall_loss (0.846)	Prec1  (99.155) 	
+Training Epoch: [122][90/191]	overall_loss (0.842)	Prec1  (99.193) 	
+Training Epoch: [122][120/191]	overall_loss (0.843)	Prec1  (99.264) 	
+Training Epoch: [122][150/191]	overall_loss (0.848)	Prec1  (99.193) 	
+Training Epoch: [122][180/191]	overall_loss (0.852)	Prec1  (99.223) 	
+
+Testing [47/48]	Prec@1  (90.38461303710938)	
+Epoch: 122   Test Acc: 90.38461303710938
+Training ...
+Training Epoch: [123][0/191]	overall_loss (0.860)	Prec1  (100.000) 	
+Training Epoch: [123][30/191]	overall_loss (0.855)	Prec1  (99.244) 	
+Training Epoch: [123][60/191]	overall_loss (0.867)	Prec1  (99.308) 	
+Training Epoch: [123][90/191]	overall_loss (0.859)	Prec1  (99.279) 	
+Training Epoch: [123][120/191]	overall_loss (0.851)	Prec1  (99.341) 	
+Training Epoch: [123][150/191]	overall_loss (0.846)	Prec1  (99.338) 	
+Training Epoch: [123][180/191]	overall_loss (0.844)	Prec1  (99.353) 	
+
+Testing [47/48]	Prec@1  (90.38461303710938)	
+Epoch: 123   Test Acc: 90.38461303710938
+Training ...
+Training Epoch: [124][0/191]	overall_loss (0.784)	Prec1  (100.000) 	
+Training Epoch: [124][30/191]	overall_loss (0.867)	Prec1  (99.143) 	
+Training Epoch: [124][60/191]	overall_loss (0.881)	Prec1  (99.129) 	
+Training Epoch: [124][90/191]	overall_loss (0.865)	Prec1  (99.210) 	
+Training Epoch: [124][120/191]	overall_loss (0.855)	Prec1  (99.238) 	
+Training Epoch: [124][150/191]	overall_loss (0.852)	Prec1  (99.245) 	
+Training Epoch: [124][180/191]	overall_loss (0.855)	Prec1  (99.275) 	
+
+Testing [47/48]	Prec@1  (90.41720581054688)	
+Epoch: 124   Test Acc: 90.41720581054688
+Training ...
+Training Epoch: [125][0/191]	overall_loss (0.989)	Prec1  (98.438) 	
+Training Epoch: [125][30/191]	overall_loss (0.863)	Prec1  (99.244) 	
+Training Epoch: [125][60/191]	overall_loss (0.851)	Prec1  (99.232) 	
+Training Epoch: [125][90/191]	overall_loss (0.853)	Prec1  (99.279) 	
+Training Epoch: [125][120/191]	overall_loss (0.854)	Prec1  (99.290) 	
+Training Epoch: [125][150/191]	overall_loss (0.851)	Prec1  (99.276) 	
+Training Epoch: [125][180/191]	overall_loss (0.850)	Prec1  (99.292) 	
+
+Testing [47/48]	Prec@1  (90.38461303710938)	
+Epoch: 125   Test Acc: 90.38461303710938
+Training ...
+Training Epoch: [126][0/191]	overall_loss (0.870)	Prec1  (98.438) 	
+Training Epoch: [126][30/191]	overall_loss (0.853)	Prec1  (99.345) 	
+Training Epoch: [126][60/191]	overall_loss (0.855)	Prec1  (99.360) 	
+Training Epoch: [126][90/191]	overall_loss (0.850)	Prec1  (99.416) 	
+Training Epoch: [126][120/191]	overall_loss (0.849)	Prec1  (99.406) 	
+Training Epoch: [126][150/191]	overall_loss (0.858)	Prec1  (99.265) 	
+Training Epoch: [126][180/191]	overall_loss (0.858)	Prec1  (99.266) 	
+
+Testing [47/48]	Prec@1  (90.38461303710938)	
+Epoch: 126   Test Acc: 90.38461303710938
+Training ...
+Training Epoch: [127][0/191]	overall_loss (0.843)	Prec1  (98.438) 	
+Training Epoch: [127][30/191]	overall_loss (0.873)	Prec1  (99.244) 	
+Training Epoch: [127][60/191]	overall_loss (0.845)	Prec1  (99.257) 	
+Training Epoch: [127][90/191]	overall_loss (0.851)	Prec1  (99.262) 	
+Training Epoch: [127][120/191]	overall_loss (0.847)	Prec1  (99.212) 	
+Training Epoch: [127][150/191]	overall_loss (0.850)	Prec1  (99.224) 	
+Training Epoch: [127][180/191]	overall_loss (0.853)	Prec1  (99.258) 	
+
+Testing [47/48]	Prec@1  (90.5149917602539)	
+Epoch: 127   Test Acc: 90.5149917602539
+Training ...
+Training Epoch: [128][0/191]	overall_loss (0.754)	Prec1  (100.000) 	
+Training Epoch: [128][30/191]	overall_loss (0.868)	Prec1  (99.143) 	
+Training Epoch: [128][60/191]	overall_loss (0.857)	Prec1  (99.206) 	
+Training Epoch: [128][90/191]	overall_loss (0.849)	Prec1  (99.279) 	
+Training Epoch: [128][120/191]	overall_loss (0.850)	Prec1  (99.264) 	
+Training Epoch: [128][150/191]	overall_loss (0.857)	Prec1  (99.286) 	
+Training Epoch: [128][180/191]	overall_loss (0.861)	Prec1  (99.309) 	
+
+Testing [47/48]	Prec@1  (90.5149917602539)	
+Epoch: 128   Test Acc: 90.5149917602539
+Training ...
+Training Epoch: [129][0/191]	overall_loss (0.713)	Prec1  (100.000) 	
+Training Epoch: [129][30/191]	overall_loss (0.851)	Prec1  (99.194) 	
+Training Epoch: [129][60/191]	overall_loss (0.856)	Prec1  (99.129) 	
+Training Epoch: [129][90/191]	overall_loss (0.856)	Prec1  (99.210) 	
+Training Epoch: [129][120/191]	overall_loss (0.855)	Prec1  (99.264) 	
+Training Epoch: [129][150/191]	overall_loss (0.852)	Prec1  (99.224) 	
+Training Epoch: [129][180/191]	overall_loss (0.856)	Prec1  (99.240) 	
+
+Testing [47/48]	Prec@1  (90.71055603027344)	
+Epoch: 129   Test Acc: 90.71055603027344
+Training ...
+Training Epoch: [130][0/191]	overall_loss (1.081)	Prec1  (98.438) 	
+Training Epoch: [130][30/191]	overall_loss (0.865)	Prec1  (99.042) 	
+Training Epoch: [130][60/191]	overall_loss (0.871)	Prec1  (99.155) 	
+Training Epoch: [130][90/191]	overall_loss (0.868)	Prec1  (99.176) 	
+Training Epoch: [130][120/191]	overall_loss (0.860)	Prec1  (99.148) 	
+Training Epoch: [130][150/191]	overall_loss (0.853)	Prec1  (99.183) 	
+Training Epoch: [130][180/191]	overall_loss (0.862)	Prec1  (99.016) 	
+
+Testing [47/48]	Prec@1  (90.4823989868164)	
+Epoch: 130   Test Acc: 90.4823989868164
+Training ...
+Training Epoch: [131][0/191]	overall_loss (0.622)	Prec1  (100.000) 	
+Training Epoch: [131][30/191]	overall_loss (0.871)	Prec1  (99.294) 	
+Training Epoch: [131][60/191]	overall_loss (0.873)	Prec1  (99.155) 	
+Training Epoch: [131][90/191]	overall_loss (0.878)	Prec1  (99.056) 	
+Training Epoch: [131][120/191]	overall_loss (0.869)	Prec1  (99.109) 	
+Training Epoch: [131][150/191]	overall_loss (0.863)	Prec1  (99.172) 	
+Training Epoch: [131][180/191]	overall_loss (0.864)	Prec1  (99.180) 	
+
+Testing [47/48]	Prec@1  (90.84093475341797)	
+Epoch: 131   Test Acc: 90.84093475341797
+Training ...
+Training Epoch: [132][0/191]	overall_loss (0.973)	Prec1  (98.438) 	
+Training Epoch: [132][30/191]	overall_loss (0.854)	Prec1  (99.093) 	
+Training Epoch: [132][60/191]	overall_loss (0.844)	Prec1  (99.180) 	
+Training Epoch: [132][90/191]	overall_loss (0.851)	Prec1  (99.296) 	
+Training Epoch: [132][120/191]	overall_loss (0.856)	Prec1  (99.277) 	
+Training Epoch: [132][150/191]	overall_loss (0.856)	Prec1  (99.265) 	
+Training Epoch: [132][180/191]	overall_loss (0.858)	Prec1  (99.240) 	
+
+Testing [47/48]	Prec@1  (90.5475845336914)	
+Epoch: 132   Test Acc: 90.5475845336914
+Training ...
+Training Epoch: [133][0/191]	overall_loss (1.010)	Prec1  (100.000) 	
+Training Epoch: [133][30/191]	overall_loss (0.845)	Prec1  (99.244) 	
+Training Epoch: [133][60/191]	overall_loss (0.844)	Prec1  (99.308) 	
+Training Epoch: [133][90/191]	overall_loss (0.843)	Prec1  (99.348) 	
+Training Epoch: [133][120/191]	overall_loss (0.839)	Prec1  (99.354) 	
+Training Epoch: [133][150/191]	overall_loss (0.844)	Prec1  (99.296) 	
+Training Epoch: [133][180/191]	overall_loss (0.845)	Prec1  (99.284) 	
+
+Testing [47/48]	Prec@1  (90.5801773071289)	
+Epoch: 133   Test Acc: 90.5801773071289
+Training ...
+Training Epoch: [134][0/191]	overall_loss (0.591)	Prec1  (100.000) 	
+Training Epoch: [134][30/191]	overall_loss (0.871)	Prec1  (99.143) 	
+Training Epoch: [134][60/191]	overall_loss (0.866)	Prec1  (99.206) 	
+Training Epoch: [134][90/191]	overall_loss (0.870)	Prec1  (99.210) 	
+Training Epoch: [134][120/191]	overall_loss (0.859)	Prec1  (99.277) 	
+Training Epoch: [134][150/191]	overall_loss (0.857)	Prec1  (99.296) 	
+Training Epoch: [134][180/191]	overall_loss (0.855)	Prec1  (99.309) 	
+
+Testing [47/48]	Prec@1  (90.41720581054688)	
+Epoch: 134   Test Acc: 90.41720581054688
+Training ...
+Training Epoch: [135][0/191]	overall_loss (1.180)	Prec1  (100.000) 	
+Training Epoch: [135][30/191]	overall_loss (0.863)	Prec1  (99.395) 	
+Training Epoch: [135][60/191]	overall_loss (0.856)	Prec1  (99.334) 	
+Training Epoch: [135][90/191]	overall_loss (0.861)	Prec1  (99.330) 	
+Training Epoch: [135][120/191]	overall_loss (0.864)	Prec1  (99.341) 	
+Training Epoch: [135][150/191]	overall_loss (0.860)	Prec1  (99.224) 	
+Training Epoch: [135][180/191]	overall_loss (0.859)	Prec1  (99.189) 	
+
+Testing [47/48]	Prec@1  (90.41720581054688)	
+Epoch: 135   Test Acc: 90.41720581054688
+Training ...
+Training Epoch: [136][0/191]	overall_loss (0.913)	Prec1  (100.000) 	
+Training Epoch: [136][30/191]	overall_loss (0.870)	Prec1  (99.042) 	
+Training Epoch: [136][60/191]	overall_loss (0.860)	Prec1  (99.155) 	
+Training Epoch: [136][90/191]	overall_loss (0.848)	Prec1  (99.262) 	
+Training Epoch: [136][120/191]	overall_loss (0.849)	Prec1  (99.212) 	
+Training Epoch: [136][150/191]	overall_loss (0.849)	Prec1  (99.183) 	
+Training Epoch: [136][180/191]	overall_loss (0.848)	Prec1  (99.197) 	
+
+Testing [47/48]	Prec@1  (90.4823989868164)	
+Epoch: 136   Test Acc: 90.4823989868164
+Training ...
+Training Epoch: [137][0/191]	overall_loss (0.763)	Prec1  (100.000) 	
+Training Epoch: [137][30/191]	overall_loss (0.856)	Prec1  (99.395) 	
+Training Epoch: [137][60/191]	overall_loss (0.861)	Prec1  (99.283) 	
+Training Epoch: [137][90/191]	overall_loss (0.860)	Prec1  (99.399) 	
+Training Epoch: [137][120/191]	overall_loss (0.859)	Prec1  (99.341) 	
+Training Epoch: [137][150/191]	overall_loss (0.856)	Prec1  (99.348) 	
+Training Epoch: [137][180/191]	overall_loss (0.857)	Prec1  (99.327) 	
+
+Testing [47/48]	Prec@1  (90.5801773071289)	
+Epoch: 137   Test Acc: 90.5801773071289
+Training ...
+Training Epoch: [138][0/191]	overall_loss (0.978)	Prec1  (98.438) 	
+Training Epoch: [138][30/191]	overall_loss (0.884)	Prec1  (99.093) 	
+Training Epoch: [138][60/191]	overall_loss (0.869)	Prec1  (99.129) 	
+Training Epoch: [138][90/191]	overall_loss (0.857)	Prec1  (99.210) 	
+Training Epoch: [138][120/191]	overall_loss (0.860)	Prec1  (99.225) 	
+Training Epoch: [138][150/191]	overall_loss (0.860)	Prec1  (99.234) 	
+Training Epoch: [138][180/191]	overall_loss (0.861)	Prec1  (99.206) 	
+
+Testing [47/48]	Prec@1  (90.38461303710938)	
+Epoch: 138   Test Acc: 90.38461303710938
+Training ...
+Training Epoch: [139][0/191]	overall_loss (0.898)	Prec1  (100.000) 	
+Training Epoch: [139][30/191]	overall_loss (0.873)	Prec1  (99.194) 	
+Training Epoch: [139][60/191]	overall_loss (0.841)	Prec1  (99.308) 	
+Training Epoch: [139][90/191]	overall_loss (0.853)	Prec1  (99.227) 	
+Training Epoch: [139][120/191]	overall_loss (0.851)	Prec1  (99.251) 	
+Training Epoch: [139][150/191]	overall_loss (0.848)	Prec1  (99.307) 	
+Training Epoch: [139][180/191]	overall_loss (0.852)	Prec1  (99.335) 	
+
+Testing [47/48]	Prec@1  (90.35202026367188)	
+Epoch: 139   Test Acc: 90.35202026367188
+Training ...
+Training Epoch: [140][0/191]	overall_loss (0.905)	Prec1  (100.000) 	
+Training Epoch: [140][30/191]	overall_loss (0.896)	Prec1  (98.438) 	
+Training Epoch: [140][60/191]	overall_loss (0.872)	Prec1  (98.899) 	
+Training Epoch: [140][90/191]	overall_loss (0.867)	Prec1  (99.038) 	
+Training Epoch: [140][120/191]	overall_loss (0.861)	Prec1  (99.109) 	
+Training Epoch: [140][150/191]	overall_loss (0.863)	Prec1  (99.131) 	
+Training Epoch: [140][180/191]	overall_loss (0.860)	Prec1  (99.171) 	
+
+Testing [47/48]	Prec@1  (90.67796325683594)	
+Epoch: 140   Test Acc: 90.67796325683594
+Training ...
+Training Epoch: [141][0/191]	overall_loss (0.969)	Prec1  (98.438) 	
+Training Epoch: [141][30/191]	overall_loss (0.866)	Prec1  (98.992) 	
+Training Epoch: [141][60/191]	overall_loss (0.860)	Prec1  (99.180) 	
+Training Epoch: [141][90/191]	overall_loss (0.867)	Prec1  (99.107) 	
+Training Epoch: [141][120/191]	overall_loss (0.853)	Prec1  (99.174) 	
+Training Epoch: [141][150/191]	overall_loss (0.851)	Prec1  (99.172) 	
+Training Epoch: [141][180/191]	overall_loss (0.852)	Prec1  (99.249) 	
+
+Testing [47/48]	Prec@1  (90.5801773071289)	
+Epoch: 141   Test Acc: 90.5801773071289
+Training ...
+Training Epoch: [142][0/191]	overall_loss (0.970)	Prec1  (100.000) 	
+Training Epoch: [142][30/191]	overall_loss (0.831)	Prec1  (99.294) 	
+Training Epoch: [142][60/191]	overall_loss (0.842)	Prec1  (99.360) 	
+Training Epoch: [142][90/191]	overall_loss (0.833)	Prec1  (99.382) 	
+Training Epoch: [142][120/191]	overall_loss (0.836)	Prec1  (99.432) 	
+Training Epoch: [142][150/191]	overall_loss (0.841)	Prec1  (99.379) 	
+Training Epoch: [142][180/191]	overall_loss (0.846)	Prec1  (99.309) 	
+
+Testing [47/48]	Prec@1  (90.5475845336914)	
+Epoch: 142   Test Acc: 90.5475845336914
+Training ...
+Training Epoch: [143][0/191]	overall_loss (0.719)	Prec1  (100.000) 	
+Training Epoch: [143][30/191]	overall_loss (0.841)	Prec1  (99.446) 	
+Training Epoch: [143][60/191]	overall_loss (0.842)	Prec1  (99.257) 	
+Training Epoch: [143][90/191]	overall_loss (0.849)	Prec1  (99.262) 	
+Training Epoch: [143][120/191]	overall_loss (0.850)	Prec1  (99.316) 	
+Training Epoch: [143][150/191]	overall_loss (0.850)	Prec1  (99.327) 	
+Training Epoch: [143][180/191]	overall_loss (0.853)	Prec1  (99.301) 	
+
+Testing [47/48]	Prec@1  (90.35202026367188)	
+Epoch: 143   Test Acc: 90.35202026367188
+Training ...
+Training Epoch: [144][0/191]	overall_loss (0.738)	Prec1  (98.438) 	
+Training Epoch: [144][30/191]	overall_loss (0.842)	Prec1  (99.395) 	
+Training Epoch: [144][60/191]	overall_loss (0.846)	Prec1  (99.385) 	
+Training Epoch: [144][90/191]	overall_loss (0.833)	Prec1  (99.416) 	
+Training Epoch: [144][120/191]	overall_loss (0.837)	Prec1  (99.341) 	
+Training Epoch: [144][150/191]	overall_loss (0.844)	Prec1  (99.317) 	
+Training Epoch: [144][180/191]	overall_loss (0.844)	Prec1  (99.387) 	
+
+Testing [47/48]	Prec@1  (90.77574920654297)	
+Epoch: 144   Test Acc: 90.77574920654297
+Training ...
+Training Epoch: [145][0/191]	overall_loss (0.721)	Prec1  (100.000) 	
+Training Epoch: [145][30/191]	overall_loss (0.872)	Prec1  (99.143) 	
+Training Epoch: [145][60/191]	overall_loss (0.849)	Prec1  (99.462) 	
+Training Epoch: [145][90/191]	overall_loss (0.837)	Prec1  (99.433) 	
+Training Epoch: [145][120/191]	overall_loss (0.839)	Prec1  (99.367) 	
+Training Epoch: [145][150/191]	overall_loss (0.842)	Prec1  (99.317) 	
+Training Epoch: [145][180/191]	overall_loss (0.845)	Prec1  (99.301) 	
+
+Testing [47/48]	Prec@1  (90.61277770996094)	
+Epoch: 145   Test Acc: 90.61277770996094
+Training ...
+Training Epoch: [146][0/191]	overall_loss (0.953)	Prec1  (100.000) 	
+Training Epoch: [146][30/191]	overall_loss (0.839)	Prec1  (99.496) 	
+Training Epoch: [146][60/191]	overall_loss (0.836)	Prec1  (99.462) 	
+Training Epoch: [146][90/191]	overall_loss (0.835)	Prec1  (99.330) 	
+Training Epoch: [146][120/191]	overall_loss (0.837)	Prec1  (99.329) 	
+Training Epoch: [146][150/191]	overall_loss (0.838)	Prec1  (99.276) 	
+Training Epoch: [146][180/191]	overall_loss (0.839)	Prec1  (99.275) 	
+
+Testing [47/48]	Prec@1  (90.64537048339844)	
+Epoch: 146   Test Acc: 90.64537048339844
+Training ...
+Training Epoch: [147][0/191]	overall_loss (0.790)	Prec1  (100.000) 	
+Training Epoch: [147][30/191]	overall_loss (0.874)	Prec1  (99.294) 	
+Training Epoch: [147][60/191]	overall_loss (0.849)	Prec1  (99.283) 	
+Training Epoch: [147][90/191]	overall_loss (0.863)	Prec1  (99.227) 	
+Training Epoch: [147][120/191]	overall_loss (0.855)	Prec1  (99.277) 	
+Training Epoch: [147][150/191]	overall_loss (0.849)	Prec1  (99.286) 	
+Training Epoch: [147][180/191]	overall_loss (0.850)	Prec1  (99.309) 	
+
+Testing [47/48]	Prec@1  (90.41720581054688)	
+Epoch: 147   Test Acc: 90.41720581054688
+Training ...
+Training Epoch: [148][0/191]	overall_loss (0.935)	Prec1  (100.000) 	
+Training Epoch: [148][30/191]	overall_loss (0.851)	Prec1  (99.345) 	
+Training Epoch: [148][60/191]	overall_loss (0.846)	Prec1  (99.488) 	
+Training Epoch: [148][90/191]	overall_loss (0.851)	Prec1  (99.365) 	
+Training Epoch: [148][120/191]	overall_loss (0.852)	Prec1  (99.341) 	
+Training Epoch: [148][150/191]	overall_loss (0.852)	Prec1  (99.327) 	
+Training Epoch: [148][180/191]	overall_loss (0.847)	Prec1  (99.318) 	
+
+Testing [47/48]	Prec@1  (90.4823989868164)	
+Epoch: 148   Test Acc: 90.4823989868164
+Training ...
+Training Epoch: [149][0/191]	overall_loss (0.746)	Prec1  (98.438) 	
+Training Epoch: [149][30/191]	overall_loss (0.878)	Prec1  (99.093) 	
+Training Epoch: [149][60/191]	overall_loss (0.855)	Prec1  (99.385) 	
+Training Epoch: [149][90/191]	overall_loss (0.855)	Prec1  (99.262) 	
+Training Epoch: [149][120/191]	overall_loss (0.855)	Prec1  (99.148) 	
+Training Epoch: [149][150/191]	overall_loss (0.852)	Prec1  (99.203) 	
+Training Epoch: [149][180/191]	overall_loss (0.850)	Prec1  (99.232) 	
+
+Testing [47/48]	Prec@1  (90.64537048339844)	
+Epoch: 149   Test Acc: 90.64537048339844
+Training ...
+Training Epoch: [150][0/191]	overall_loss (0.687)	Prec1  (100.000) 	
+Training Epoch: [150][30/191]	overall_loss (0.879)	Prec1  (98.790) 	
+Training Epoch: [150][60/191]	overall_loss (0.875)	Prec1  (99.027) 	
+Training Epoch: [150][90/191]	overall_loss (0.861)	Prec1  (99.141) 	
+Training Epoch: [150][120/191]	overall_loss (0.863)	Prec1  (99.070) 	
+Training Epoch: [150][150/191]	overall_loss (0.853)	Prec1  (99.183) 	
+Training Epoch: [150][180/191]	overall_loss (0.851)	Prec1  (99.197) 	
+
+Testing [47/48]	Prec@1  (90.4498062133789)	
+Epoch: 150   Test Acc: 90.4498062133789
+Training ...
+Training Epoch: [151][0/191]	overall_loss (0.951)	Prec1  (98.438) 	
+Training Epoch: [151][30/191]	overall_loss (0.859)	Prec1  (98.891) 	
+Training Epoch: [151][60/191]	overall_loss (0.863)	Prec1  (98.899) 	
+Training Epoch: [151][90/191]	overall_loss (0.856)	Prec1  (98.935) 	
+Training Epoch: [151][120/191]	overall_loss (0.852)	Prec1  (99.044) 	
+Training Epoch: [151][150/191]	overall_loss (0.855)	Prec1  (99.120) 	
+Training Epoch: [151][180/191]	overall_loss (0.851)	Prec1  (99.171) 	
+
+Testing [47/48]	Prec@1  (90.4498062133789)	
+Epoch: 151   Test Acc: 90.4498062133789
+Training ...
+Training Epoch: [152][0/191]	overall_loss (0.885)	Prec1  (98.438) 	
+Training Epoch: [152][30/191]	overall_loss (0.890)	Prec1  (99.194) 	
+Training Epoch: [152][60/191]	overall_loss (0.863)	Prec1  (99.257) 	
+Training Epoch: [152][90/191]	overall_loss (0.856)	Prec1  (99.262) 	
+Training Epoch: [152][120/191]	overall_loss (0.856)	Prec1  (99.367) 	
+Training Epoch: [152][150/191]	overall_loss (0.855)	Prec1  (99.358) 	
+Training Epoch: [152][180/191]	overall_loss (0.852)	Prec1  (99.353) 	
+
+Testing [47/48]	Prec@1  (90.5149917602539)	
+Epoch: 152   Test Acc: 90.5149917602539
+Training ...
+Training Epoch: [153][0/191]	overall_loss (0.927)	Prec1  (98.438) 	
+Training Epoch: [153][30/191]	overall_loss (0.861)	Prec1  (99.496) 	
+Training Epoch: [153][60/191]	overall_loss (0.860)	Prec1  (99.257) 	
+Training Epoch: [153][90/191]	overall_loss (0.858)	Prec1  (99.193) 	
+Training Epoch: [153][120/191]	overall_loss (0.854)	Prec1  (99.109) 	
+Training Epoch: [153][150/191]	overall_loss (0.860)	Prec1  (99.079) 	
+Training Epoch: [153][180/191]	overall_loss (0.856)	Prec1  (99.102) 	
+
+Testing [47/48]	Prec@1  (90.61277770996094)	
+Epoch: 153   Test Acc: 90.61277770996094
+Training ...
+Training Epoch: [154][0/191]	overall_loss (0.778)	Prec1  (100.000) 	
+Training Epoch: [154][30/191]	overall_loss (0.846)	Prec1  (99.446) 	
+Training Epoch: [154][60/191]	overall_loss (0.857)	Prec1  (99.308) 	
+Training Epoch: [154][90/191]	overall_loss (0.843)	Prec1  (99.348) 	
+Training Epoch: [154][120/191]	overall_loss (0.839)	Prec1  (99.367) 	
+Training Epoch: [154][150/191]	overall_loss (0.833)	Prec1  (99.400) 	
+Training Epoch: [154][180/191]	overall_loss (0.840)	Prec1  (99.422) 	
+
+Testing [47/48]	Prec@1  (90.64537048339844)	
+Epoch: 154   Test Acc: 90.64537048339844
+Training ...
+Training Epoch: [155][0/191]	overall_loss (0.854)	Prec1  (100.000) 	
+Training Epoch: [155][30/191]	overall_loss (0.846)	Prec1  (99.294) 	
+Training Epoch: [155][60/191]	overall_loss (0.828)	Prec1  (99.411) 	
+Training Epoch: [155][90/191]	overall_loss (0.837)	Prec1  (99.382) 	
+Training Epoch: [155][120/191]	overall_loss (0.847)	Prec1  (99.329) 	
+Training Epoch: [155][150/191]	overall_loss (0.848)	Prec1  (99.327) 	
+Training Epoch: [155][180/191]	overall_loss (0.847)	Prec1  (99.335) 	
+
+Testing [47/48]	Prec@1  (90.74315643310547)	
+Epoch: 155   Test Acc: 90.74315643310547
+Training ...
+Training Epoch: [156][0/191]	overall_loss (0.859)	Prec1  (100.000) 	
+Training Epoch: [156][30/191]	overall_loss (0.860)	Prec1  (99.345) 	
+Training Epoch: [156][60/191]	overall_loss (0.849)	Prec1  (99.565) 	
+Training Epoch: [156][90/191]	overall_loss (0.861)	Prec1  (99.451) 	
+Training Epoch: [156][120/191]	overall_loss (0.859)	Prec1  (99.354) 	
+Training Epoch: [156][150/191]	overall_loss (0.857)	Prec1  (99.338) 	
+Training Epoch: [156][180/191]	overall_loss (0.852)	Prec1  (99.327) 	
+
+Testing [47/48]	Prec@1  (90.4498062133789)	
+Epoch: 156   Test Acc: 90.4498062133789
+Training ...
+Training Epoch: [157][0/191]	overall_loss (0.875)	Prec1  (95.312) 	
+Training Epoch: [157][30/191]	overall_loss (0.862)	Prec1  (98.942) 	
+Training Epoch: [157][60/191]	overall_loss (0.860)	Prec1  (99.232) 	
+Training Epoch: [157][90/191]	overall_loss (0.856)	Prec1  (99.279) 	
+Training Epoch: [157][120/191]	overall_loss (0.856)	Prec1  (99.251) 	
+Training Epoch: [157][150/191]	overall_loss (0.854)	Prec1  (99.245) 	
+Training Epoch: [157][180/191]	overall_loss (0.856)	Prec1  (99.189) 	
+
+Testing [47/48]	Prec@1  (90.5801773071289)	
+Epoch: 157   Test Acc: 90.5801773071289
+Training ...
+Training Epoch: [158][0/191]	overall_loss (0.913)	Prec1  (100.000) 	
+Training Epoch: [158][30/191]	overall_loss (0.879)	Prec1  (99.194) 	
+Training Epoch: [158][60/191]	overall_loss (0.871)	Prec1  (99.129) 	
+Training Epoch: [158][90/191]	overall_loss (0.867)	Prec1  (99.210) 	
+Training Epoch: [158][120/191]	overall_loss (0.865)	Prec1  (99.109) 	
+Training Epoch: [158][150/191]	overall_loss (0.867)	Prec1  (99.131) 	
+Training Epoch: [158][180/191]	overall_loss (0.863)	Prec1  (99.119) 	
+
+Testing [47/48]	Prec@1  (90.64537048339844)	
+Epoch: 158   Test Acc: 90.64537048339844
+Training ...
+Training Epoch: [159][0/191]	overall_loss (0.960)	Prec1  (100.000) 	
+Training Epoch: [159][30/191]	overall_loss (0.881)	Prec1  (99.042) 	
+Training Epoch: [159][60/191]	overall_loss (0.867)	Prec1  (99.155) 	
+Training Epoch: [159][90/191]	overall_loss (0.863)	Prec1  (99.245) 	
+Training Epoch: [159][120/191]	overall_loss (0.854)	Prec1  (99.303) 	
+Training Epoch: [159][150/191]	overall_loss (0.856)	Prec1  (99.234) 	
+Training Epoch: [159][180/191]	overall_loss (0.858)	Prec1  (99.249) 	
+
+Testing [47/48]	Prec@1  (90.64537048339844)	
+Epoch: 159   Test Acc: 90.64537048339844
+Training ...
+Training Epoch: [160][0/191]	overall_loss (0.943)	Prec1  (100.000) 	
+Training Epoch: [160][30/191]	overall_loss (0.861)	Prec1  (99.194) 	
+Training Epoch: [160][60/191]	overall_loss (0.853)	Prec1  (99.155) 	
+Training Epoch: [160][90/191]	overall_loss (0.854)	Prec1  (99.262) 	
+Training Epoch: [160][120/191]	overall_loss (0.852)	Prec1  (99.303) 	
+Training Epoch: [160][150/191]	overall_loss (0.855)	Prec1  (99.255) 	
+Training Epoch: [160][180/191]	overall_loss (0.856)	Prec1  (99.284) 	
+
+Testing [47/48]	Prec@1  (90.61277770996094)	
+Epoch: 160   Test Acc: 90.61277770996094
+Training ...
+Training Epoch: [161][0/191]	overall_loss (0.985)	Prec1  (98.438) 	
+Training Epoch: [161][30/191]	overall_loss (0.853)	Prec1  (99.244) 	
+Training Epoch: [161][60/191]	overall_loss (0.861)	Prec1  (99.232) 	
+Training Epoch: [161][90/191]	overall_loss (0.864)	Prec1  (99.227) 	
+Training Epoch: [161][120/191]	overall_loss (0.859)	Prec1  (99.290) 	
+Training Epoch: [161][150/191]	overall_loss (0.861)	Prec1  (99.296) 	
+Training Epoch: [161][180/191]	overall_loss (0.859)	Prec1  (99.284) 	
+
+Testing [47/48]	Prec@1  (90.5801773071289)	
+Epoch: 161   Test Acc: 90.5801773071289
+Training ...
+Training Epoch: [162][0/191]	overall_loss (0.978)	Prec1  (98.438) 	
+Training Epoch: [162][30/191]	overall_loss (0.831)	Prec1  (99.395) 	
+Training Epoch: [162][60/191]	overall_loss (0.845)	Prec1  (99.308) 	
+Training Epoch: [162][90/191]	overall_loss (0.835)	Prec1  (99.330) 	
+Training Epoch: [162][120/191]	overall_loss (0.843)	Prec1  (99.251) 	
+Training Epoch: [162][150/191]	overall_loss (0.848)	Prec1  (99.224) 	
+Training Epoch: [162][180/191]	overall_loss (0.850)	Prec1  (99.240) 	
+
+Testing [47/48]	Prec@1  (90.77574920654297)	
+Epoch: 162   Test Acc: 90.77574920654297
+Training ...
+Training Epoch: [163][0/191]	overall_loss (0.913)	Prec1  (100.000) 	
+Training Epoch: [163][30/191]	overall_loss (0.833)	Prec1  (99.446) 	
+Training Epoch: [163][60/191]	overall_loss (0.846)	Prec1  (99.360) 	
+Training Epoch: [163][90/191]	overall_loss (0.849)	Prec1  (99.399) 	
+Training Epoch: [163][120/191]	overall_loss (0.847)	Prec1  (99.419) 	
+Training Epoch: [163][150/191]	overall_loss (0.844)	Prec1  (99.369) 	
+Training Epoch: [163][180/191]	overall_loss (0.848)	Prec1  (99.413) 	
+
+Testing [47/48]	Prec@1  (90.5475845336914)	
+Epoch: 163   Test Acc: 90.5475845336914
+Training ...
+Training Epoch: [164][0/191]	overall_loss (0.898)	Prec1  (100.000) 	
+Training Epoch: [164][30/191]	overall_loss (0.890)	Prec1  (99.093) 	
+Training Epoch: [164][60/191]	overall_loss (0.861)	Prec1  (99.232) 	
+Training Epoch: [164][90/191]	overall_loss (0.847)	Prec1  (99.227) 	
+Training Epoch: [164][120/191]	overall_loss (0.850)	Prec1  (99.264) 	
+Training Epoch: [164][150/191]	overall_loss (0.852)	Prec1  (99.317) 	
+Training Epoch: [164][180/191]	overall_loss (0.849)	Prec1  (99.301) 	
+
+Testing [47/48]	Prec@1  (90.41720581054688)	
+Epoch: 164   Test Acc: 90.41720581054688
+Training ...
+Training Epoch: [165][0/191]	overall_loss (0.888)	Prec1  (100.000) 	
+Training Epoch: [165][30/191]	overall_loss (0.852)	Prec1  (99.194) 	
+Training Epoch: [165][60/191]	overall_loss (0.848)	Prec1  (99.232) 	
+Training Epoch: [165][90/191]	overall_loss (0.853)	Prec1  (99.210) 	
+Training Epoch: [165][120/191]	overall_loss (0.858)	Prec1  (99.199) 	
+Training Epoch: [165][150/191]	overall_loss (0.854)	Prec1  (99.141) 	
+Training Epoch: [165][180/191]	overall_loss (0.850)	Prec1  (99.102) 	
+
+Testing [47/48]	Prec@1  (90.67796325683594)	
+Epoch: 165   Test Acc: 90.67796325683594
+Training ...
+Training Epoch: [166][0/191]	overall_loss (0.815)	Prec1  (98.438) 	
+Training Epoch: [166][30/191]	overall_loss (0.854)	Prec1  (99.194) 	
+Training Epoch: [166][60/191]	overall_loss (0.857)	Prec1  (99.232) 	
+Training Epoch: [166][90/191]	overall_loss (0.854)	Prec1  (99.296) 	
+Training Epoch: [166][120/191]	overall_loss (0.850)	Prec1  (99.341) 	
+Training Epoch: [166][150/191]	overall_loss (0.849)	Prec1  (99.327) 	
+Training Epoch: [166][180/191]	overall_loss (0.849)	Prec1  (99.258) 	
+
+Testing [47/48]	Prec@1  (90.67796325683594)	
+Epoch: 166   Test Acc: 90.67796325683594
+Training ...
+Training Epoch: [167][0/191]	overall_loss (0.757)	Prec1  (100.000) 	
+Training Epoch: [167][30/191]	overall_loss (0.845)	Prec1  (99.093) 	
+Training Epoch: [167][60/191]	overall_loss (0.829)	Prec1  (99.283) 	
+Training Epoch: [167][90/191]	overall_loss (0.831)	Prec1  (99.330) 	
+Training Epoch: [167][120/191]	overall_loss (0.843)	Prec1  (99.277) 	
+Training Epoch: [167][150/191]	overall_loss (0.849)	Prec1  (99.276) 	
+Training Epoch: [167][180/191]	overall_loss (0.854)	Prec1  (99.197) 	
+
+Testing [47/48]	Prec@1  (90.61277770996094)	
+Epoch: 167   Test Acc: 90.61277770996094
+Training ...
+Training Epoch: [168][0/191]	overall_loss (0.952)	Prec1  (98.438) 	
+Training Epoch: [168][30/191]	overall_loss (0.852)	Prec1  (99.294) 	
+Training Epoch: [168][60/191]	overall_loss (0.849)	Prec1  (99.462) 	
+Training Epoch: [168][90/191]	overall_loss (0.859)	Prec1  (99.416) 	
+Training Epoch: [168][120/191]	overall_loss (0.857)	Prec1  (99.393) 	
+Training Epoch: [168][150/191]	overall_loss (0.854)	Prec1  (99.421) 	
+Training Epoch: [168][180/191]	overall_loss (0.853)	Prec1  (99.387) 	
+
+Testing [47/48]	Prec@1  (90.5475845336914)	
+Epoch: 168   Test Acc: 90.5475845336914
+Training ...
+Training Epoch: [169][0/191]	overall_loss (0.878)	Prec1  (100.000) 	
+Training Epoch: [169][30/191]	overall_loss (0.880)	Prec1  (99.345) 	
+Training Epoch: [169][60/191]	overall_loss (0.868)	Prec1  (99.232) 	
+Training Epoch: [169][90/191]	overall_loss (0.860)	Prec1  (99.330) 	
+Training Epoch: [169][120/191]	overall_loss (0.865)	Prec1  (99.303) 	
+Training Epoch: [169][150/191]	overall_loss (0.865)	Prec1  (99.296) 	
+Training Epoch: [169][180/191]	overall_loss (0.860)	Prec1  (99.344) 	
+
+Testing [47/48]	Prec@1  (90.5801773071289)	
+Epoch: 169   Test Acc: 90.5801773071289
+Training ...
+Training Epoch: [170][0/191]	overall_loss (0.705)	Prec1  (100.000) 	
+Training Epoch: [170][30/191]	overall_loss (0.849)	Prec1  (99.446) 	
+Training Epoch: [170][60/191]	overall_loss (0.842)	Prec1  (99.334) 	
+Training Epoch: [170][90/191]	overall_loss (0.839)	Prec1  (99.296) 	
+Training Epoch: [170][120/191]	overall_loss (0.847)	Prec1  (99.316) 	
+Training Epoch: [170][150/191]	overall_loss (0.850)	Prec1  (99.276) 	
+Training Epoch: [170][180/191]	overall_loss (0.857)	Prec1  (99.249) 	
+
+Testing [47/48]	Prec@1  (90.5801773071289)	
+Epoch: 170   Test Acc: 90.5801773071289
+Training ...
+Training Epoch: [171][0/191]	overall_loss (0.711)	Prec1  (100.000) 	
+Training Epoch: [171][30/191]	overall_loss (0.856)	Prec1  (99.395) 	
+Training Epoch: [171][60/191]	overall_loss (0.846)	Prec1  (99.436) 	
+Training Epoch: [171][90/191]	overall_loss (0.847)	Prec1  (99.330) 	
+Training Epoch: [171][120/191]	overall_loss (0.853)	Prec1  (99.290) 	
+Training Epoch: [171][150/191]	overall_loss (0.856)	Prec1  (99.338) 	
+Training Epoch: [171][180/191]	overall_loss (0.858)	Prec1  (99.301) 	
+
+Testing [47/48]	Prec@1  (90.4823989868164)	
+Epoch: 171   Test Acc: 90.4823989868164
+Training ...
+Training Epoch: [172][0/191]	overall_loss (0.838)	Prec1  (100.000) 	
+Training Epoch: [172][30/191]	overall_loss (0.819)	Prec1  (99.194) 	
+Training Epoch: [172][60/191]	overall_loss (0.834)	Prec1  (99.283) 	
+Training Epoch: [172][90/191]	overall_loss (0.830)	Prec1  (99.348) 	
+Training Epoch: [172][120/191]	overall_loss (0.839)	Prec1  (99.316) 	
+Training Epoch: [172][150/191]	overall_loss (0.842)	Prec1  (99.265) 	
+Training Epoch: [172][180/191]	overall_loss (0.845)	Prec1  (99.258) 	
+
+Testing [47/48]	Prec@1  (90.4823989868164)	
+Epoch: 172   Test Acc: 90.4823989868164
+Training ...
+Training Epoch: [173][0/191]	overall_loss (0.879)	Prec1  (100.000) 	
+Training Epoch: [173][30/191]	overall_loss (0.801)	Prec1  (99.597) 	
+Training Epoch: [173][60/191]	overall_loss (0.840)	Prec1  (99.462) 	
+Training Epoch: [173][90/191]	overall_loss (0.842)	Prec1  (99.399) 	
+Training Epoch: [173][120/191]	overall_loss (0.845)	Prec1  (99.354) 	
+Training Epoch: [173][150/191]	overall_loss (0.851)	Prec1  (99.296) 	
+Training Epoch: [173][180/191]	overall_loss (0.850)	Prec1  (99.353) 	
+
+Testing [47/48]	Prec@1  (90.61277770996094)	
+Epoch: 173   Test Acc: 90.61277770996094
+Training ...
+Training Epoch: [174][0/191]	overall_loss (1.011)	Prec1  (96.875) 	
+Training Epoch: [174][30/191]	overall_loss (0.878)	Prec1  (99.093) 	
+Training Epoch: [174][60/191]	overall_loss (0.839)	Prec1  (99.385) 	
+Training Epoch: [174][90/191]	overall_loss (0.844)	Prec1  (99.382) 	
+Training Epoch: [174][120/191]	overall_loss (0.849)	Prec1  (99.341) 	
+Training Epoch: [174][150/191]	overall_loss (0.852)	Prec1  (99.286) 	
+Training Epoch: [174][180/191]	overall_loss (0.849)	Prec1  (99.344) 	
+
+Testing [47/48]	Prec@1  (90.5801773071289)	
+Epoch: 174   Test Acc: 90.5801773071289
+Training ...
+Training Epoch: [175][0/191]	overall_loss (0.721)	Prec1  (100.000) 	
+Training Epoch: [175][30/191]	overall_loss (0.854)	Prec1  (99.345) 	
+Training Epoch: [175][60/191]	overall_loss (0.859)	Prec1  (99.462) 	
+Training Epoch: [175][90/191]	overall_loss (0.853)	Prec1  (99.416) 	
+Training Epoch: [175][120/191]	overall_loss (0.857)	Prec1  (99.329) 	
+Training Epoch: [175][150/191]	overall_loss (0.855)	Prec1  (99.286) 	
+Training Epoch: [175][180/191]	overall_loss (0.858)	Prec1  (99.284) 	
+
+Testing [47/48]	Prec@1  (90.5475845336914)	
+Epoch: 175   Test Acc: 90.5475845336914
+Training ...
+Training Epoch: [176][0/191]	overall_loss (0.742)	Prec1  (100.000) 	
+Training Epoch: [176][30/191]	overall_loss (0.857)	Prec1  (99.597) 	
+Training Epoch: [176][60/191]	overall_loss (0.857)	Prec1  (99.360) 	
+Training Epoch: [176][90/191]	overall_loss (0.843)	Prec1  (99.365) 	
+Training Epoch: [176][120/191]	overall_loss (0.856)	Prec1  (99.290) 	
+Training Epoch: [176][150/191]	overall_loss (0.859)	Prec1  (99.234) 	
+Training Epoch: [176][180/191]	overall_loss (0.857)	Prec1  (99.266) 	
+
+Testing [47/48]	Prec@1  (90.61277770996094)	
+Epoch: 176   Test Acc: 90.61277770996094
+Training ...
+Training Epoch: [177][0/191]	overall_loss (0.923)	Prec1  (100.000) 	
+Training Epoch: [177][30/191]	overall_loss (0.820)	Prec1  (99.597) 	
+Training Epoch: [177][60/191]	overall_loss (0.847)	Prec1  (99.360) 	
+Training Epoch: [177][90/191]	overall_loss (0.853)	Prec1  (99.279) 	
+Training Epoch: [177][120/191]	overall_loss (0.849)	Prec1  (99.264) 	
+Training Epoch: [177][150/191]	overall_loss (0.842)	Prec1  (99.327) 	
+Training Epoch: [177][180/191]	overall_loss (0.841)	Prec1  (99.309) 	
+
+Testing [47/48]	Prec@1  (90.64537048339844)	
+Epoch: 177   Test Acc: 90.64537048339844
+Training ...
+Training Epoch: [178][0/191]	overall_loss (0.846)	Prec1  (98.438) 	
+Training Epoch: [178][30/191]	overall_loss (0.830)	Prec1  (99.446) 	
+Training Epoch: [178][60/191]	overall_loss (0.841)	Prec1  (99.283) 	
+Training Epoch: [178][90/191]	overall_loss (0.842)	Prec1  (99.296) 	
+Training Epoch: [178][120/191]	overall_loss (0.854)	Prec1  (99.290) 	
+Training Epoch: [178][150/191]	overall_loss (0.853)	Prec1  (99.307) 	
+Training Epoch: [178][180/191]	overall_loss (0.854)	Prec1  (99.318) 	
+
+Testing [47/48]	Prec@1  (90.5149917602539)	
+Epoch: 178   Test Acc: 90.5149917602539
+Training ...
+Training Epoch: [179][0/191]	overall_loss (0.776)	Prec1  (100.000) 	
+Training Epoch: [179][30/191]	overall_loss (0.844)	Prec1  (99.698) 	
+Training Epoch: [179][60/191]	overall_loss (0.849)	Prec1  (99.513) 	
+Training Epoch: [179][90/191]	overall_loss (0.848)	Prec1  (99.433) 	
+Training Epoch: [179][120/191]	overall_loss (0.852)	Prec1  (99.432) 	
+Training Epoch: [179][150/191]	overall_loss (0.861)	Prec1  (99.431) 	
+Training Epoch: [179][180/191]	overall_loss (0.855)	Prec1  (99.387) 	
+
+Testing [47/48]	Prec@1  (90.5801773071289)	
+Epoch: 179   Test Acc: 90.5801773071289
+Training ...
+Training Epoch: [180][0/191]	overall_loss (0.854)	Prec1  (100.000) 	
+Training Epoch: [180][30/191]	overall_loss (0.864)	Prec1  (99.042) 	
+Training Epoch: [180][60/191]	overall_loss (0.861)	Prec1  (99.206) 	
+Training Epoch: [180][90/191]	overall_loss (0.868)	Prec1  (99.193) 	
+Training Epoch: [180][120/191]	overall_loss (0.858)	Prec1  (99.277) 	
+Training Epoch: [180][150/191]	overall_loss (0.856)	Prec1  (99.307) 	
+Training Epoch: [180][180/191]	overall_loss (0.859)	Prec1  (99.284) 	
+
+Testing [47/48]	Prec@1  (90.5801773071289)	
+Epoch: 180   Test Acc: 90.5801773071289
+Training ...
+Training Epoch: [181][0/191]	overall_loss (1.086)	Prec1  (100.000) 	
+Training Epoch: [181][30/191]	overall_loss (0.847)	Prec1  (99.546) 	
+Training Epoch: [181][60/191]	overall_loss (0.850)	Prec1  (99.385) 	
+Training Epoch: [181][90/191]	overall_loss (0.848)	Prec1  (99.399) 	
+Training Epoch: [181][120/191]	overall_loss (0.851)	Prec1  (99.367) 	
+Training Epoch: [181][150/191]	overall_loss (0.849)	Prec1  (99.421) 	
+Training Epoch: [181][180/191]	overall_loss (0.848)	Prec1  (99.387) 	
+
+Testing [47/48]	Prec@1  (90.5475845336914)	
+Epoch: 181   Test Acc: 90.5475845336914
+Training ...
+Training Epoch: [182][0/191]	overall_loss (0.969)	Prec1  (100.000) 	
+Training Epoch: [182][30/191]	overall_loss (0.887)	Prec1  (99.194) 	
+Training Epoch: [182][60/191]	overall_loss (0.880)	Prec1  (99.155) 	
+Training Epoch: [182][90/191]	overall_loss (0.865)	Prec1  (99.296) 	
+Training Epoch: [182][120/191]	overall_loss (0.864)	Prec1  (99.329) 	
+Training Epoch: [182][150/191]	overall_loss (0.863)	Prec1  (99.317) 	
+Training Epoch: [182][180/191]	overall_loss (0.858)	Prec1  (99.353) 	
+
+Testing [47/48]	Prec@1  (90.4498062133789)	
+Epoch: 182   Test Acc: 90.4498062133789
+Training ...
+Training Epoch: [183][0/191]	overall_loss (0.783)	Prec1  (100.000) 	
+Training Epoch: [183][30/191]	overall_loss (0.844)	Prec1  (99.294) 	
+Training Epoch: [183][60/191]	overall_loss (0.833)	Prec1  (99.385) 	
+Training Epoch: [183][90/191]	overall_loss (0.838)	Prec1  (99.279) 	
+Training Epoch: [183][120/191]	overall_loss (0.845)	Prec1  (99.251) 	
+Training Epoch: [183][150/191]	overall_loss (0.843)	Prec1  (99.327) 	
+Training Epoch: [183][180/191]	overall_loss (0.850)	Prec1  (99.249) 	
+
+Testing [47/48]	Prec@1  (90.4823989868164)	
+Epoch: 183   Test Acc: 90.4823989868164
+Training ...
+Training Epoch: [184][0/191]	overall_loss (0.705)	Prec1  (100.000) 	
+Training Epoch: [184][30/191]	overall_loss (0.817)	Prec1  (99.748) 	
+Training Epoch: [184][60/191]	overall_loss (0.840)	Prec1  (99.334) 	
+Training Epoch: [184][90/191]	overall_loss (0.843)	Prec1  (99.348) 	
+Training Epoch: [184][120/191]	overall_loss (0.852)	Prec1  (99.341) 	
+Training Epoch: [184][150/191]	overall_loss (0.847)	Prec1  (99.421) 	
+Training Epoch: [184][180/191]	overall_loss (0.850)	Prec1  (99.396) 	
+
+Testing [47/48]	Prec@1  (90.41720581054688)	
+Epoch: 184   Test Acc: 90.41720581054688
+Training ...
+Training Epoch: [185][0/191]	overall_loss (0.912)	Prec1  (100.000) 	
+Training Epoch: [185][30/191]	overall_loss (0.846)	Prec1  (99.395) 	
+Training Epoch: [185][60/191]	overall_loss (0.841)	Prec1  (99.385) 	
+Training Epoch: [185][90/191]	overall_loss (0.851)	Prec1  (99.313) 	
+Training Epoch: [185][120/191]	overall_loss (0.851)	Prec1  (99.238) 	
+Training Epoch: [185][150/191]	overall_loss (0.844)	Prec1  (99.296) 	
+Training Epoch: [185][180/191]	overall_loss (0.846)	Prec1  (99.309) 	
+
+Testing [47/48]	Prec@1  (90.38461303710938)	
+Epoch: 185   Test Acc: 90.38461303710938
+Training ...
+Training Epoch: [186][0/191]	overall_loss (0.808)	Prec1  (98.438) 	
+Training Epoch: [186][30/191]	overall_loss (0.845)	Prec1  (99.546) 	
+Training Epoch: [186][60/191]	overall_loss (0.846)	Prec1  (99.232) 	
+Training Epoch: [186][90/191]	overall_loss (0.851)	Prec1  (99.330) 	
+Training Epoch: [186][120/191]	overall_loss (0.855)	Prec1  (99.290) 	
+Training Epoch: [186][150/191]	overall_loss (0.864)	Prec1  (99.276) 	
+Training Epoch: [186][180/191]	overall_loss (0.861)	Prec1  (99.258) 	
+
+Testing [47/48]	Prec@1  (90.35202026367188)	
+Epoch: 186   Test Acc: 90.35202026367188
+Training ...
+Training Epoch: [187][0/191]	overall_loss (0.863)	Prec1  (100.000) 	
+Training Epoch: [187][30/191]	overall_loss (0.836)	Prec1  (99.345) 	
+Training Epoch: [187][60/191]	overall_loss (0.855)	Prec1  (99.385) 	
+Training Epoch: [187][90/191]	overall_loss (0.853)	Prec1  (99.330) 	
+Training Epoch: [187][120/191]	overall_loss (0.850)	Prec1  (99.354) 	
+Training Epoch: [187][150/191]	overall_loss (0.852)	Prec1  (99.265) 	
+Training Epoch: [187][180/191]	overall_loss (0.848)	Prec1  (99.240) 	
+
+Testing [47/48]	Prec@1  (90.35202026367188)	
+Epoch: 187   Test Acc: 90.35202026367188
+Training ...
+Training Epoch: [188][0/191]	overall_loss (0.703)	Prec1  (100.000) 	
+Training Epoch: [188][30/191]	overall_loss (0.890)	Prec1  (99.093) 	
+Training Epoch: [188][60/191]	overall_loss (0.864)	Prec1  (99.257) 	
+Training Epoch: [188][90/191]	overall_loss (0.856)	Prec1  (99.296) 	
+Training Epoch: [188][120/191]	overall_loss (0.855)	Prec1  (99.290) 	
+Training Epoch: [188][150/191]	overall_loss (0.853)	Prec1  (99.317) 	
+Training Epoch: [188][180/191]	overall_loss (0.854)	Prec1  (99.292) 	
+
+Testing [47/48]	Prec@1  (90.38461303710938)	
+Epoch: 188   Test Acc: 90.38461303710938
+Training ...
+Training Epoch: [189][0/191]	overall_loss (0.761)	Prec1  (100.000) 	
+Training Epoch: [189][30/191]	overall_loss (0.850)	Prec1  (99.546) 	
+Training Epoch: [189][60/191]	overall_loss (0.863)	Prec1  (99.334) 	
+Training Epoch: [189][90/191]	overall_loss (0.855)	Prec1  (99.296) 	
+Training Epoch: [189][120/191]	overall_loss (0.853)	Prec1  (99.186) 	
+Training Epoch: [189][150/191]	overall_loss (0.861)	Prec1  (99.214) 	
+Training Epoch: [189][180/191]	overall_loss (0.858)	Prec1  (99.258) 	
+
+Testing [47/48]	Prec@1  (90.38461303710938)	
+Epoch: 189   Test Acc: 90.38461303710938
+Training ...
+Training Epoch: [190][0/191]	overall_loss (0.902)	Prec1  (95.312) 	
+Training Epoch: [190][30/191]	overall_loss (0.824)	Prec1  (99.194) 	
+Training Epoch: [190][60/191]	overall_loss (0.833)	Prec1  (99.360) 	
+Training Epoch: [190][90/191]	overall_loss (0.836)	Prec1  (99.416) 	
+Training Epoch: [190][120/191]	overall_loss (0.837)	Prec1  (99.406) 	
+Training Epoch: [190][150/191]	overall_loss (0.841)	Prec1  (99.421) 	
+Training Epoch: [190][180/191]	overall_loss (0.840)	Prec1  (99.465) 	
+
+Testing [47/48]	Prec@1  (90.35202026367188)	
+Epoch: 190   Test Acc: 90.35202026367188
+Training ...
+Training Epoch: [191][0/191]	overall_loss (1.041)	Prec1  (98.438) 	
+Training Epoch: [191][30/191]	overall_loss (0.865)	Prec1  (99.294) 	
+Training Epoch: [191][60/191]	overall_loss (0.847)	Prec1  (99.385) 	
+Training Epoch: [191][90/191]	overall_loss (0.854)	Prec1  (99.313) 	
+Training Epoch: [191][120/191]	overall_loss (0.847)	Prec1  (99.393) 	
+Training Epoch: [191][150/191]	overall_loss (0.850)	Prec1  (99.327) 	
+Training Epoch: [191][180/191]	overall_loss (0.850)	Prec1  (99.335) 	
+
+Testing [47/48]	Prec@1  (90.4823989868164)	
+Epoch: 191   Test Acc: 90.4823989868164
+Training ...
+Training Epoch: [192][0/191]	overall_loss (1.000)	Prec1  (98.438) 	
+Training Epoch: [192][30/191]	overall_loss (0.861)	Prec1  (98.891) 	
+Training Epoch: [192][60/191]	overall_loss (0.865)	Prec1  (98.975) 	
+Training Epoch: [192][90/191]	overall_loss (0.851)	Prec1  (99.159) 	
+Training Epoch: [192][120/191]	overall_loss (0.852)	Prec1  (99.225) 	
+Training Epoch: [192][150/191]	overall_loss (0.851)	Prec1  (99.265) 	
+Training Epoch: [192][180/191]	overall_loss (0.854)	Prec1  (99.232) 	
+
+Testing [47/48]	Prec@1  (90.5149917602539)	
+Epoch: 192   Test Acc: 90.5149917602539
+Training ...
+Training Epoch: [193][0/191]	overall_loss (0.852)	Prec1  (100.000) 	
+Training Epoch: [193][30/191]	overall_loss (0.872)	Prec1  (99.395) 	
+Training Epoch: [193][60/191]	overall_loss (0.856)	Prec1  (99.283) 	
+Training Epoch: [193][90/191]	overall_loss (0.849)	Prec1  (99.330) 	
+Training Epoch: [193][120/191]	overall_loss (0.844)	Prec1  (99.354) 	
+Training Epoch: [193][150/191]	overall_loss (0.846)	Prec1  (99.338) 	
+Training Epoch: [193][180/191]	overall_loss (0.847)	Prec1  (99.301) 	
+
+Testing [47/48]	Prec@1  (90.61277770996094)	
+Epoch: 193   Test Acc: 90.61277770996094
+Training ...
+Training Epoch: [194][0/191]	overall_loss (0.747)	Prec1  (100.000) 	
+Training Epoch: [194][30/191]	overall_loss (0.846)	Prec1  (99.143) 	
+Training Epoch: [194][60/191]	overall_loss (0.855)	Prec1  (99.180) 	
+Training Epoch: [194][90/191]	overall_loss (0.854)	Prec1  (99.141) 	
+Training Epoch: [194][120/191]	overall_loss (0.848)	Prec1  (99.225) 	
+Training Epoch: [194][150/191]	overall_loss (0.847)	Prec1  (99.214) 	
+Training Epoch: [194][180/191]	overall_loss (0.849)	Prec1  (99.249) 	
+
+Testing [47/48]	Prec@1  (90.4823989868164)	
+Epoch: 194   Test Acc: 90.4823989868164
+Training ...
+Training Epoch: [195][0/191]	overall_loss (0.923)	Prec1  (98.438) 	
+Training Epoch: [195][30/191]	overall_loss (0.870)	Prec1  (99.345) 	
+Training Epoch: [195][60/191]	overall_loss (0.858)	Prec1  (99.257) 	
+Training Epoch: [195][90/191]	overall_loss (0.860)	Prec1  (99.227) 	
+Training Epoch: [195][120/191]	overall_loss (0.855)	Prec1  (99.290) 	
+Training Epoch: [195][150/191]	overall_loss (0.855)	Prec1  (99.245) 	
+Training Epoch: [195][180/191]	overall_loss (0.852)	Prec1  (99.301) 	
+
+Testing [47/48]	Prec@1  (90.5149917602539)	
+Epoch: 195   Test Acc: 90.5149917602539
+Training ...
+Training Epoch: [196][0/191]	overall_loss (0.759)	Prec1  (100.000) 	
+Training Epoch: [196][30/191]	overall_loss (0.860)	Prec1  (99.345) 	
+Training Epoch: [196][60/191]	overall_loss (0.865)	Prec1  (99.385) 	
+Training Epoch: [196][90/191]	overall_loss (0.867)	Prec1  (99.365) 	
+Training Epoch: [196][120/191]	overall_loss (0.861)	Prec1  (99.354) 	
+Training Epoch: [196][150/191]	overall_loss (0.856)	Prec1  (99.369) 	
+Training Epoch: [196][180/191]	overall_loss (0.853)	Prec1  (99.327) 	
+
+Testing [47/48]	Prec@1  (90.5149917602539)	
+Epoch: 196   Test Acc: 90.5149917602539
+Training ...
+Training Epoch: [197][0/191]	overall_loss (0.832)	Prec1  (100.000) 	
+Training Epoch: [197][30/191]	overall_loss (0.881)	Prec1  (99.345) 	
+Training Epoch: [197][60/191]	overall_loss (0.868)	Prec1  (99.360) 	
+Training Epoch: [197][90/191]	overall_loss (0.853)	Prec1  (99.399) 	
+Training Epoch: [197][120/191]	overall_loss (0.857)	Prec1  (99.354) 	
+Training Epoch: [197][150/191]	overall_loss (0.846)	Prec1  (99.358) 	
+Training Epoch: [197][180/191]	overall_loss (0.852)	Prec1  (99.309) 	
+
+Testing [47/48]	Prec@1  (90.4823989868164)	
+Epoch: 197   Test Acc: 90.4823989868164
+Training ...
+Training Epoch: [198][0/191]	overall_loss (0.642)	Prec1  (96.875) 	
+Training Epoch: [198][30/191]	overall_loss (0.837)	Prec1  (99.244) 	
+Training Epoch: [198][60/191]	overall_loss (0.867)	Prec1  (99.206) 	
+Training Epoch: [198][90/191]	overall_loss (0.863)	Prec1  (99.245) 	
+Training Epoch: [198][120/191]	overall_loss (0.867)	Prec1  (99.225) 	
+Training Epoch: [198][150/191]	overall_loss (0.860)	Prec1  (99.327) 	
+Training Epoch: [198][180/191]	overall_loss (0.852)	Prec1  (99.361) 	
+
+Testing [47/48]	Prec@1  (90.4498062133789)	
+Epoch: 198   Test Acc: 90.4498062133789
+Training ...
+Training Epoch: [199][0/191]	overall_loss (0.868)	Prec1  (98.438) 	
+Training Epoch: [199][30/191]	overall_loss (0.880)	Prec1  (99.446) 	
+Training Epoch: [199][60/191]	overall_loss (0.861)	Prec1  (99.385) 	
+Training Epoch: [199][90/191]	overall_loss (0.857)	Prec1  (99.416) 	
+Training Epoch: [199][120/191]	overall_loss (0.848)	Prec1  (99.432) 	
+Training Epoch: [199][150/191]	overall_loss (0.853)	Prec1  (99.431) 	
+Training Epoch: [199][180/191]	overall_loss (0.850)	Prec1  (99.422) 	
+
+Testing [47/48]	Prec@1  (90.5801773071289)	
+Epoch: 199   Test Acc: 90.5801773071289
