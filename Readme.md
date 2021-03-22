@@ -1,4 +1,5 @@
-<strong>CCT: Consensual Collaborative Training for Facial Expression Recognition with Noisy Annotations</strong>
+<strong>CCT: Consensual Collaborative Training and Knowledge Distillation based Facial Expression
+Recognition under Noisy Annotations</strong>
 
 <strong> Our proposed CCT framework<strong>
   
