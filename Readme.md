@@ -3,6 +3,8 @@
 <strong>CCT: Consensual Collaborative Training and Knowledge Distillation based Facial Expression
 Recognition under Noisy Annotations</strong>
 
+Arxhiv paper: https://arxiv.org/ftp/arxiv/papers/2107/2107.04746.pdf
+
 This work has been accepted for publication in International Journal of Engineering Trends and Technology (IJETT), 2021.
 
 <strong> Our proposed CCT framework<strong>
